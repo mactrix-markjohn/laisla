@@ -1,0 +1,46 @@
+.SectionFour{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.fourImageRegion{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.fourImageRegion img{
+    width: 70%;
+}
+.fourTextRegion{
+    width: 48%;
+    margin-right: 120px;
+
+}
+.fourTextRegion h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+.fourTextRegion hr{
+    border: 2px solid #000;
+    width: 24%;
+    margin-bottom: 17px;
+}
+.fourTextRegion h1{
+    font-family: "Bebas Neue", sans-serif;
+    color: #977347;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+.fourTextRegion p{
+    font-weight: 300;
+    font-size: 16px;
+    width: 95%;
+}
+
