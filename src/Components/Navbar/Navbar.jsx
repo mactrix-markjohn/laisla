@@ -8,10 +8,10 @@ const Navbar = () => {
     <nav className='container whitenav'>
         <Link to={'/laisla'}><img src={logo} alt='' className='logo' /></Link>
         <ul>
-        <Link to={'/laisla'}><li>HOME</li></Link>
-        <Link to={'/laisla/PrivateLabel'}><li>PRIVATE LABEL SWIMWEAR</li></Link>
-            <li>ABOUT US</li>
-            <li>CONTACT US</li>
+            <Link to={'/laisla'}><li>HOME</li></Link>
+            <Link to={'/laisla/PrivateLabel'}><li>PRIVATE LABEL SWIMWEAR</li></Link>
+            <Link to={'/laisla/AboutUs'}><li>ABOUT US</li></Link>
+            <Link to={'/laisla/ContactUs'}><li>CONTACT US</li></Link>
         </ul>
     </nav>
   )

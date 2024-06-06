@@ -13,6 +13,8 @@ import Footer from './Components/Footer/Footer'
 import Home from './pages/Home/Home'
 import PrivateLabelSwimwear from './pages/PrivateLabelSwimwear/PrivateLabelSwimwear'
 import { Route, Routes } from 'react-router-dom'
+import AboutUs from './pages/AboutUs/AboutUs'
+import ContactUs from './pages/ContactUs/ContactUs'
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
       <Routes>
         <Route path='/laisla' element={<Home/>} />
         <Route path='/laisla/PrivateLabel' element={<PrivateLabelSwimwear/>} />
+        <Route path='/laisla/AboutUs' element={<AboutUs/>} />
+        <Route path='/laisla/ContactUs' element={<ContactUs/>} />
       </Routes>
       <Footer/>
     </div>

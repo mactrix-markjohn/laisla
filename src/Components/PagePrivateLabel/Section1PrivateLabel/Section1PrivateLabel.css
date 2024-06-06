@@ -15,31 +15,29 @@
     width: 100%;
     margin-top: 60px;
     margin-bottom: 60px;
-    
 }
 
 /* Text Region */
 
 .Section1PrivateTextRegion{
-    width: 70%;
+    width: 80%;
     margin-right: 120px;
-
 }
 .Section1PrivateTextRegion h2{
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
 }
 .Section1PrivateTextRegion hr{
     border: 2px solid #000;
     width: 24%;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
 }
 .Section1PrivateTextRegion p{
     font-weight: 300;
-    font-size: 16px;
-    width: 95%;
-    line-height: 22px;
+    font-size: 18px;
+    width: 100%;
+    line-height: 28px;
 }
 
 /* Image Region */
@@ -52,7 +50,7 @@
 
 }
 .Section1PrivateImageRegion img{
-    width: 80%;
+    width: 95%;
 }
 
 
@@ -87,8 +85,8 @@
 
 }
 .Section1PrivateTextRegion2 p{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 28px;
 }
 

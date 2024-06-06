@@ -1,0 +1,82 @@
+.Section1Contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 64px;
+    padding-left: 120px;
+    padding-bottom: 120px;
+}
+.Section1ContactForm{
+    width: 100%;
+    margin-top: 60px;
+
+}
+.Section1ContactForm h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.Section1ContactForm hr{
+    border: 2px solid #000;
+    width: 16%;
+    margin-bottom: 60px;
+}
+
+.Section1ContactForm form input{
+    display: block;
+    width: 100%;
+    background: #eaeaea;
+    padding: 22px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 24px;
+    margin-top: 11px;
+    resize: none;
+    border-radius: 14px;
+}
+.Section1ContactForm form textarea{
+    display: block;
+    width: 100%;
+    background: #eaeaea;
+    padding: 22px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 24px;
+    margin-top: 11px;
+    resize: none;
+    border-radius: 14px;
+}
+
+.Section1ContactForm form label{
+    font-weight: 700;
+    font-size: 16px;
+    color: #666666;
+}
+
+.Section1ContacttcontactBtn{
+    background: #977347;
+    color: #fff;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+
+.Section1ContactImage{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+
+}
+.Section1ContactImage img{
+    width: 81%;
+}
