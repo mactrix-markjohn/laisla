@@ -47,7 +47,7 @@ const Footer = () => {
                     </div>
                     <div/>
                     <div>
-                    <div className='gridcontent'>
+                        <div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
                             <p>Lorem ipsum dolor sit amet</p>

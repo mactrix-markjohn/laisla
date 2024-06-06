@@ -9,17 +9,22 @@ import SectionFour from './Components/Section4/SectionFour'
 import SectionFive from './Components/Section5/SectionFive'
 import Footer from './Components/Footer/Footer'
 
+
+import Home from './pages/Home/Home'
+import PrivateLabelSwimwear from './pages/PrivateLabelSwimwear/PrivateLabelSwimwear'
+import { Route, Routes } from 'react-router-dom'
+
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
       <Navbar/>
-      <Hero/>
-      <SectionTwo/>
-      <SectionThree/>
-      <SectionFour/>
-      <SectionFive/>
+      <Routes>
+        <Route path='/laisla' element={<Home/>} />
+        <Route path='/laisla/PrivateLabel' element={<PrivateLabelSwimwear/>} />
+      </Routes>
       <Footer/>
     </div>
   )

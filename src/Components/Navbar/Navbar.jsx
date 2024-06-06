@@ -1,14 +1,15 @@
 import React from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <nav className='container whitenav'>
-        <img src={logo} alt='' className='logo' />
+        <Link to={'/laisla'}><img src={logo} alt='' className='logo' /></Link>
         <ul>
-            <li>HOME</li>
-            <li>PRIVATE LABEL SWIMWEAR</li>
+        <Link to={'/laisla'}><li>HOME</li></Link>
+        <Link to={'/laisla/PrivateLabel'}><li>PRIVATE LABEL SWIMWEAR</li></Link>
             <li>ABOUT US</li>
             <li>CONTACT US</li>
         </ul>

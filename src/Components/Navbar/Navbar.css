@@ -8,6 +8,7 @@ nav{
     display: flex;
     justify-content: space-between;
     z-index: 10;
+    border-bottom: 3px solid #977347;
 }
 .whitenav{
     background: #fff;
