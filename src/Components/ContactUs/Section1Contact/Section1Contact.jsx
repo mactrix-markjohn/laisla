@@ -1,4 +1,3 @@
-import React from 'react'
 import './Section1Contact.css'
 import model from '../../../assets/contactmodelblue.png'
 

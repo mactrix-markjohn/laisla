@@ -1,4 +1,3 @@
-import React from 'react'
 import './Hero.css'
 import modelwater from '../../assets/watermodel.png'
 import line from '../../assets/lines.svg'

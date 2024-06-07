@@ -1,0 +1,42 @@
+.Section1SEO{
+    margin-top: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Section1SEO img{
+    width: 100%;
+}
+.Section1SEOContent{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+.Section1SEOContent h1{
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 21px;
+    
+}
+.Section1SEOButton{
+    background: #6BCACA;
+    color: #fff;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}

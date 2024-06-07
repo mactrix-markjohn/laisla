@@ -1,4 +1,3 @@
-import React from 'react'
 import './Section3About.css'
 import model from '../../../assets/aboutmodelblue3.png'
 
