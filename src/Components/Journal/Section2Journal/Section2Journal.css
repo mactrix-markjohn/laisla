@@ -1,0 +1,76 @@
+.Section2Journal{
+    background-color: #fff;
+    padding: 60px 120px;
+}
+.Section2JournalContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 120px;
+}
+.journal-format{
+    width: 100%;
+    background: #fff;
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+}
+.journal-format img{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 24px;
+}
+.Section2JournalTitle{
+    margin-bottom: 12px;
+}
+.journal-format hr{
+    margin-bottom: 12px;
+    border: 1px solid #977347;
+    width: 35%;
+
+}
+.Section2JournalBody{
+    margin-bottom: 12px;
+
+}
+.Section2Date{
+    margin-bottom: 50px;
+    text-align: end;
+    color: #666666;
+}
+
+/* Next and Prev*/
+.Section2JournalNextPrevHolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Section2JournalNextPrev{
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+.Section2JournalcontactBtn{
+    background: transparent;
+    border: 0px solid transparent;
+}
+.Section2JournalNumbers{
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.num{
+    font-size: 18px;
+    font-weight: 300;
+}
+.Section2JournalNumbers button{
+    background: transparent;
+    border: 0px solid transparent;
+}
+.numbold{
+    font-size: 18px;
+    font-weight: 700;
+}
