@@ -1,0 +1,84 @@
+.Section4SEO{
+    padding: 60px 200px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Section4SEOTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 67px;
+
+}
+.Section4SEOTop h1{
+    width: 30%;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: start;
+    margin-right: 34px;
+}
+.Section4SEOTop p{
+    width: 49%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+}
+.Section4SEOBottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 84%;
+}
+.seolist-format{
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 32px;
+    border: 1px solid #B1E4E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.SEO4Listtop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Section4SEOListImg{
+    margin-bottom: 44px;
+    width: 40%;
+}
+.seolist-format h3{
+    color: #977347;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 24px;
+    text-align: center;
+
+}
+.seolist-format hr{
+    margin-bottom: 24px;
+    border: 0.5px solid #977347;
+    width: 23%;
+}
+.SEO4List{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.SEO4List img{
+    margin-right: 24px;
+
+}
+.SEO4List p{
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+}
