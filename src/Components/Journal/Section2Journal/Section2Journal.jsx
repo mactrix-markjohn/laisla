@@ -3,6 +3,7 @@ import { useState } from 'react'
 import model from '../../../assets/journalmodelblue.png'
 import prev from '../../../assets/Prev.svg'
 import next from '../../../assets/Next.svg'
+import { Link } from 'react-router-dom'
 
 const Section2Journal = () => {
 
@@ -55,13 +56,13 @@ const Section2Journal = () => {
     <div className='Section2Journal'>
         <div className='Section2JournalContainer'>
             {Journal_Data.map((journal,index)=>{
-                return <div key={index} className='journal-format'>
+                return <Link to={'/laisla/Journal/SEO'} key={index} className='journal-format'><div >
                     <img src={journal.j_img} alt=''/>
                     <p className='Section2JournalTitle'><b>{journal.j_title}</b></p>
                     <hr/>
                     <p className='Section2JournalBody'>{journal.j_body}</p>
                     <p className='Section2Date'>{journal.j_date}</p>
-                </div>
+                </div></Link>
             })}
         </div>
         <div className='Section2JournalNextPrevHolder'>
