@@ -9,6 +9,7 @@ import AboutUs from './pages/AboutUs/AboutUs'
 import ContactUs from './pages/ContactUs/ContactUs'
 import Journal from './pages/Journal/Journal'
 import SEO from './pages/SEO/SEO'
+import Interna from './pages/Interna/Interna'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path='/laisla/Journal' element={<Journal/>} />
         <Route path='/laisla/ContactUs' element={<ContactUs/>} />
         <Route path='/laisla/Journal/SEO' element={<SEO/>} />
+        <Route path='/laisla/Journal/Interna' element={<Interna/>} />
       </Routes>
       <Footer/>
     </div>

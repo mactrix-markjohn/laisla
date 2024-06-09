@@ -1,0 +1,43 @@
+.Section3Interna{
+    margin-left: 290px;
+    margin-right: 290px;
+    margin-bottom: 139px;
+
+}
+.Section3Interna h1{
+    margin-bottom: 16px;
+    text-align: center;
+    color: #4A4A4A;
+    font-weight: 700;
+    font-size: 28px;
+
+}
+.Section3Interna p{
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+}
+.Section3InternaFirstP{
+    margin-bottom: 40px;
+    
+
+
+}
+
+.Section3InternaRow{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.Section3InternaRow img{
+    width: 40%;
+    margin-right: 16px;
+
+}
+.Section3InternaRow p{
+    width: 100%;
+
+}

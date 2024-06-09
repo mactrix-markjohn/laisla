@@ -1,0 +1,10 @@
+.Section1Interna{
+    margin-top: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Section1Interna img{
+    width: 100%;
+}
