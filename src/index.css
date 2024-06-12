@@ -22,3 +22,12 @@ a{
   padding-right: 10%;
   padding-top: 15px;
 }
+
+/* -------- media query --------- */
+
+@media (max-width: 1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

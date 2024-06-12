@@ -45,3 +45,60 @@
     width: 87%;
 }
 
+
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+    .SectionFour{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-right: 16px;
+        margin-left: 16px;
+    
+    }
+
+    .fourTextRegion{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .fourTextRegion h2{
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .fourTextRegion hr{
+        border: 1.5px solid #000;
+        width: 25%;
+        margin-bottom: 20px;
+    }
+    .fourTextRegion h1{
+        font-family: "Bebas Neue", sans-serif;
+        color: #977347;
+        font-size: 36px;
+        line-height: 50px;
+        font-weight: 400;
+        margin-bottom: 32px;
+        width: 75%;
+    }
+    .fourTextRegion p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        width: 87%;
+    }
+
+    .fourImageRegion{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        order: 2;
+    
+    }
+    .fourImageRegion img{
+        width: 100%;
+    }
+    
+}

@@ -1,4 +1,3 @@
-import React from 'react'
 import './SectionThree.css'
 import modelwhite from '../../assets/secondmodelwhite.png'
 import modelpink from '../../assets/secondmodelpink.png'
@@ -14,6 +13,7 @@ const SectionThree = () => {
         </div>
         <div className='threeImageRegion'>
             <img src={modelwhite} alt=''/>
+            <div/>
             <img src={modelpink} alt=''/>
         </div>
 

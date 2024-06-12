@@ -1,4 +1,3 @@
-import React from 'react'
 import './SectionFive.css'
 import blackline from '../../assets/blackline.svg'
 import modelblue from '../../assets/fourthmodelblue.png'
@@ -12,6 +11,7 @@ const SectionFive = () => {
         <div className='fiveTitle'>
             <h2>Sustainability</h2>
             <img src={blackline} alt=''/>
+            <hr className='fiveTitleHR'/>
             <h1>At La Isla, sustainability isn't just a buzzword – it's a way of life.</h1>
         </div>
         <div className='fiveimages'>
