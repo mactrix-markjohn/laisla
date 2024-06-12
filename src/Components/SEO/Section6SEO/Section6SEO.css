@@ -123,3 +123,134 @@
     margin-bottom: 80px;
 
 }
+
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+    
+    .Section6SEO{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 16px;
+        padding-right: 16px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .Section6SEOTop{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        margin-bottom: 67px;
+        margin-left: 0px;
+    
+    }
+    .Section6SEOTop h1{
+        width: 90%;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 32px;
+    }
+    .Section6SEOTop p{
+        width: 90%;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: start;
+    }
+    
+    
+    
+    .Section6SEOMiddle{
+        background-color: #DDF2F2;
+        padding: 32px 32px;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        margin-bottom: 85px;
+    }
+    .Section6SEOItems{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin-bottom: 19px;
+    }
+    .Section6SEOItems h1{
+        margin-bottom: 12px;
+        color: #977347;
+        font-weight: 700;
+        font-size: 20px;
+    
+    }
+    .Section6SEOItems hr{
+        width: 37%;
+        margin-bottom: 12px;
+        border: 0.5px solid #977347;
+    
+    }
+    .Section6SEOItems h2{
+        margin-bottom: 24px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+        width: 75%;
+    
+    }
+    .Section6SEOItems p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        width: 89%;
+    }
+    
+    
+    
+    .Section6SEOBottom{
+        width: 100%;
+    
+    }
+    .Section6SEOEndContent{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    
+    }
+    .Section6SEOEndContent h1{
+        width: 90%;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+    .Section6SEOTDAList{
+        width: 100%;
+    }
+    .Section6SEOTextDownArrow{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #F1F1F1;
+        border-radius: 14px;
+        padding: 16px 24px;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+    .Section6SEOTextDownArrow p{
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .Section6SEOTextDownArrow img{
+    
+    }
+    .Section6SEOSpace{
+        margin-bottom: 80px;
+    
+    }
+}

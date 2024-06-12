@@ -78,3 +78,95 @@
     font-weight: 400;
     text-align: center;
 }
+
+
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+
+    .Section3SEO{
+        background-color: #F1F1F1;
+        padding: 24px 16px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* The Prev and Next Buttons*/
+    .Section3SEOBtnPrev{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    .Section3SEOBtnNext{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    
+    /* The Text Region */
+    .Section3SEOTextRegion{
+        margin-right: 0px;
+        margin-left: 0px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    /* The Left and Right Quote image */
+    .Section3SEOQuoteLeft{
+        margin-top: -102%;
+        width: 10%;
+    }
+    .Section3SEOQuoteRight{
+        margin-bottom: -70%;
+        width: 10%;
+        
+    }
+    
+    /* The main Text content */
+    .Section3SEOTextContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .Section3SEOTextContent h1{
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        width: 100%;
+    }
+    .Section3SEONormText{
+        margin-bottom: 42px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        width: 78%;
+    
+    }
+    .Section3SEOTextContent h3{
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    .Section3SEOTextContent hr{
+        border: 0.5px solid #977347;
+        margin-bottom: 6px;
+        width: 50.5%;
+    }
+    
+    .Section3SEOBrownText{
+        color: #977347;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+}

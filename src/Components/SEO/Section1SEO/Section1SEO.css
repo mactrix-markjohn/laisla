@@ -5,8 +5,11 @@
     justify-content: center;
     
 }
-.Section1SEO img{
+.Section1SEOimg{
     width: 100%;
+}
+.Section1SEOimgmobile{
+    display: none;
 }
 .Section1SEOContent{
     position: absolute;
@@ -39,4 +42,58 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+    .Section1SEO{
+        margin-top: 60px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .Section1SEOimg{
+        width: 100%;
+        display: none;
+    }
+    .Section1SEOimgmobile{
+        display: block;
+        width: 100%;
+    }
+    .Section1SEOContent{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70%;
+        margin-left: 35px;
+        margin-right: 35px;
+        
+    }
+    .Section1SEOContent h1{
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 21px;
+        
+    }
+    .Section1SEOButton{
+        background: #6BCACA;
+        color: #fff;
+        padding: 16px 32px;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 30px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }  
 }

@@ -49,3 +49,64 @@
     color: #977347;
     width: 50%;
 }
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+    .Section2SEO{
+        background-color: #DDF2F2;
+        padding: 24px 16px;
+        margin-top: -5px;
+    }
+    .Section2SEOContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .Section2SEOCircleHolder{
+        order: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #B1E4E4;
+        height: 160px;
+        width: 160px;
+        border-radius: 80px;
+        margin-bottom: 24px;
+    
+    }
+    .Section2SEOCircleHolder hr{
+        border: 1.5px solid #977347;
+        width: 28%;
+    }
+    .Section2SEOCircleHolder h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        text-align: center;
+        color: #977347;
+        width: 100%;
+    }
+
+    .Section2SEOSideTextleft{
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        width: 70%;
+        order: 1;
+    }
+    .Section2SEOSideTextright{
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        width: 70%;
+        margin-bottom: 24px;
+    
+    }
+    
+}

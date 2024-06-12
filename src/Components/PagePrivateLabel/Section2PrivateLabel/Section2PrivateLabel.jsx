@@ -1,4 +1,3 @@
-import React from 'react'
 import './Section2PrivateLabel.css'
 import model from '../../../assets/privatethirdmodel.png'
 import check from '../../../assets/Check.svg'  
@@ -26,7 +25,7 @@ const Section2PrivateLabel = () => {
                 <div className='Section2PrivateCheckText'>
                     <img src={check} alt=''/>
                     <div/>
-                    <p><b>Included in full package pricing are (depending on order and styles):</b> All fabrics, linings, accessories, hardware, threads, branded hygienic protectors (if quantities over 2,000 units total), cups, underwires, boning, printed or woven labels, hang tags, individual resealable bags and any other necessary items needed per client’s order.</p>
+                    <p><b>Included in full package pricing are (depending on order and styles):</b><br/>All fabrics, linings, accessories, hardware, threads, branded hygienic protectors (if quantities over 2,000 units total), cups, underwires, boning, printed or woven labels, hang tags, individual resealable bags and any other necessary items needed per client’s order.</p>
                 </div>
             </div>
         </div>

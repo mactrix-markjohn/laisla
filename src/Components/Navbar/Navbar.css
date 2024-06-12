@@ -42,6 +42,10 @@ nav ul li{
 
 
 @media (max-width: 840px){
+    .logo{
+        width: 140px;
+        height: 35.3px;
+    }
     nav{
         padding: 15px 0;
     }

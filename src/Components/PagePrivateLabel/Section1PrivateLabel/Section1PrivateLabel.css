@@ -90,3 +90,106 @@
     line-height: 28px;
 }
 
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+
+    .Section1PrivateLabel{
+        background-color: #DDF2F2;
+        padding-top: 60px;
+        padding-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    /* Section 1 Private 1 CSSS*/
+    
+    .Section1Private1{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    /* Text Region */
+    
+    .Section1PrivateTextRegion{
+        width: 100%;
+        margin-right: 120px;
+        margin-bottom: 32px;
+    }
+    .Section1PrivateTextRegion h2{
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .Section1PrivateTextRegion hr{
+        border: 1.2px solid #000;
+        width: 28%;
+        margin-bottom: 32px;
+    }
+    .Section1PrivateTextRegion p{
+        font-weight: 300;
+        font-size: 16px;
+        width: 100%;
+        line-height: 22px;
+    }
+    
+    /* Image Region */
+    
+    .Section1PrivateImageRegion{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Section1PrivateImageRegion img{
+        width: 100%;
+    }
+    
+    
+    /* Section 1 Private 2 CSS*/
+    
+    .Section1Private2{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    
+    }
+   
+    
+    /*Text Region*/
+    .Section1PrivateTextRegion2{
+        width: 97%;
+        margin-bottom: 32px;
+    
+    }
+    .Section1PrivateTextRegion2 p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+     /* Image Region */
+    
+     .Section1PrivateImageRegion2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order: 2;
+    
+    }
+    .Section1PrivateImageRegion2 img{
+        width: 50%;
+    }
+    .Section1PrivateImageRegion2 div{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+}

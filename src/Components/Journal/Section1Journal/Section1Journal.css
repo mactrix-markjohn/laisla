@@ -22,3 +22,32 @@
     border: 1.5px solid #977347;
     width: 8%;
 }
+
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+    .Section1Journal{
+        background-color: #EEE2D5;
+        padding-top: 120px;
+        padding-bottom: 60px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    .Section1JournalContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Section1JournalContent h2{
+        color: #977347;
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 20px;
+    
+    }
+    .Section1JournalContent hr{
+        border: 1.4px solid #977347;
+        width: 70%;
+    }
+}
