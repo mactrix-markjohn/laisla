@@ -163,13 +163,13 @@
     }
 
     .content h1{
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 700;
         color: #fff;
     }
     .content p{
         margin-top: 16px;
-        font-size: 19px;
+        font-size: 14px;
         font-weight: 200;
         color: #fff;
         width: 90%;
@@ -191,7 +191,7 @@
     }
     .loading p{
         margin-left: 25px;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 200;
         color: #fff;
     }
@@ -200,6 +200,7 @@
 
 /* Mobile Screen - Important */
 @media (max-width: 420px){
+    
     .heroimg{
         display: none; 
     }

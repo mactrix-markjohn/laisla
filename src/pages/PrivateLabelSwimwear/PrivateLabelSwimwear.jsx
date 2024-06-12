@@ -1,4 +1,3 @@
-import React from 'react'
 import './PrivateLabelSwimwear.css'
 import Section1PrivateLabel from '../../Components/PagePrivateLabel/Section1PrivateLabel/Section1PrivateLabel'
 import Section2PrivateLabel from '../../Components/PagePrivateLabel/Section2PrivateLabel/Section2PrivateLabel'

@@ -67,6 +67,7 @@ nav ul li{
     .menu-icon{
         display: block;
         width: 30px;
+        margin-right: 5px;
         cursor: pointer;
     }
     .hide-mobile-menu{

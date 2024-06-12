@@ -5,6 +5,30 @@
     justify-content: center;
     
 }
-.Section1Interna img{
+.Section1Internaimg{
     width: 100%;
+}
+.Section1Internaimgmobile {
+    width: 100%;
+    display: none;
+}
+
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+    .Section1Interna{
+        margin-top: 60px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .Section1Internaimg{
+        width: 100%;
+        display: none;
+    }
+    .Section1Internaimgmobile {
+        width: 100%;
+        display: block;
+    }
 }
