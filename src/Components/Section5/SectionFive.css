@@ -113,11 +113,11 @@
     .fiveTitleHR{
         display: block;
         border: 1.2px solid #000;
-        width: 22%;
+        width: 28%;
         margin-bottom: 20px;
     }
     .fiveTitle h1{
-        width: 90%;
+        width: 100%;
         font-family: "Bebas Neue", sans-serif;
         font-size: 36px;
         font-weight: 400;
@@ -149,7 +149,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
         width: 100%;
     }
     .fiveboldtext{

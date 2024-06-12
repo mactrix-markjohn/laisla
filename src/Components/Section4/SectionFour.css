@@ -71,23 +71,23 @@
     }
     .fourTextRegion hr{
         border: 1.5px solid #000;
-        width: 25%;
+        width: 31%;
         margin-bottom: 20px;
     }
     .fourTextRegion h1{
         font-family: "Bebas Neue", sans-serif;
         color: #977347;
         font-size: 36px;
-        line-height: 50px;
+        line-height: 36px;
         font-weight: 400;
         margin-bottom: 32px;
-        width: 75%;
+        width: 95%;
     }
     .fourTextRegion p{
         font-weight: 400;
         font-size: 14px;
         line-height: 22px;
-        width: 87%;
+        width: 100%;
     }
 
     .fourImageRegion{
