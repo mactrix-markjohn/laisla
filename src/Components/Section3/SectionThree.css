@@ -31,6 +31,43 @@
     margin-left: 10px;
 }
 
+
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+    .SectionThree{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 75px;
+        margin-right: 75px;
+        justify-content: space-between;
+    
+    }
+    .threeTextRegion{
+        width: 65%;
+    
+    }
+    .threeTextRegion p{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .threeImageRegion{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    
+    }
+    .threeImageRegion img{
+        width: 43.5%;
+    }
+    .threeImageRegion div{
+        margin-left: 10px;
+    }
+}
+
 /* Mobile Screen - Important */
 @media (max-width: 650px){
     .SectionThree{

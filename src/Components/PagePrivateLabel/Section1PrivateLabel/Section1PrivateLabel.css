@@ -91,6 +91,107 @@
 }
 
 
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+    .Section1PrivateLabel{
+        background-color: #DDF2F2;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    
+    /* Section 1 Private 1 CSSS*/
+    
+    .Section1Private1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    /* Text Region */
+    
+    .Section1PrivateTextRegion{
+        width: 100%;
+        margin-right: 120px;
+    }
+    .Section1PrivateTextRegion h2{
+        font-size: 23px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .Section1PrivateTextRegion hr{
+        border: 1.4px solid #000;
+        width: 25%;
+        margin-bottom: 15px;
+    }
+    .Section1PrivateTextRegion p{
+        font-weight: 300;
+        font-size: 10px;
+        width: 106%;
+        line-height: 14px;
+    }
+    
+    /* Image Region */
+    
+    .Section1PrivateImageRegion{
+        width: 110%;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    
+    }
+    .Section1PrivateImageRegion img{
+        width: 100%;
+    }
+    
+    
+    /* Section 1 Private 2 CSS*/
+    
+    .Section1Private2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    
+    }
+    /* Image Region */
+    
+    .Section1PrivateImageRegion2{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    .Section1PrivateImageRegion2 img{
+        width: 50%;
+    }
+    .Section1PrivateImageRegion2 div{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    /*Text Region*/
+    .Section1PrivateTextRegion2{
+        width: 40%;
+        justify-content: start;
+    
+    }
+    .Section1PrivateTextRegion2 p{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        width: 107% ;
+    }
+}
+
+
+
+
 /* Mobile Screen - Important */
 @media (max-width: 650px){
 

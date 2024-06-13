@@ -24,6 +24,37 @@
 }
 
 
+
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+
+    .Section1Journal{
+        background-color: #EEE2D5;
+        padding-top: 120px;
+        padding-bottom: 40px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    .Section1JournalContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Section1JournalContent h2{
+        color: #977347;
+        font-weight: 700;
+        font-size: 23px;
+        margin-bottom: 12px;
+    
+    }
+    .Section1JournalContent hr{
+        border: 1.4px solid #977347;
+        width: 10%;
+    }
+}
+
+
 /* Mobile Screen - Important */
 @media (max-width: 650px){
     .Section1Journal{

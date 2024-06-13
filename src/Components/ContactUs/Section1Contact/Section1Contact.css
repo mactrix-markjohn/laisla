@@ -84,6 +84,98 @@
 }
 
 
+
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+    .Section1Contact{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        padding-top: 64px;
+        padding-left: 75px;
+        padding-bottom: 75px;
+        background-color: #fff;
+    }
+    .Section1ContactForm{
+        width: 80%;
+        margin-top: 50px;
+        background-color: #fff;
+    
+    }
+    .Section1ContactForm h2{
+        font-size: 23px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+    .Section1ContactForm hr{
+        border: 1.4px solid #000;
+        width: 20%;
+        margin-bottom: 50px;
+    }
+    
+    .Section1ContactForm form input{
+        display: block;
+        width: 100%;
+        background: #eaeaea;
+        padding: 10px;
+        font-size: 10px;
+        border: 0;
+        outline: 0;
+        margin-bottom: 10px;
+        margin-top: 11px;
+        resize: none;
+        border-radius: 10px;
+    }
+    .Section1ContactForm form textarea{
+        display: block;
+        width: 100%;
+        background: #eaeaea;
+        padding: 12px;
+        font-size: 10px;
+        border: 0;
+        outline: 0;
+        margin-bottom: 4px;
+        margin-top: 11px;
+        resize: none;
+        border-radius: 10px;
+    }
+    
+    .Section1ContactForm form label{
+        font-weight: 700;
+        font-size: 10px;
+        color: #666666;
+    }
+    
+    .Section1ContacttcontactBtn{
+        background: #977347;
+        color: #fff;
+        padding: 12px 25px;
+        font-size: 10px;
+        font-weight: 700;
+        border-radius: 30px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 38px;
+    }
+    
+    
+    .Section1ContactImage{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+    
+    }
+    .Section1ContactImage img{
+        width: 85%;
+    }
+}
+
+
 /* Mobile Screen - Important */
 @media (max-width: 650px){
     .Section1Contact{

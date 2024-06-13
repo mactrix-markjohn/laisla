@@ -44,6 +44,55 @@
 
 
 
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+    .Section3Interna{
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-bottom: 109px;
+    
+    }
+    .Section3Interna h1{
+        margin-bottom: 16px;
+        text-align: center;
+        color: #4A4A4A;
+        font-weight: 700;
+        font-size: 23px;
+    
+    }
+    .Section3Interna p{
+        color: #666666;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+    
+    }
+    .Section3InternaFirstP{
+        margin-bottom: 20px;
+        
+    
+    
+    }
+    
+    .Section3InternaRow{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .Section3InternaRow img{
+        width: 40%;
+        margin-right: 16px;
+    
+    }
+    .Section3InternaRow p{
+        width: 100%;
+    
+    }
+}
+
+
+
 /* Mobile Screen - Important */
 @media (max-width: 650px){
     .Section3Interna{

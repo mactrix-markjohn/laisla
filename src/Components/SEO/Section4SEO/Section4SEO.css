@@ -84,6 +84,101 @@
 }
 
 
+
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+
+    .Section4SEO{
+        padding: 40px 75px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .Section4SEOTop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    
+    }
+    .Section4SEOTop h1{
+        width: 30%;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 32px;
+        text-align: start;
+        margin-right: 34px;
+    }
+    .Section4SEOTop p{
+        width: 51.5%;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        text-align: start;
+    }
+    .Section4SEOBottom{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        width: 84%;
+    }
+    .seolist-format{
+        width: 100%;
+        background: #fff;
+        border-radius: 24px;
+        padding: 28px;
+        border: 1px solid #B1E4E4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .SEO4Listtop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .Section4SEOListImg{
+        margin-bottom: 44px;
+        width: 40%;
+    }
+    .seolist-format h3{
+        color: #977347;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 16px;
+        text-align: center;
+    
+    }
+    .seolist-format hr{
+        margin-bottom: 18px;
+        border: 0.5px solid #977347;
+        width: 28%;
+    }
+    .SEO4List{
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+    }
+    .SEO4List img{
+        margin-right: 14px;
+        width: 12%;
+    
+    }
+    .SEO4List p{
+        text-align: start;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+}
+
+
+
+
 /* Mobile Screen - Important */
 @media (max-width: 650px){
     .Section4SEO{

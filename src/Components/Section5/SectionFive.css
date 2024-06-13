@@ -84,6 +84,96 @@
     justify-content: center;
 }
 
+
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+    .SectionFive{
+        background-color: #DDF2F2;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        align-items: center;
+    }
+    .fiveTitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fiveTitle h2{
+        font-size: 23px;
+        font-weight: 700;
+    
+    }
+    .fiveTitle img{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .fiveTitleHR{
+        display: none;
+    }
+    .fiveTitle h1{
+        width: 52%;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        color: #977347;
+    }
+    .fiveimages{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .fiveimages img{
+        width: 29%;
+    }
+    .fiveCenterImage{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .fiveText{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .fiveText p{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        width: 56%;
+    }
+    .fiveboldtext{
+        font-weight: 600;
+    }
+    .fiveContact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    
+    }
+    .contactBtn{
+        background: #977347;
+        color: #fff;
+        padding: 16px 32px;
+        font-size: 10px;
+        font-weight: 700;
+        border-radius: 30px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 /* Mobile Screen - Important */
 @media (max-width: 650px){
     .SectionFive{

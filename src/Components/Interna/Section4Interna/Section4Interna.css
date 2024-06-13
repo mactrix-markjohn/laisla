@@ -67,6 +67,82 @@
 
 
 
+
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+
+    .Section4Interna{
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 75px;
+        padding-right: 75px;
+        background-color: #EEE2D5;
+    }
+    .Section4Interna h1{
+        color: #977347;
+        font-weight: 700;
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: 13px;
+    }
+    .Section4InternaHR{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 22px;
+    }
+    .Section4InternaHR hr{
+        border: 1.4px solid #977347;
+        width: 65px;
+    }
+    .Section4InternaContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px; 
+        width: 100%;
+    
+    }
+    .interna-format{
+        display: flex;
+        background-color: #FFFFFF;
+        border-radius: 14px;
+        padding: 10px;
+    }
+    .interna-format img{
+        width: 50%;
+        margin-right: 24px;
+    
+    
+    }
+    .interna-format div{
+        width: 100%;
+    
+    }
+    .Section4InternaTitle{
+        color: #000000;
+        font-weight: 700;
+        font-size: 8px;
+        text-align: start;
+        margin-bottom: 7px;
+    
+    }
+    .interna-format hr{
+        border: 0.4px solid #977347;
+        width: 50%;
+        margin-bottom: 12px;
+    }
+    .Section4InternaDate{
+        color: #666666;
+        text-align: end;
+        font-weight: 400;
+        font-size: 8px;
+    }
+
+}
+
+
+
+
 /* Mobile Screen - Important */
 @media (max-width: 650px){
     .Section4Interna{

@@ -48,6 +48,60 @@
     line-height: 22px;
 }
 
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+    .Section1About{
+        background-color: #EEE2D5;
+        padding-top: 100px;
+        padding-bottom: 40px;
+        padding-left: 75px;
+        padding-right: 75px;
+        align-items: center;
+    }
+    .Section1AboutTitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Section1AboutTitle h1{
+        width: 87%;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+        color: #977347;
+    }
+    .Section1Aboutimages{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .Section1Aboutimages img{
+        width: 32.16%;
+    }
+    .Section1AboutCenterImage{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .Section1AboutText{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .Section1AboutText p{
+        align-items: center;
+        justify-content: center;
+        font-size: 9px;
+        width: 46%;
+        line-height: 14px;
+    }
+}
+
+
 /* Mobile Screen - Important */
 @media (max-width: 650px){
     .Section1About{
