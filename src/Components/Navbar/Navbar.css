@@ -1,34 +1,73 @@
-nav{
-    width: 100%;
-    color: #fff;
-    padding: 4px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    z-index: 10;
-    border-bottom: 3px solid #977347;
+/* Ultra-Wide Screen - Important */
+@media (max-width: 2300px){
+    nav{
+        width: 100%;
+        color: #fff;
+        padding: 4px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        z-index: 10;
+        border-bottom: 3px solid #977347;
+    }
+    .whitenav{
+        background: #fff;
+    }
+    .logo{
+        width: 190px;
+        height: 43px;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 5px 20px;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Montserrat", sans-serif;
+        color: black;
+    }
+    .menu-icon{
+        display: none;
+    }
 }
-.whitenav{
-    background: #fff;
+
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    nav{
+        width: 100%;
+        color: #fff;
+        padding: 4px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        z-index: 10;
+        border-bottom: 3px solid #977347;
+    }
+    .whitenav{
+        background: #fff;
+    }
+    .logo{
+        width: 170.67px;
+        height: 39.3px;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 5px 20px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Montserrat", sans-serif;
+        color: black;
+    }
+    .menu-icon{
+        display: none;
+    }
 }
-.logo{
-    width: 170.67px;
-    height: 39.3px;
-}
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 5px 20px;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Montserrat", sans-serif;
-    color: black;
-}
-.menu-icon{
-    display: none;
-}
+
 
 /* ------- media query -------*/
 @media (max-width: 1000px){

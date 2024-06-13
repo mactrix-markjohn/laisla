@@ -1,83 +1,182 @@
-.Section3SEO{
-    background-color: #F1F1F1;
-    padding: 60px 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-/* The Prev and Next Buttons*/
-.Section3SEOBtnPrev{
-    border: 0px solid transparent;
-    color: transparent;
-}
-.Section3SEOBtnNext{
-    border: 0px solid transparent;
-    color: transparent;
-}
-
-/* The Text Region */
-.Section3SEOTextRegion{
-    margin-right: 140px;
-    margin-left: 140px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-
-}
-
-/* The Left and Right Quote image */
-.Section3SEOQuoteLeft{
-    margin-top: -125px;
-}
-.Section3SEOQuoteRight{
-    margin-bottom: -45px;
+/* Ultra-Wide Screen - Important */
+@media (max-width: 2300px){
+    .Section3SEO{
+        background-color: #F1F1F1;
+        padding: 100px 230px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* The Prev and Next Buttons*/
+    .Section3SEOBtnPrev{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    .Section3SEOBtnPrev img{
+        width: 400%;
+    }
+    .Section3SEOBtnNext{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    .Section3SEOBtnNext img{
+        width: 400%;
+    }
+    
+    /* The Text Region */
+    .Section3SEOTextRegion{
+        margin-right: 140px;
+        margin-left: 140px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    /* The Left and Right Quote image */
+    .Section3SEOQuoteLeft{
+        margin-top: -175px;
+        width: 6%;
+    }
+    .Section3SEOQuoteRight{
+        margin-bottom: -135px;
+        width: 6%;
+        
+    }
+    
+    /* The main Text content */
+    .Section3SEOTextContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 59%;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .Section3SEOTextContent h1{
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 80px;
+        text-align: center;
+        width: 100%;
+    }
+    .Section3SEONormText{
+        margin-bottom: 56px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+    
+    }
+    .Section3SEOTextContent h3{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    .Section3SEOTextContent hr{
+        border: 0.5px solid #977347;
+        margin-bottom: 6px;
+        width: 20.5%;
+    }
+    
+    .Section3SEOBrownText{
+        color: #977347;
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+    }
     
 }
 
-/* The main Text content */
-.Section3SEOTextContent{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 64%;
-    margin-left: 30px;
-    margin-right: 30px;
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .Section3SEO{
+        background-color: #F1F1F1;
+        padding: 60px 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* The Prev and Next Buttons*/
+    .Section3SEOBtnPrev{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    .Section3SEOBtnNext{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    
+    /* The Text Region */
+    .Section3SEOTextRegion{
+        margin-right: 140px;
+        margin-left: 140px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    /* The Left and Right Quote image */
+    .Section3SEOQuoteLeft{
+        margin-top: -125px;
+    }
+    .Section3SEOQuoteRight{
+        margin-bottom: -45px;
+        
+    }
+    
+    /* The main Text content */
+    .Section3SEOTextContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 64%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .Section3SEOTextContent h1{
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 47px;
+        text-align: center;
+        width: 100%;
+    }
+    .Section3SEONormText{
+        margin-bottom: 56px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+    
+    }
+    .Section3SEOTextContent h3{
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    .Section3SEOTextContent hr{
+        border: 0.5px solid #977347;
+        margin-bottom: 6px;
+        width: 16.5%;
+    }
+    
+    .Section3SEOBrownText{
+        color: #977347;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
 }
-.Section3SEOTextContent h1{
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 47px;
-    text-align: center;
-    width: 100%;
-}
-.Section3SEONormText{
-    margin-bottom: 56px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
 
-}
-.Section3SEOTextContent h3{
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 4px;
-}
-.Section3SEOTextContent hr{
-    border: 0.5px solid #977347;
-    margin-bottom: 6px;
-    width: 16.5%;
-}
 
-.Section3SEOBrownText{
-    color: #977347;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-}
 
 
 

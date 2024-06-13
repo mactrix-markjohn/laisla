@@ -1,35 +1,79 @@
-.SectionThree{
-    display: flex;
-    align-items: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 120px;
-    margin-right: 120px;
-    justify-content: space-between;
+/* Ultra-Wide Screen - Important */
+@media (max-width: 2300px){
+    .SectionThree{
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+        justify-content: space-between;
+    
+    }
+    .threeTextRegion{
+        width: 65%;
+    
+    }
+    .threeTextRegion p{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        width: 100%;
+    }
+    .threeImageRegion{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    
+    }
+    .threeImageRegion img{
+        width: 41.9%;
+    }
+    .threeImageRegion div{
+        margin-left: 10px;
+    }
+}
 
-}
-.threeTextRegion{
-    width: 65%;
 
-}
-.threeTextRegion p{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-}
-.threeImageRegion{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: end;
 
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .SectionThree{
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-left: 120px;
+        margin-right: 120px;
+        justify-content: space-between;
+    
+    }
+    .threeTextRegion{
+        width: 65%;
+    
+    }
+    .threeTextRegion p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .threeImageRegion{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    
+    }
+    .threeImageRegion img{
+        width: 43.5%;
+    }
+    .threeImageRegion div{
+        margin-left: 10px;
+    }
 }
-.threeImageRegion img{
-    width: 43.5%;
-}
-.threeImageRegion div{
-    margin-left: 10px;
-}
+
+
 
 
 /* Tablets Screen - Important */

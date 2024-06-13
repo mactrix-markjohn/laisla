@@ -1,50 +1,112 @@
-.Section2PrivateLabel{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 120px;
-    padding-right: 120px;
-    background-color: #fff;
+/* Ultra-Wide Screen - Important */
+@media (max-width: 2300px){
+    .Section2PrivateLabel{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 200px;
+        padding-right: 200px;
+        background-color: #fff;
+    
+    }
+    .Section2PrivateImageRegion{
+        width: 100%;
+    }
+    .Section2PrivateImageRegion img{
+        width: 87%;
+    }
+    
+    .Section2PrivateTextRegion{
+        width: 70%;
+    }
+    .Section2PrivateTextRegion h2{
+        font-size: 75px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    .Section2PrivateTextRegion hr{
+        border: 2px solid #000;
+        width: 27%;
+        margin-bottom: 42px;
+    }
+    .Section2PrivateCheckText{
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        margin-bottom: 30px;
+    }
+    .Section2PrivateCheckText div{
+        margin-right: 20px;
+    }
+    .Section2PrivateCheckText img{
+        width: 6%;
+    }
+    .Section2PrivateCheckText p{
+        width: 75%;
+        line-height: 40px;
+        font-size: 28px;
+        font-weight: 400;
+    }
 
 }
-.Section2PrivateImageRegion{
-    width: 100%;
-}
-.Section2PrivateImageRegion img{
-    width: 87%;
+
+
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .Section2PrivateLabel{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 120px;
+        padding-right: 120px;
+        background-color: #fff;
+    
+    }
+    .Section2PrivateImageRegion{
+        width: 100%;
+    }
+    .Section2PrivateImageRegion img{
+        width: 87%;
+    }
+    
+    .Section2PrivateTextRegion{
+        width: 70%;
+    }
+    .Section2PrivateTextRegion h2{
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 17px;
+    }
+    .Section2PrivateTextRegion hr{
+        border: 2px solid #000;
+        width: 21%;
+        margin-bottom: 32px;
+    }
+    .Section2PrivateCheckText{
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        margin-bottom: 30px;
+    }
+    .Section2PrivateCheckText div{
+        margin-right: 20px;
+    }
+    .Section2PrivateCheckText p{
+        width: 67%;
+        line-height: 25px;
+        font-size: 16px;
+        font-weight: 400;
+    }
 }
 
-.Section2PrivateTextRegion{
-    width: 70%;
-}
-.Section2PrivateTextRegion h2{
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 17px;
-}
-.Section2PrivateTextRegion hr{
-    border: 2px solid #000;
-    width: 21%;
-    margin-bottom: 32px;
-}
-.Section2PrivateCheckText{
-    display: flex;
-    align-items: start;
-    justify-content: left;
-    margin-bottom: 30px;
-}
-.Section2PrivateCheckText div{
-    margin-right: 20px;
-}
-.Section2PrivateCheckText p{
-    width: 67%;
-    line-height: 25px;
-    font-size: 16px;
-    font-weight: 400;
-}
+
+
 
 /* Tablets Screen - Important */
 @media (max-width: 1200px){

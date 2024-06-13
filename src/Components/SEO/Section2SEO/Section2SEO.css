@@ -1,54 +1,115 @@
-.Section2SEO{
-    background-color: #DDF2F2;
-    padding: 60px 120px;
-    margin-top: -5px;
+/* Ultra-Wide Screen - Important */
+@media (max-width: 2300px){
+    .Section2SEO{
+        background-color: #DDF2F2;
+        padding: 100px 200px;
+        margin-top: -5px;
+    }
+    .Section2SEOContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .Section2SEOSideTextleft{
+        font-weight: 700;
+        font-size: 45px;
+        text-align: right;
+        width: 20%;
+    }
+    .Section2SEOSideTextright{
+        font-weight: 700;
+        font-size: 45px;
+        text-align: left;
+        width: 20%;
+    
+    }
+    .Section2SEOCircleHolder{
+        margin-right: 68px;
+        margin-left: 68px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #B1E4E4;
+        height: 380px;
+        width: 380px;
+        border-radius: 200px;
+    
+    }
+    .Section2SEOCircleHolder hr{
+        border: 2.5px solid #977347;
+        width: 23%;
+    }
+    .Section2SEOCircleHolder h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 88px;
+        font-weight: 400;
+        text-align: center;
+        color: #977347;
+        width: 50%;
+    }
 }
-.Section2SEOContent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .Section2SEO{
+        background-color: #DDF2F2;
+        padding: 60px 120px;
+        margin-top: -5px;
+    }
+    .Section2SEOContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .Section2SEOSideTextleft{
+        font-weight: 700;
+        font-size: 28px;
+        text-align: right;
+        width: 20%;
+    }
+    .Section2SEOSideTextright{
+        font-weight: 700;
+        font-size: 28px;
+        text-align: left;
+        width: 20%;
+    
+    }
+    .Section2SEOCircleHolder{
+        margin-right: 48px;
+        margin-left: 48px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #B1E4E4;
+        height: 240px;
+        width: 240px;
+        border-radius: 120px;
+    
+    }
+    .Section2SEOCircleHolder hr{
+        border: 2.5px solid #977347;
+        width: 28%;
+    }
+    .Section2SEOCircleHolder h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+        text-align: center;
+        color: #977347;
+        width: 50%;
+    }
 }
-.Section2SEOSideTextleft{
-    font-weight: 700;
-    font-size: 28px;
-    text-align: right;
-    width: 20%;
-}
-.Section2SEOSideTextright{
-    font-weight: 700;
-    font-size: 28px;
-    text-align: left;
-    width: 20%;
 
-}
-.Section2SEOCircleHolder{
-    margin-right: 48px;
-    margin-left: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #B1E4E4;
-    height: 240px;
-    width: 240px;
-    border-radius: 120px;
 
-}
-.Section2SEOCircleHolder hr{
-    border: 2.5px solid #977347;
-    width: 28%;
-}
-.Section2SEOCircleHolder h3{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 48px;
-    font-weight: 400;
-    text-align: center;
-    color: #977347;
-    width: 50%;
-}
+
 
 
 /* Tablets Screen - Important */

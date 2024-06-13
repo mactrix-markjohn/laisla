@@ -1,46 +1,100 @@
-.Section3PrivateLabel{
-    background-color: #EEE2D5;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 120px;
-    padding-right: 120px;
+/* Ultra-Wide Screen - Important */
+@media (max-width: 2300px){
+    .Section3PrivateLabel{
+        background-color: #EEE2D5;
+        padding-top: 100px;
+        padding-bottom: 80px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    
+    
+    .Section3PrivateLabel h2{
+        font-size: 75px;
+        font-weight: 700;
+        margin-bottom: 17px;
+        width: 40%;
+    }
+    .Section3PrivateLabel hr{
+        border: 2px solid #000;
+        width: 10.5%;
+        margin-bottom: 50px;
+    }
+    .Section3Grid{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .Section3PrivateCheckText{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .Section3PrivateCheckText div{
+        margin-right: 20px;
+    }
 
 
+    .Section3PrivateCheckText p{
+        width: 100%;
+        line-height: 40px;
+        font-size: 28px;
+        font-weight: 400;
+    }
+    
 }
 
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .Section3PrivateLabel{
+        background-color: #EEE2D5;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 120px;
+        padding-right: 120px;
+    
+    
+    }
+    
+    
+    .Section3PrivateLabel h2{
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 17px;
+        width: 30%;
+    }
+    .Section3PrivateLabel hr{
+        border: 2px solid #000;
+        width: 8%;
+        margin-bottom: 50px;
+    }
+    .Section3Grid{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .Section3PrivateCheckText{
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        margin-bottom: 30px;
+    }
+    .Section3PrivateCheckText div{
+        margin-right: 20px;
+    }
+    .Section3PrivateCheckText p{
+        width: 97%;
+        line-height: 25px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+}
 
-.Section3PrivateLabel h2{
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 17px;
-    width: 30%;
-}
-.Section3PrivateLabel hr{
-    border: 2px solid #000;
-    width: 8%;
-    margin-bottom: 50px;
-}
-.Section3Grid{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-}
-.Section3PrivateCheckText{
-    display: flex;
-    align-items: start;
-    justify-content: left;
-    margin-bottom: 30px;
-}
-.Section3PrivateCheckText div{
-    margin-right: 20px;
-}
-.Section3PrivateCheckText p{
-    width: 97%;
-    line-height: 25px;
-    font-size: 16px;
-    font-weight: 400;
-}
 
 
 /* Tablets Screen - Important */

@@ -1,49 +1,105 @@
-.SectionFour{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-right: 120px;
+/* Ultra-Wide Screen - Important */
+@media (max-width: 2300px){
+    .SectionFour{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 200px;
+    
+    }
+    .fourImageRegion{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    
+    }
+    .fourImageRegion img{
+        width: 88.5%;
+    }
+    .fourTextRegion{
+        width: 70%;
+    }
+    .fourTextRegion h2{
+        font-size: 75px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .fourTextRegion hr{
+        border: 2px solid #000;
+        width: 21%;
+        margin-bottom: 35px;
+    }
+    .fourTextRegion h1{
+        font-family: "Bebas Neue", sans-serif;
+        color: #977347;
+        font-size: 88px;
+        line-height: 85px;
+        font-weight: 400;
+        margin-bottom: 32px;
+        width: 100%;
+    }
+    .fourTextRegion p{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        width: 86%;
+    }
+}
 
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .SectionFour{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-right: 120px;
+    
+    }
+    .fourImageRegion{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    
+    }
+    .fourImageRegion img{
+        width: 84.5%;
+    }
+    .fourTextRegion{
+        width: 70%;
+    }
+    .fourTextRegion h2{
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 17px;
+    }
+    .fourTextRegion hr{
+        border: 2px solid #000;
+        width: 19%;
+        margin-bottom: 20px;
+    }
+    .fourTextRegion h1{
+        font-family: "Bebas Neue", sans-serif;
+        color: #977347;
+        font-size: 48px;
+        line-height: 50px;
+        font-weight: 400;
+        margin-bottom: 32px;
+        width: 75%;
+    }
+    .fourTextRegion p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        width: 87%;
+    }
 }
-.fourImageRegion{
-    width: 100%;
-    display: flex;
-    align-items: center;
 
-}
-.fourImageRegion img{
-    width: 84.5%;
-}
-.fourTextRegion{
-    width: 70%;
-}
-.fourTextRegion h2{
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 17px;
-}
-.fourTextRegion hr{
-    border: 2px solid #000;
-    width: 19%;
-    margin-bottom: 20px;
-}
-.fourTextRegion h1{
-    font-family: "Bebas Neue", sans-serif;
-    color: #977347;
-    font-size: 48px;
-    line-height: 50px;
-    font-weight: 400;
-    margin-bottom: 32px;
-    width: 75%;
-}
-.fourTextRegion p{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    width: 87%;
-}
+
+
 
 
 /* Tablets Screen - Important */

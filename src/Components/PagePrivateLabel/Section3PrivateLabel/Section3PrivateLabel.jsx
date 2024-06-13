@@ -1,4 +1,3 @@
-import React from 'react'
 import './Section3PrivateLabel.css'
 import check from '../../../assets/Check.svg'
 

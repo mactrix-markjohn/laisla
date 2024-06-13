@@ -1,74 +1,77 @@
-.hero{
-    margin-top: 60px;
-    position: relative;
-}
-.heroimg{
-    width: 100%; 
-}
-
-.heroimgmobile{
-    display: none;
-}
-
-/*
-.hero img{
-    width: 100%; 
-}
-*/
-/* .content{
-    position: absolute;
-    top: 0;
-    margin-top: 125px;
-    margin-left: 145px;
-    display: block;
-    width: 350px;
-} */
-.content{
-    position: absolute;
-    top: 0;
-    margin-top: 125px;
-    margin-left: 120px;
-    display: flex;
-    flex-direction: column;
-    width: 22%;
-}
-.content h1{
-    font-size: 36px;
-    font-weight: 700;
-    color: #fff;
-}
-.content p{
-    margin-top: 25px;
-    font-size: 16px;
-    font-weight: 200;
-    color: #fff;
-}
-.loading{
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 83%;
-    margin-left: 120px;
-    margin-bottom: 30px;
-}
-.loading img{
-    width: 100%; 
-}
-.loading p{
-    margin-left: 35px;
-    font-size: 16px;
-    font-weight: 200;
-    color: #fff;
-}
-
-/* ---------- media query --------- */
-
-
-/* Tablets Screen - Important */
+/* Ultra-Wide Screen - Important */
 @media (max-width: 2300px){
     
+    .hero{
+        margin-top: 60px;
+        position: relative;
+    }
+    .heroimg{
+        width: 100%; 
+    }
+    
+    .heroimgmobile{
+        display: none;
+    }
+    
+    /*
+    .hero img{
+        width: 100%; 
+    }
+    */
+    /* .content{
+        position: absolute;
+        top: 0;
+        margin-top: 125px;
+        margin-left: 145px;
+        display: block;
+        width: 350px;
+    } */
+    .content{
+        position: absolute;
+        top: 0;
+        margin-top: 180px;
+        margin-left: 200px;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+    }
+    .content h1{
+        font-size: 66px;
+        font-weight: 700;
+        color: #fff;
+    }
+    .content p{
+        margin-top: 25px;
+        font-size: 29px;
+        font-weight: 200;
+        color: #fff;
+    }
+    .loading{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 83%;
+        margin-left: 200px;
+        margin-bottom: 30px;
+    }
+    .loading img{
+        width: 100%; 
+    }
+    .loading p{
+        margin-left: 35px;
+        font-size: 26px;
+        font-weight: 200;
+        color: #fff;
+    }
+    
+}
+
+
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+
     .hero{
         margin-top: 60px;
         position: relative;
@@ -135,6 +138,9 @@
     }
     
 }
+
+
+/* ---------- media query --------- */
 
 /* Tablets Screen - Important */
 @media (max-width: 1200px){

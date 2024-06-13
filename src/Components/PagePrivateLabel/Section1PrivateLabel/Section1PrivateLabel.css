@@ -1,94 +1,199 @@
-.Section1PrivateLabel{
-    background-color: #DDF2F2;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 120px;
-    padding-right: 120px;
+/* Ultra-Wide Screen - Important */
+@media (max-width: 2300px){
+
+    .Section1PrivateLabel{
+        background-color: #DDF2F2;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    
+    /* Section 1 Private 1 CSSS*/
+    
+    .Section1Private1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+    
+    /* Text Region */
+    
+    .Section1PrivateTextRegion{
+        width: 80%;
+        margin-right: 120px;
+    }
+    .Section1PrivateTextRegion h2{
+        font-size: 75px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .Section1PrivateTextRegion hr{
+        border: 2px solid #000;
+        width: 26%;
+        margin-bottom: 52px;
+    }
+    .Section1PrivateTextRegion p{
+        font-weight: 300;
+        font-size: 28px;
+        width: 95%;
+        line-height: 40px;
+    }
+    
+    /* Image Region */
+    
+    .Section1PrivateImageRegion{
+        width: 100%;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    
+    }
+    .Section1PrivateImageRegion img{
+        width: 93%;
+    }
+    
+    
+    /* Section 1 Private 2 CSS*/
+    
+    .Section1Private2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    
+    }
+    /* Image Region */
+    
+    .Section1PrivateImageRegion2{
+        width: 50%;
+        display: flex;
+        align-items: center;
+    
+    }
+    .Section1PrivateImageRegion2 img{
+        width: 48.5%;
+    }
+    .Section1PrivateImageRegion2 div{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    
+    /*Text Region*/
+    .Section1PrivateTextRegion2{
+        width: 40%;
+    
+    }
+    .Section1PrivateTextRegion2 p{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 42px;
+        width: 99%;
+    }
+
 }
 
-/* Section 1 Private 1 CSSS*/
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
 
-.Section1Private1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    .Section1PrivateLabel{
+        background-color: #DDF2F2;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    
+    /* Section 1 Private 1 CSSS*/
+    
+    .Section1Private1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    /* Text Region */
+    
+    .Section1PrivateTextRegion{
+        width: 80%;
+        margin-right: 120px;
+    }
+    .Section1PrivateTextRegion h2{
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .Section1PrivateTextRegion hr{
+        border: 2px solid #000;
+        width: 24%;
+        margin-bottom: 32px;
+    }
+    .Section1PrivateTextRegion p{
+        font-weight: 300;
+        font-size: 18px;
+        width: 100%;
+        line-height: 28px;
+    }
+    
+    /* Image Region */
+    
+    .Section1PrivateImageRegion{
+        width: 100%;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    
+    }
+    .Section1PrivateImageRegion img{
+        width: 95%;
+    }
+    
+    
+    /* Section 1 Private 2 CSS*/
+    
+    .Section1Private2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    
+    }
+    /* Image Region */
+    
+    .Section1PrivateImageRegion2{
+        width: 50%;
+        display: flex;
+        align-items: center;
+    
+    }
+    .Section1PrivateImageRegion2 img{
+        width: 50%;
+    }
+    .Section1PrivateImageRegion2 div{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    /*Text Region*/
+    .Section1PrivateTextRegion2{
+        width: 40%;
+    
+    }
+    .Section1PrivateTextRegion2 p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
 }
 
-/* Text Region */
 
-.Section1PrivateTextRegion{
-    width: 80%;
-    margin-right: 120px;
-}
-.Section1PrivateTextRegion h2{
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-.Section1PrivateTextRegion hr{
-    border: 2px solid #000;
-    width: 24%;
-    margin-bottom: 32px;
-}
-.Section1PrivateTextRegion p{
-    font-weight: 300;
-    font-size: 18px;
-    width: 100%;
-    line-height: 28px;
-}
-
-/* Image Region */
-
-.Section1PrivateImageRegion{
-    width: 100%;
-    display: flex;
-    align-items: end;
-    justify-content: end;
-
-}
-.Section1PrivateImageRegion img{
-    width: 95%;
-}
-
-
-/* Section 1 Private 2 CSS*/
-
-.Section1Private2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-
-}
-/* Image Region */
-
-.Section1PrivateImageRegion2{
-    width: 50%;
-    display: flex;
-    align-items: center;
-
-}
-.Section1PrivateImageRegion2 img{
-    width: 50%;
-}
-.Section1PrivateImageRegion2 div{
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-/*Text Region*/
-.Section1PrivateTextRegion2{
-    width: 40%;
-
-}
-.Section1PrivateTextRegion2 p{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-}
 
 
 /* Tablets Screen - Important */

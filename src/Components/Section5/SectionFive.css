@@ -1,88 +1,183 @@
-.SectionFive{
-    background-color: #DDF2F2;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
-    align-items: center;
+/* Ultra-Wide Screen - Important */
+@media (max-width: 2300px){
+    .SectionFive{
+        background-color: #DDF2F2;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 60px;
+        padding-right: 60px;
+        align-items: center;
+    }
+    .fiveTitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fiveTitle h2{
+        font-size: 75px;
+        font-weight: 700;
+    
+    }
+    .fiveTitle img{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 0.25%;
+    }
+    .fiveTitleHR{
+        display: none;
+    }
+    .fiveTitle h1{
+        width: 48%;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 88px;
+        font-weight: 400;
+        color: #977347;
+    }
+    .fiveimages{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .fiveimages img{
+        width: 28.4%;
+    }
+    .fiveCenterImage{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .fiveText{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .fiveText p{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 28px;
+        width: 51.8%;
+    }
+    .fiveboldtext{
+        font-weight: 600;
+    }
+    .fiveContact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    
+    }
+    .contactBtn{
+        background: #977347;
+        color: #fff;
+        padding: 25px 50px;
+        font-size: 28px;
+        font-weight: 700;
+        border-radius: 50px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
-.fiveTitle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.fiveTitle h2{
-    font-size: 36px;
-    font-weight: 700;
 
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .SectionFive{
+        background-color: #DDF2F2;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
+        align-items: center;
+    }
+    .fiveTitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fiveTitle h2{
+        font-size: 36px;
+        font-weight: 700;
+    
+    }
+    .fiveTitle img{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .fiveTitleHR{
+        display: none;
+    }
+    .fiveTitle h1{
+        width: 43%;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+        color: #977347;
+    }
+    .fiveimages{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .fiveimages img{
+        width: 25%;
+    }
+    .fiveCenterImage{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .fiveText{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .fiveText p{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 16px;
+        width: 48%;
+    }
+    .fiveboldtext{
+        font-weight: 600;
+    }
+    .fiveContact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    
+    }
+    .contactBtn{
+        background: #977347;
+        color: #fff;
+        padding: 16px 32px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 30px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
-.fiveTitle img{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.fiveTitleHR{
-    display: none;
-}
-.fiveTitle h1{
-    width: 43%;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 48px;
-    font-weight: 400;
-    color: #977347;
-}
-.fiveimages{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 30px;
-}
-.fiveimages img{
-    width: 25%;
-}
-.fiveCenterImage{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.fiveText{
-    margin-top: 30px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.fiveText p{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 16px;
-    width: 48%;
-}
-.fiveboldtext{
-    font-weight: 600;
-}
-.fiveContact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
 
-}
-.contactBtn{
-    background: #977347;
-    color: #fff;
-    padding: 16px 32px;
-    font-size: 16px;
-    font-weight: 700;
-    border-radius: 30px;
-    cursor: pointer;
-    border: 0;
-    outline: 0;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 
 /* Tablets Screen - Important */

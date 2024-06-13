@@ -1,58 +1,124 @@
-.Section2Interna{
-    margin-top: 38px;
-    margin-left: 290px;
-    margin-right: 290px;
-    margin-bottom: 72px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+/* Ultra-Wide Screen - Important */
+@media (max-width: 2300px){
+    .Section2Interna{
+        margin-top: 78px;
+        margin-left: 370px;
+        margin-right: 370px;
+        margin-bottom: 112px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .Section2Interna h1{
+        color: #4A4A4A;
+        font-weight: 700;
+        font-size: 65px;
+        text-align: center;
+        margin-bottom: 15px;
+    
+    
+    }
+    .Section2InternaDate{
+        color: #666666;
+        font-weight: 400;
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 30px;
+    
+    }
+    .Section2InternaP{
+        color: #666666;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 26px;
+    
+    }
+    .Section2InternaGrayBox{
+        padding: 13px;
+        border-radius: 16px;
+        background-color: #F1F1F1;
+        display: flex;
+        align-items: center;
+        width: 70%;
+    
+    
+    }
+    .Section2InternaGrayBox img{
+        margin-right: 10px;
+        margin-bottom: 15px;
+        width: 2%;
+    
+    }
+    .Section2InternaGrayBox p{
+        color: #666666;
+        font-weight: 700;
+        font-size: 24.5px;
+    }
 }
-.Section2Interna h1{
-    color: #4A4A4A;
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 8px;
 
-
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .Section2Interna{
+        margin-top: 38px;
+        margin-left: 290px;
+        margin-right: 290px;
+        margin-bottom: 72px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .Section2Interna h1{
+        color: #4A4A4A;
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 8px;
+    
+    
+    }
+    .Section2InternaDate{
+        color: #666666;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 16px;
+    
+    }
+    .Section2InternaP{
+        color: #666666;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    
+    }
+    .Section2InternaGrayBox{
+        padding: 13px;
+        border-radius: 16px;
+        background-color: #F1F1F1;
+        display: flex;
+        align-items: center;
+        width: 72%;
+    
+    
+    }
+    .Section2InternaGrayBox img{
+        margin-right: 10px;
+        margin-bottom: 15px;
+    
+    }
+    .Section2InternaGrayBox p{
+        color: #666666;
+        font-weight: 700;
+        font-size: 14px;
+    }
 }
-.Section2InternaDate{
-    color: #666666;
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
-    margin-bottom: 16px;
-
-}
-.Section2InternaP{
-    color: #666666;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 16px;
-
-}
-.Section2InternaGrayBox{
-    padding: 13px;
-    border-radius: 16px;
-    background-color: #F1F1F1;
-    display: flex;
-    align-items: center;
-    width: 72%;
 
 
-}
-.Section2InternaGrayBox img{
-    margin-right: 10px;
-    margin-bottom: 15px;
 
-}
-.Section2InternaGrayBox p{
-    color: #666666;
-    font-weight: 700;
-    font-size: 14px;
-}
 
 
 /* Tablets Screen - Important */

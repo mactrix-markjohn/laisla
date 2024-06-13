@@ -1,48 +1,104 @@
-.Section2About{
-    display: flex;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 120px;
-    margin-right: 120px;
+/* Ultra-Wide Screen - Important */
+@media (max-width: 2300px){
+    .Section2About{
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+        
+    }
+    .Section2ImageRegion{
+        width: 100%;
+        
     
+    }
+    .Section2ImageRegion img{
+        width: 85%;
+        
+    }
+    .Section2TextRegion{
+        width: 75%;
+    }
+    .Section2TextRegion h2{
+        font-size: 75px;
+        font-weight: 700;
+        margin-bottom: 26px;
+    }
+    .Section2TextRegion hr{
+        border: 2px solid #000;
+        width: 27%;
+        margin-bottom: 26px;
+    }
+    .Section2TextRegion h1{
+        font-family: "Bebas Neue", sans-serif;
+        color: #977347;
+        font-size: 88px;
+        line-height: 85px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        width: 98%;
+    }
+    .Section2TextRegion p{
+        font-weight: 300;
+        font-size: 28px;
+        width: 90%;
+        line-height: 40px;
+    }
 }
-.Section2ImageRegion{
-    width: 100%;
-    
 
-}
-.Section2ImageRegion img{
-    width: 85%;
+
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .Section2About{
+        display: flex;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-left: 120px;
+        margin-right: 120px;
+        
+    }
+    .Section2ImageRegion{
+        width: 100%;
+        
     
+    }
+    .Section2ImageRegion img{
+        width: 85%;
+        
+    }
+    .Section2TextRegion{
+        width: 75%;
+    }
+    .Section2TextRegion h2{
+        font-size: 38px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .Section2TextRegion hr{
+        border: 2px solid #000;
+        width: 24%;
+        margin-bottom: 17px;
+    }
+    .Section2TextRegion h1{
+        font-family: "Bebas Neue", sans-serif;
+        color: #977347;
+        font-size: 50px;
+        line-height: 55px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        width: 85%;
+    }
+    .Section2TextRegion p{
+        font-weight: 300;
+        font-size: 18px;
+        width: 90%;
+        line-height: 27px;
+    }
 }
-.Section2TextRegion{
-    width: 75%;
-}
-.Section2TextRegion h2{
-    font-size: 38px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-.Section2TextRegion hr{
-    border: 2px solid #000;
-    width: 24%;
-    margin-bottom: 17px;
-}
-.Section2TextRegion h1{
-    font-family: "Bebas Neue", sans-serif;
-    color: #977347;
-    font-size: 50px;
-    line-height: 55px;
-    font-weight: 400;
-    margin-bottom: 30px;
-    width: 85%;
-}
-.Section2TextRegion p{
-    font-weight: 300;
-    font-size: 18px;
-    width: 90%;
-    line-height: 27px;
-}
+
+
+
 
 /* Tablets Screen - Important */
 @media (max-width: 1200px){

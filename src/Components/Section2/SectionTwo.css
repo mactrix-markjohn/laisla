@@ -1,34 +1,77 @@
-.SectionTwo{
-    background-color: #EEE2D5;
-    margin-top: -5px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 120px;
-    padding-right: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+/* Ultra-Wide Screen - Important */
+@media (max-width: 2300px){
+    .SectionTwo{
+        background-color: #EEE2D5;
+        margin-top: -5px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 200px;
+        padding-right: 200px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .twocontent{
+        border-left: 1px solid #000;
+        padding-left: 24px;
+        padding-right: 70px;
+        width: 47%;
+    }
+    .twocontent h3{
+        font-weight: 600;
+        font-size: 35px;
+    
+    }
+    .twocontent p{
+        font-weight: 400;
+        font-size: 27px;
+        width: 100%;
+        margin-top: 30px;
+    
+    }
+    .SectionTwoMobileDivide{
+        display: none;
+    }
 }
-.twocontent{
-    border-left: 1px solid #000;
-    padding-left: 24px;
-    padding-right: 70px;
-    width: 47%;
-}
-.twocontent h3{
-    font-weight: 600;
-    font-size: 20px;
 
-}
-.twocontent p{
-    font-weight: 400;
-    font-size: 16px;
-    margin-top: 30px;
 
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+   
+    .SectionTwo{
+        background-color: #EEE2D5;
+        margin-top: -5px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 120px;
+        padding-right: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .twocontent{
+        border-left: 1px solid #000;
+        padding-left: 24px;
+        padding-right: 70px;
+        width: 47%;
+    }
+    .twocontent h3{
+        font-weight: 600;
+        font-size: 20px;
+    
+    }
+    .twocontent p{
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 30px;
+    
+    }
+    .SectionTwoMobileDivide{
+        display: none;
+    }
 }
-.SectionTwoMobileDivide{
-    display: none;
-}
+
+
 
 
 /* Tablets Screen - Important */
