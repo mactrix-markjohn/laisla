@@ -1,5 +1,5 @@
 /* Ultra-Wide Screen - Important */
-@media (max-width: 2300px){
+@media (min-width: 1901px){
     .Section4Interna{
         padding-top: 74px;
         padding-bottom: 74px;

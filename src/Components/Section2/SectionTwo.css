@@ -1,5 +1,5 @@
 /* Ultra-Wide Screen - Important */
-@media (max-width: 2300px){
+@media (min-width: 1901px){
     .SectionTwo{
         background-color: #EEE2D5;
         margin-top: -5px;

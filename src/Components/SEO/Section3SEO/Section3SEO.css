@@ -1,5 +1,5 @@
 /* Ultra-Wide Screen - Important */
-@media (max-width: 2300px){
+@media (min-width: 1901px){
     .Section3SEO{
         background-color: #F1F1F1;
         padding: 100px 230px;
