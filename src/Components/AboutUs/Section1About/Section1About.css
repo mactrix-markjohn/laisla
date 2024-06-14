@@ -1,5 +1,5 @@
 /* Ultra-Wide Screen - Important */
-@media (max-width: 50000px){
+@media (min-width: 1901px){
 
     .Section1About{
         background-color: #EEE2D5;
@@ -74,6 +74,7 @@
         font-family: "Bebas Neue", sans-serif;
         font-size: 48px;
         font-weight: 400;
+        line-height: 48px;
         text-align: center;
         color: #977347;
     }
