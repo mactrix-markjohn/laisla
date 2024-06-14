@@ -113,3 +113,9 @@
         right: -200px;
     }
 }
+
+.active{
+    font-weight: 600;
+    text-decoration: underline;
+
+}
