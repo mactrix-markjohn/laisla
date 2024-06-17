@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link to={'/laisla'}><img src={logo} alt='' className='logo' /></Link>
         <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
             <Link to={'/laisla'}><li className={menu==="home" ? 'active' : ''} onClick={()=>setMenu("home")} >HOME</li></Link>
-            <Link to={'/laisla/PrivateLabel'}><li className={menu==="privatelabel" ? 'active' : ''} onClick={()=>setMenu("privatelabel")}>PRIVATE LABEL SWIMWEAR</li></Link>
+            <Link to={'/laisla/private-label-swimwear'}><li className={menu==="privatelabel" ? 'active' : ''} onClick={()=>setMenu("privatelabel")}>PRIVATE LABEL SWIMWEAR</li></Link>
             <Link to={'/laisla/AboutUs'}><li className={menu==="aboutus" ? 'active' : ''} onClick={()=>setMenu("aboutus")}>ABOUT US</li></Link>
             <Link to={'/laisla/Journal'}><li className={menu==="journal" ? 'active' : ''} onClick={()=>setMenu("journal")}>JOURNAL</li></Link>
             <Link to={'/laisla/ContactUs'}><li className={menu==="contactus" ? 'active' : ''} onClick={()=>setMenu("contactus")}>CONTACT US</li></Link>

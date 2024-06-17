@@ -1,4 +1,3 @@
-import React from 'react'
 import './Section1PrivateLabel.css'
 import model from '../../../assets/privatefirstmodel.png'
 import modelsecond1 from '../../../assets/privatesecondmodel1.png'
