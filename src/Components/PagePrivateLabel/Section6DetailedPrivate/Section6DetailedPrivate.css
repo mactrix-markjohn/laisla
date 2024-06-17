@@ -1,0 +1,202 @@
+/* Ultra-Wide Screen - Important */
+@media (min-width: 1901px){
+    .Section6DetailedPrivate{
+        margin-top: 109px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 109px;
+    
+    }
+    .Section6DetailedPrivate h2{
+        margin-bottom: 16px;
+        text-align: center;
+        color: #000;
+        font-weight: 700;
+        font-size: 70px;
+    
+    }
+    .Section6DetailedPrivate p{
+        color: #666666;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+    
+    }
+    .Section6DetailedPrivateFirstP{
+        margin-bottom: 60px;
+        
+    
+    
+    }
+    
+    .Section6DetailedPrivateRow{
+        margin-bottom: 60px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .Section6DetailedPrivateRow img{
+        width: 40%;
+        margin-right: 16px;
+    
+    }
+    .Section6DetailedPrivateRow p{
+        width: 100%;
+    
+    }
+}
+
+
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .Section6DetailedPrivate{
+        margin-top: 69px;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-bottom: 69px;
+    
+    }
+    .Section6DetailedPrivate h2{
+        margin-bottom: 16px;
+        text-align: center;
+        color: #000;
+        font-weight: 700;
+        font-size: 36px;
+    
+    }
+    .Section6DetailedPrivate p{
+        color: #666666;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+    
+    }
+    .Section6DetailedPrivateFirstP{
+        margin-bottom: 40px;
+        
+    
+    
+    }
+    
+    .Section6DetailedPrivateRow{
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .Section6DetailedPrivateRow img{
+        width: 40%;
+        margin-right: 16px;
+    
+    }
+    .Section6DetailedPrivateRow p{
+        width: 100%;
+    
+    }
+}
+
+
+
+
+
+
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+    .Section6DetailedPrivate{
+        margin-top: 39px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 39px;
+    
+    }
+    .Section6DetailedPrivate h2{
+        margin-bottom: 16px;
+        text-align: center;
+        color: #000;
+        font-weight: 700;
+        font-size: 28px;
+    
+    }
+    .Section6DetailedPrivate p{
+        color: #666666;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+    
+    }
+    .Section6DetailedPrivateFirstP{
+        margin-bottom: 20px;
+        
+    
+    
+    }
+    
+    .Section6DetailedPrivateRow{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .Section6DetailedPrivateRow img{
+        width: 40%;
+        margin-right: 16px;
+    
+    }
+    .Section6DetailedPrivateRow p{
+        width: 100%;
+    
+    }
+}
+
+
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+    .Section6DetailedPrivate{
+        margin-top: 69px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 69px;
+    
+    }
+    .Section6DetailedPrivate h2{
+        margin-bottom: 16px;
+        text-align: center;
+        color: #000;
+        font-weight: 700;
+        font-size: 28px;
+    
+    }
+    .Section6DetailedPrivate p{
+        color: #666666;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    
+    }
+    .Section6DetailedPrivateFirstP{
+        margin-bottom: 40px;
+        
+    
+    
+    }
+    
+    .Section6DetailedPrivateRow{
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    
+    }
+    .Section6DetailedPrivateRow img{
+        width: 100%;
+        margin-bottom: 39px;
+    
+    }
+    .Section6DetailedPrivateRow p{
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+    
+    }
+}

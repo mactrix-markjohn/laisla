@@ -1,0 +1,360 @@
+/* Ultra-Wide Screen - Important */
+@media (min-width: 1901px){
+    .SectionTestimonialPrivate{
+        background-color: #F1F1F1;
+        padding: 100px 230px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* The Prev and Next Buttons*/
+    .SectionTestimonialPrivateBtnPrev{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    .SectionTestimonialPrivateBtnPrev img{
+        width: 400%;
+    }
+    .SectionTestimonialPrivateBtnNext{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    .SectionTestimonialPrivateBtnNext img{
+        width: 400%;
+    }
+    
+    /* The Text Region */
+    .SectionTestimonialPrivateTextRegion{
+        margin-right: 140px;
+        margin-left: 140px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    /* The Left and Right Quote image */
+    .SectionTestimonialPrivateQuoteLeft{
+        margin-top: -175px;
+        width: 6%;
+    }
+    .SectionTestimonialPrivateQuoteRight{
+        margin-bottom: -135px;
+        width: 6%;
+        
+    }
+    
+    /* The main Text content */
+    .SectionTestimonialPrivateTextContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 59%;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .SectionTestimonialPrivateTextContent h2{
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 80px;
+        text-align: center;
+        width: 100%;
+    }
+    .SectionTestimonialPrivateNormText{
+        margin-bottom: 56px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+    
+    }
+    .SectionTestimonialPrivateTextContent h3{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    .SectionTestimonialPrivateTextContent hr{
+        border: 0.5px solid #977347;
+        margin-bottom: 6px;
+        width: 20.5%;
+    }
+    
+    .SectionTestimonialPrivateBrownText{
+        color: #977347;
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+}
+
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .SectionTestimonialPrivate{
+        background-color: #F1F1F1;
+        padding: 60px 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* The Prev and Next Buttons*/
+    .SectionTestimonialPrivateBtnPrev{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    .SectionTestimonialPrivateBtnNext{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    
+    /* The Text Region */
+    .SectionTestimonialPrivateTextRegion{
+        margin-right: 140px;
+        margin-left: 140px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    /* The Left and Right Quote image */
+    .SectionTestimonialPrivateQuoteLeft{
+        margin-top: -125px;
+    }
+    .SectionTestimonialPrivateQuoteRight{
+        margin-bottom: -45px;
+        
+    }
+    
+    /* The main Text content */
+    .SectionTestimonialPrivateTextContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 64%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .SectionTestimonialPrivateTextContent h2{
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 47px;
+        text-align: center;
+        width: 100%;
+    }
+    .SectionTestimonialPrivateNormText{
+        margin-bottom: 56px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+    
+    }
+    .SectionTestimonialPrivateTextContent h3{
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    .SectionTestimonialPrivateTextContent hr{
+        border: 0.5px solid #977347;
+        margin-bottom: 6px;
+        width: 16.5%;
+    }
+    
+    .SectionTestimonialPrivateBrownText{
+        color: #977347;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+
+    .SectionTestimonialPrivate{
+        background-color: #F1F1F1;
+        padding: 40px 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* The Prev and Next Buttons*/
+    .SectionTestimonialPrivateBtnPrev{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    .SectionTestimonialPrivateBtnNext{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    
+    /* The Text Region */
+    .SectionTestimonialPrivateTextRegion{
+        margin-right: 30px;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    /* The Left and Right Quote image */
+    .SectionTestimonialPrivateQuoteLeft{
+        margin-top: -125px;
+        width: 8%;
+    }
+    .SectionTestimonialPrivateQuoteRight{
+        margin-bottom: -45px;
+        width: 8%;
+        
+    }
+    
+    /* The main Text content */
+    .SectionTestimonialPrivateTextContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 64%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .SectionTestimonialPrivateTextContent h2{
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 32px;
+        text-align: center;
+        width: 100%;
+    }
+    .SectionTestimonialPrivateNormText{
+        margin-bottom: 36px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+    
+    }
+    .SectionTestimonialPrivateTextContent h3{
+        font-size: 10px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    .SectionTestimonialPrivateTextContent hr{
+        border: 0.5px solid #977347;
+        margin-bottom: 6px;
+        width: 21.5%;
+    }
+    
+    .SectionTestimonialPrivateBrownText{
+        color: #977347;
+        font-size: 10px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+
+    .SectionTestimonialPrivate{
+        background-color: #F1F1F1;
+        padding: 24px 16px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* The Prev and Next Buttons*/
+    .SectionTestimonialPrivateBtnPrev{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    .SectionTestimonialPrivateBtnNext{
+        border: 0px solid transparent;
+        color: transparent;
+    }
+    
+    /* The Text Region */
+    .SectionTestimonialPrivateTextRegion{
+        margin-right: 0px;
+        margin-left: 0px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    /* The Left and Right Quote image */
+    .SectionTestimonialPrivateQuoteLeft{
+        margin-top: -102%;
+        width: 10%;
+    }
+    .SectionTestimonialPrivateQuoteRight{
+        margin-bottom: -70%;
+        width: 10%;
+        
+    }
+    
+    /* The main Text content */
+    .SectionTestimonialPrivateTextContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .SectionTestimonialPrivateTextContent h2{
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        width: 100%;
+    }
+    .SectionTestimonialPrivateNormText{
+        margin-bottom: 42px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        width: 78%;
+    
+    }
+    .SectionTestimonialPrivateTextContent h3{
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    .SectionTestimonialPrivateTextContent hr{
+        border: 0.5px solid #977347;
+        margin-bottom: 6px;
+        width: 50.5%;
+    }
+    
+    .SectionTestimonialPrivateBrownText{
+        color: #977347;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+}

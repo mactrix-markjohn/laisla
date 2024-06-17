@@ -1,0 +1,201 @@
+/* Ultra-Wide Screen - Important */
+@media (min-width: 1901px){
+    .Section1AbovePrivate{
+        margin-top: 60px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .Section1AbovePrivateimg{
+        width: 100%;
+    }
+    .Section1AbovePrivateimgmobile{
+        display: none;
+    }
+    .Section1AbovePrivateContent{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        
+    }
+    .Section1AbovePrivateContent h1{
+        color: #FFF;
+        font-size: 75px;
+        font-weight: 700;
+        text-align: center;
+        width: 60%;
+        margin-bottom: 21px;
+        
+    }
+    .Section1AbovePrivateButton{
+        background: #6BCACA;
+        color: #fff;
+        padding: 25px 50px;
+        font-size: 28px;
+        font-weight: 700;
+        border-radius: 50px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .Section1AbovePrivate{
+        margin-top: 60px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .Section1AbovePrivateimg{
+        width: 100%;
+    }
+    .Section1AbovePrivateimgmobile{
+        display: none;
+    }
+    .Section1AbovePrivateContent{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        
+    }
+    .Section1AbovePrivateContent h1{
+        color: #FFF;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+        width: 60%;
+        margin-bottom: 21px;
+        
+    }
+    .Section1AbovePrivateButton{
+        background: #6BCACA;
+        color: #fff;
+        padding: 16px 32px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 30px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    } 
+}
+
+
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+    .Section1AbovePrivate{
+        margin-top: 60px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .Section1AbovePrivateimg{
+        width: 100%;
+    }
+    .Section1AbovePrivateimgmobile{
+        display: none;
+    }
+    .Section1AbovePrivateContent{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        
+    }
+    .Section1AbovePrivateContent h1{
+        color: #FFF;
+        font-size: 23px;
+        font-weight: 700;
+        text-align: center;
+        width: 60%;
+        margin-bottom: 21px;
+        
+    }
+    .Section1AbovePrivateButton{
+        background: #6BCACA;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 10px;
+        font-weight: 700;
+        border-radius: 30px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+    .Section1AbovePrivate{
+        margin-top: 60px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .Section1AbovePrivateimg{
+        width: 100%;
+        display: none;
+    }
+    .Section1AbovePrivateimgmobile{
+        display: block;
+        width: 100%;
+    }
+    .Section1AbovePrivateContent{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70%;
+        margin-left: 35px;
+        margin-right: 35px;
+        
+    }
+    .Section1AbovePrivateContent h1{
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 21px;
+        
+    }
+    .Section1AbovePrivateButton{
+        background: #6BCACA;
+        color: #fff;
+        padding: 16px 32px;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 30px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }  
+}

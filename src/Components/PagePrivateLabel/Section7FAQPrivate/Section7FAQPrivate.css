@@ -1,0 +1,192 @@
+/* Ultra-Wide Screen - Important */
+@media (min-width: 1901px){
+    .Section7FAQPrivateLabel{
+        background-color: #EEE2D5;
+        padding-top: 100px;
+        padding-bottom: 80px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    
+    
+    .Section7FAQPrivateLabel h2{
+        font-size: 66px;
+        font-weight: 700;
+        margin-bottom: 17px;
+        width: 64%;
+    }
+    .Section7FAQPrivateLabel hr{
+        border: 2px solid #000;
+        width: 10.5%;
+        margin-bottom: 50px;
+    }
+    .Section3Grid{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .Section7FAQPrivateCheckText{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .Section7FAQPrivateCheckText div{
+        margin-right: 20px;
+    }
+
+
+    .Section7FAQPrivateCheckText p{
+        width: 100%;
+        line-height: 40px;
+        font-size: 28px;
+        font-weight: 400;
+    }
+    
+}
+
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .Section7FAQPrivateLabel{
+        background-color: #EEE2D5;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 120px;
+        padding-right: 120px;
+    
+    
+    }
+    
+    
+    .Section7FAQPrivateLabel h2{
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 17px;
+        width: 60%;
+    }
+    .Section7FAQPrivateLabel hr{
+        border: 2px solid #000;
+        width: 8%;
+        margin-bottom: 50px;
+    }
+    .Section3Grid{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .Section7FAQPrivateCheckText{
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        margin-bottom: 30px;
+    }
+    .Section7FAQPrivateCheckText div{
+        margin-right: 20px;
+    }
+    .Section7FAQPrivateCheckText p{
+        width: 97%;
+        line-height: 25px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+}
+
+
+
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+    .Section7FAQPrivateLabel{
+        background-color: #EEE2D5;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    
+    
+    .Section7FAQPrivateLabel h2{
+        font-size: 23px;
+        font-weight: 700;
+        margin-bottom: 17px;
+        width: 65%;
+    }
+    .Section7FAQPrivateLabel hr{
+        border: 1.4px solid #000;
+        width: 10%;
+        margin-bottom: 30px;
+    }
+    .Section3Grid{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .Section7FAQPrivateCheckText{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-bottom: 10px;
+    }
+    .Section7FAQPrivateCheckText div{
+        margin-right: 15px;
+    }
+    .Section7FAQPrivateCheckText p{
+        width: 97%;
+        line-height: 25px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+
+
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+    .Section7FAQPrivateLabel{
+        background-color: #EEE2D5;
+        padding-top: 48px;
+        padding-bottom: 48px;
+        padding-left: 16px;
+        padding-right: 16px;
+    
+    
+    }
+    
+    
+    .Section7FAQPrivateLabel h2{
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .Section7FAQPrivateLabel hr{
+        border: 1.45px solid #000;
+        width: 28%;
+        margin-bottom: 50px;
+    }
+    .Section3Grid{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+    .Section7FAQPrivateCheckText{
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        margin-bottom: 24px;
+    }
+    .Section7FAQPrivateCheckText div{
+        margin-right: 20px;
+    }
+    .Section7FAQPrivateCheckText p{
+        width: 97%;
+        line-height: 25px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
