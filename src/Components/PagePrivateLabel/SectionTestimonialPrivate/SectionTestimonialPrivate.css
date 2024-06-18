@@ -2,7 +2,7 @@
 @media (min-width: 1901px){
     .SectionTestimonialPrivate{
         background-color: #F1F1F1;
-        padding: 100px 230px;
+        padding: 100px 130px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -11,6 +11,7 @@
     .SectionTestimonialPrivateBtnPrev{
         border: 0px solid transparent;
         color: transparent;
+        display: none;
     }
     .SectionTestimonialPrivateBtnPrev img{
         width: 400%;
@@ -18,6 +19,7 @@
     .SectionTestimonialPrivateBtnNext{
         border: 0px solid transparent;
         color: transparent;
+        display: none;
     }
     .SectionTestimonialPrivateBtnNext img{
         width: 400%;
@@ -25,16 +27,17 @@
     
     /* The Text Region */
     .SectionTestimonialPrivateTextRegion{
-        margin-right: 140px;
-        margin-left: 140px;
+        margin-right: 40px;
+        margin-left: 40px;
         display: flex;
         justify-content: center;
         align-content: center;
+        width: 100%;
     
     }
     
     /* The Left and Right Quote image */
-    .SectionTestimonialPrivateQuoteLeft{
+    /* .SectionTestimonialPrivateQuoteLeft{
         margin-top: -175px;
         width: 6%;
     }
@@ -42,7 +45,7 @@
         margin-bottom: -135px;
         width: 6%;
         
-    }
+    } */
     
     /* The main Text content */
     .SectionTestimonialPrivateTextContent{
@@ -50,9 +53,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 59%;
-        margin-left: 60px;
-        margin-right: 60px;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .SectionTestimonialPrivateTextContent h2{
         margin-bottom: 10px;
@@ -63,33 +66,63 @@
         width: 100%;
     }
 
-    /*.SectionTestimonialPrivateslider{
-        overflow: hidden;
-    }
-
-    .SectionTestimonialPrivateslider ul{
+    .swiper {
+        width: 100%;
+        height: 100%;
+        background-color: #F1F1F1;
+      }
+      
+      .swiper-slide {
+        background: #fff;
+      
+        /* Center slide text vertically */
         display: flex;
-        width: 200%;
-        overflow-x: hidden;
-        transition: 0.5s;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 250px;
+        background-color: #F1F1F1;
+      }
+
+      .swiper .swiper-button-prev, .swiper .swiper-button-next{
+        color: #fff;
+        background-color: #977347;
+        padding: 25px;
+        border-radius: 50px;
+        
+      }
+      
+    .swiper .swiper-slide .SectionTestimonialPrivateslider{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
     }
 
-    .SectionTestimonialPrivateslider ul li{
-        list-style: none;
-        width: 50%;
-        padding: 20px;
+    
+
+    /* The Left and Right Quote image */
+    .swiper .swiper-slide .SectionTestimonialPrivateQuoteLeft{
+        margin-top: -255px;
+        width: 8%;
+
+    }
+    .swiper .swiper-slide .SectionTestimonialPrivateQuoteRight{
+        margin-bottom: -85px;
+        width: 8%;
     }
 
-    .SectionTestimonialPrivateslide{
+    .swiper .swiper-slide .SectionTestimonialPrivateslide{
 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
 
-    }*/
-
-    
+    }
 
     .SectionTestimonialPrivateNormText{
         margin-bottom: 56px;
@@ -117,6 +150,33 @@
         font-weight: 400;
         text-align: center;
     }
+
+
+    /*.SectionTestimonialPrivateslider{
+        overflow: hidden;
+    }
+
+    .SectionTestimonialPrivateslider ul{
+        display: flex;
+        width: 200%;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .SectionTestimonialPrivateslider ul li{
+        list-style: none;
+        width: 50%;
+        padding: 20px;
+    }
+
+    .SectionTestimonialPrivateslide{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }*/
     
 }
 
@@ -124,7 +184,7 @@
 @media (max-width: 1900px){
     .SectionTestimonialPrivate{
         background-color: #F1F1F1;
-        padding: 60px 150px;
+        padding: 60px 100px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -134,6 +194,7 @@
         border: 0px solid transparent;
         color: transparent;
         display: none;
+
     }
     .SectionTestimonialPrivateBtnNext{
         border: 0px solid transparent;
@@ -143,23 +204,16 @@
     
     /* The Text Region */
     .SectionTestimonialPrivateTextRegion{
-        margin-right: 0px;
-        margin-left: 0px;
+        margin-right: 10px;
+        margin-left: 10px;
         display: flex;
         justify-content: center;
         align-content: center;
+        width: 100%;
     
     }
     
-    /* The Left and Right Quote image */
-    .SectionTestimonialPrivateQuoteLeft{
-        margin-top: -125px;
-
-    }
-    .SectionTestimonialPrivateQuoteRight{
-        margin-bottom: -45px;
-        
-    }
+    
     
     /* The main Text content */
     .SectionTestimonialPrivateTextContent{
@@ -167,7 +221,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 64%;
+        width: 100%;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -180,52 +234,65 @@
         width: 100%;
     }
 
-    .testimonial{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    
-
-    
-    
-    /*
-
-    .SectionTestimonialPrivateslider{
-        overflow: hidden;
+    .swiper {
         width: 100%;
+        height: 100%;
+        background-color: #F1F1F1;
+      }
+      
+      .swiper-slide {
+        text-align: center;
+        font-size: 98px;
+        background: #fff;
+      
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 140px;
+        background-color: #F1F1F1;
+      }
+      
+      .swiper .swiper-button-prev, .swiper .swiper-button-next{
+        color: #fff;
+        background-color: #977347;
+        padding: 25px;
+        border-radius: 50px;
+        
+      }
+
+    .swiper .swiper-slide .SectionTestimonialPrivateslider{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         
     }
 
-    .SectionTestimonialPrivateslider ul{
-        display: flex;
-        align-items: start;
-        justify-content: start;
-        width: 200%;
-        overflow-x: hidden;
-        transition: 0.5s;
+    
+
+    /* The Left and Right Quote image */
+    .swiper .swiper-slide .SectionTestimonialPrivateQuoteLeft{
+        margin-top: -150px;
+        width: 10%;
+
+    }
+    .swiper .swiper-slide .SectionTestimonialPrivateQuoteRight{
+        margin-bottom: -85px;
+        width: 10%;
     }
 
-    .SectionTestimonialPrivateslider ul li{
-        list-style: none;
-        width: 100%;
-        padding: 4px;
-    }
-
-    .SectionTestimonialPrivateslide{
+    .swiper .swiper-slide .SectionTestimonialPrivateslide{
 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
 
     }
-    
-    */
-
    
 
     .SectionTestimonialPrivateNormText{
@@ -254,6 +321,36 @@
         font-weight: 400;
         text-align: center;
     }
+
+
+    /*
+
+    .SectionTestimonialPrivateslider ul{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        width: 200%;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .SectionTestimonialPrivateslider ul li{
+        list-style: none;
+        width: 100%;
+        padding: 4px;
+    }
+
+    .SectionTestimonialPrivateslide{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+    
+    */
     
 }
 
@@ -284,8 +381,8 @@
     
     /* The Text Region */
     .SectionTestimonialPrivateTextRegion{
-        margin-right: 30px;
-        margin-left: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -293,7 +390,7 @@
     }
     
     /* The Left and Right Quote image */
-    .SectionTestimonialPrivateQuoteLeft{
+    /* .SectionTestimonialPrivateQuoteLeft{
         margin-top: -125px;
         width: 8%;
     }
@@ -301,7 +398,7 @@
         margin-bottom: -45px;
         width: 8%;
         
-    }
+    } */
     
     /* The main Text content */
     .SectionTestimonialPrivateTextContent{
@@ -309,9 +406,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 64%;
-        margin-left: 30px;
-        margin-right: 30px;
+        width: 94%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .SectionTestimonialPrivateTextContent h2{
         margin-bottom: 10px;
@@ -322,31 +419,65 @@
         width: 100%;
     }
 
-    /*.SectionTestimonialPrivateslider{
-        overflow: hidden;
-    }
-
-    .SectionTestimonialPrivateslider ul{
+    .swiper {
+        width: 100%;
+        height: 100%;
+        background-color: #F1F1F1;
+      }
+      
+      .swiper-slide {
+        background: #fff;
+      
+        /* Center slide text vertically */
         display: flex;
-        width: 200%;
-        overflow-x: hidden;
-        transition: 0.5s;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 80px;
+        background-color: #F1F1F1;
+      }
+
+      swiper .swiper-button-prev, .swiper .swiper-button-next{
+        color: #fff;
+        background-color: #977347;
+        padding: 25px;
+        border-radius: 50px;
+        
+      }
+
+    .swiper .swiper-slide .SectionTestimonialPrivateslider{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
     }
 
-    .SectionTestimonialPrivateslider ul li{
-        list-style: none;
-        width: 50%;
-        padding: 20px;
+    
+
+    /* The Left and Right Quote image */
+    .swiper .swiper-slide .SectionTestimonialPrivateQuoteLeft{
+        margin-top: -100px;
+        width: 40px;
+
+    }
+    .swiper .swiper-slide .SectionTestimonialPrivateQuoteRight{
+        margin-bottom: -40px;
+        width: 40px;
     }
 
-    .SectionTestimonialPrivateslide{
+    .swiper .swiper-slide .SectionTestimonialPrivateslide{
 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
 
-    }*/
+    }
+
+    
     
 
 
@@ -376,6 +507,32 @@
         font-weight: 400;
         text-align: center;
     }
+
+    /*.SectionTestimonialPrivateslider{
+        overflow: hidden;
+    }
+
+    .SectionTestimonialPrivateslider ul{
+        display: flex;
+        width: 200%;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .SectionTestimonialPrivateslider ul li{
+        list-style: none;
+        width: 50%;
+        padding: 20px;
+    }
+
+    .SectionTestimonialPrivateslide{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }*/
 }
 
 
@@ -394,10 +551,12 @@
     .SectionTestimonialPrivateBtnPrev{
         border: 0px solid transparent;
         color: transparent;
+        display: none;
     }
     .SectionTestimonialPrivateBtnNext{
         border: 0px solid transparent;
         color: transparent;
+        display: none;
     }
     
     /* The Text Region */
@@ -412,7 +571,7 @@
     }
     
     /* The Left and Right Quote image */
-    .SectionTestimonialPrivateQuoteLeft{
+    /* .SectionTestimonialPrivateQuoteLeft{
         margin-top: -122%;
         width: 10%;
     }
@@ -420,7 +579,7 @@
         margin-bottom: -75%;
         width: 10%;
         
-    }
+    } */
     
     /* The main Text content */
     .SectionTestimonialPrivateTextContent{
@@ -428,7 +587,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 85%;
+        width: 100%;
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -440,6 +599,96 @@
         text-align: center;
         width: 100%;
     }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+        background-color: #F1F1F1;
+      }
+      
+      .swiper-slide {
+        background: #fff;
+      
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        background-color: #F1F1F1;
+      }
+
+      swiper .swiper-button-prev, .swiper .swiper-button-next{
+        color: #fff;
+        background-color: #977347;
+        padding: 25px;
+        border-radius: 50px;
+        
+      }
+
+    .swiper .swiper-slide .SectionTestimonialPrivateslider{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    
+
+    /* The Left and Right Quote image */
+    .swiper .swiper-slide .SectionTestimonialPrivateQuoteLeft{
+        margin-top: -100%;
+        width: 10%;
+
+    }
+    .swiper .swiper-slide .SectionTestimonialPrivateQuoteRight{
+        margin-bottom: -100%;
+        width: 10%;
+    }
+
+    .swiper .swiper-slide .SectionTestimonialPrivateslide{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    
+    
+
+    .SectionTestimonialPrivateNormText{
+        margin-bottom: 42px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        width: 100%;
+    
+    }
+    .SectionTestimonialPrivateTextContent h3{
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    .SectionTestimonialPrivateTextContent hr{
+        border: 0.5px solid #977347;
+        margin-bottom: 6px;
+        width: 50.5%;
+    }
+    
+    .SectionTestimonialPrivateBrownText{
+        color: #977347;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+
 
     /*.SectionTestimonialPrivateslider{
         overflow: hidden;
@@ -467,33 +716,4 @@
 
     }*/
 
-    
-
-    .SectionTestimonialPrivateNormText{
-        margin-bottom: 42px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 22px;
-        text-align: center;
-        width: 78%;
-    
-    }
-    .SectionTestimonialPrivateTextContent h3{
-        font-size: 14px;
-        font-weight: 700;
-        text-align: center;
-        margin-bottom: 4px;
-    }
-    .SectionTestimonialPrivateTextContent hr{
-        border: 0.5px solid #977347;
-        margin-bottom: 6px;
-        width: 50.5%;
-    }
-    
-    .SectionTestimonialPrivateBrownText{
-        color: #977347;
-        font-size: 14px;
-        font-weight: 400;
-        text-align: center;
-    }
 }
