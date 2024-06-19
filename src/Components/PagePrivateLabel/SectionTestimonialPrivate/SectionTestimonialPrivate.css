@@ -83,13 +83,46 @@
         background-color: #F1F1F1;
       }
 
-      .swiper .swiper-button-prev, .swiper .swiper-button-next{
+
+      .SectionTestimonialPrivateBtnArrangement{
+        width: 100%;
+        margin-top: 10px;
+ 
+       }
+       .SectionTestimonialPrivateBtnSwiper{
+         padding: 40px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+       }
+       .swiper-div{
+         margin-right: 2rem;
+       }
+       .swiper-button-prev, .swiper-button-next{
+         top: unset !important;
+         left: unset !important;
+         bottom: unset !important;
+         right: unset !important;
+         position: unset !important;
+         z-index: unset !important;
+         
+         background-color: #977347;
+         padding: 2rem;
+         border-radius: 50px;
+       }
+       .swiper-button-prev:after, 
+       .swiper-button-next:after{
+         color: #fff;
+         font-size: 2rem !important;
+       }
+
+      /* .swiper .swiper-button-prev, .swiper .swiper-button-next{
         color: #fff;
         background-color: #977347;
         padding: 25px;
         border-radius: 50px;
         
-      }
+      } */
       
     .swiper .swiper-slide .SectionTestimonialPrivateslider{
         width: 100%;
@@ -250,16 +283,50 @@
         justify-content: space-between;
         align-items: center;
         padding: 10px 140px;
-        background-color: #F1F1F1;
+        background-color: transparent;
       }
       
-      .swiper .swiper-button-prev, .swiper .swiper-button-next{
+      
+      .SectionTestimonialPrivateBtnArrangement{
+       width: 100%;
+       margin-top: 10px;
+
+      }
+      .SectionTestimonialPrivateBtnSwiper{
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .swiper-div{
+        margin-right: 20px;
+      }
+      .swiper-button-prev, .swiper-button-next{
+        top: unset !important;
+        left: unset !important;
+        bottom: unset !important;
+        right: unset !important;
+        position: unset !important;
+        z-index: unset !important;
+        
+        background-color: #977347;
+        padding: 25px;
+        border-radius: 50px;
+      }
+      .swiper-button-prev:after, 
+      .swiper-button-next:after{
+        color: #fff;
+        font-size: 24px !important;
+      }
+      
+      
+      /* .swiper .swiper-button-prev, .swiper .swiper-button-next{
         color: #fff;
         background-color: #977347;
         padding: 25px;
         border-radius: 50px;
         
-      }
+      } */
 
     .swiper .swiper-slide .SectionTestimonialPrivateslider{
         width: 100%;
@@ -436,13 +503,47 @@
         background-color: #F1F1F1;
       }
 
-      swiper .swiper-button-prev, .swiper .swiper-button-next{
+
+      .SectionTestimonialPrivateBtnArrangement{
+        width: 100%;
+        margin-top: 10px;
+ 
+       }
+       .SectionTestimonialPrivateBtnSwiper{
+         padding: 40px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+       }
+       .swiper-div{
+         margin-right: 20px;
+       }
+       .swiper-button-prev, .swiper-button-next{
+         top: unset !important;
+         left: unset !important;
+         bottom: unset !important;
+         right: unset !important;
+         position: unset !important;
+         z-index: unset !important;
+         
+         background-color: #977347;
+         padding: 25px;
+         border-radius: 50px;
+       }
+       .swiper-button-prev:after, 
+       .swiper-button-next:after{
+         color: #fff;
+         font-size: 24px !important;
+       }
+
+
+      /* swiper .swiper-button-prev, .swiper .swiper-button-next{
         color: #fff;
         background-color: #977347;
         padding: 25px;
         border-radius: 50px;
         
-      }
+      } */
 
     .swiper .swiper-slide .SectionTestimonialPrivateslider{
         width: 100%;
@@ -617,19 +718,54 @@
         background-color: #F1F1F1;
       }
 
-      swiper .swiper-button-prev, .swiper .swiper-button-next{
+
+      .SectionTestimonialPrivateBtnArrangement{
+        width: 100%;
+        margin-top: 0px;
+ 
+       }
+       .SectionTestimonialPrivateBtnSwiper{
+         padding: 40px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+       }
+       .swiper-div{
+         margin-right: 20px;
+       }
+       .swiper-button-prev, .swiper-button-next{
+         top: unset !important;
+         left: unset !important;
+         bottom: unset !important;
+         right: unset !important;
+         position: unset !important;
+         z-index: unset !important;
+         
+         background-color: #977347;
+         padding: 25px;
+         border-radius: 50px;
+       }
+       .swiper-button-prev:after, 
+       .swiper-button-next:after{
+         color: #fff;
+         font-size: 24px !important;
+       }
+
+
+
+      /* swiper .swiper-button-prev, .swiper .swiper-button-next{
         color: #fff;
         background-color: #977347;
         padding: 25px;
         border-radius: 50px;
         
-      }
+      } */
 
     .swiper .swiper-slide .SectionTestimonialPrivateslider{
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         
     }
 

@@ -14,9 +14,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 // import required modules
-import { Navigation } from 'swiper/modules';
+import { Navigation} from 'swiper/modules';
 
 const SectionTestimonialPrivate = () => {
 
@@ -89,7 +90,19 @@ const SectionTestimonialPrivate = () => {
     }
 ];
 
+// const SwiperNavButtons = () => {
+//   const swiper = useSwiper();
 
+//   return (
+//     <div className="swiper-nav-btns">
+//       <h2>Hello world</h2>
+//         <button  onClick={() => swiper.slidePrev()}>Prev</button>
+//       {/* {<button onClick={() => swiper.slidePrev()}>Prev</button>
+//       <button onClick={() => swiper.slideNext()}>Next</button>} */}
+//         <button  onClick={() => swiper.slideNext()}>Next</button>
+//     </div>
+//   );
+// };
 
 
   const slider = useRef();
@@ -122,16 +135,18 @@ const SectionTestimonialPrivate = () => {
             <div className='SectionTestimonialPrivateTextContent'>
                 <h2>Testimonials</h2>
                 <Swiper 
-                 navigation={true} 
+                 navigation={{
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                 }} 
                  modules={[Navigation]}
                  className="mySwiper"
-                 style={{
-                  "--swiper-navigation-color": "#fff",
-                  "--swiper-navigation-size": "24px",
-                }}
-                 >
-                
-                {testimonials.map((testimonial) => (
+                //  style={{
+                //   "--swiper-navigation-color": "#fff",
+                //   "--swiper-navigation-size": "24px",
+                // }}
+                >
+                  {testimonials.map((testimonial) => (
                         <SwiperSlide key={testimonial.id} className="testimonial" >
                           <div className='SectionTestimonialPrivateslider'>
 
@@ -151,6 +166,14 @@ const SectionTestimonialPrivate = () => {
                         </SwiperSlide>
                     ))}
                 </Swiper>
+
+                <div className='SectionTestimonialPrivateBtnArrangement'>
+                  <div className='SectionTestimonialPrivateBtnSwiper'>
+                    <div className='swiper-button-prev'></div>
+                    <div className='swiper-div'/>
+                    <div className='swiper-button-next'></div>
+                  </div>
+                </div>
 
                 {/*<Splide options={{ 
                   perPage: 1,
