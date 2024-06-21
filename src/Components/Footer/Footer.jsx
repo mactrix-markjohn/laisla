@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='contacts'>
                 <img src={laislaLogo} alt=''/>
                 <p className='contactText'>CONTACT US</p>
-                <hr className='contactshr'/>
+                <div className='contactshr'/>
                 <div className='phoneEmail'>
                     <p onClick={() => {window.location.href = 'mailto:hello@laislabrand.com'}}>hello@laislabrand.com</p>
                     <div/>
@@ -23,7 +23,7 @@ const Footer = () => {
 
             <div className='industries'>
                 <p className='industrytext'>PRIVATE LABEL SWIMWEAR</p>
-                <hr/>
+                <div className='industrieshr'/>
                 <div className='grid'>
                     <div>
                         <Link to={`/laisla/Journal/Article/How-to-start-your-own-swimwear-company`}><div className='gridcontent'>
