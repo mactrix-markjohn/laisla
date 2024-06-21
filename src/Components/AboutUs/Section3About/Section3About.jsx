@@ -10,7 +10,7 @@ const Section3About = () => {
                 At La Isla, we maintain exclusive partnerships with reputable Colombian and European suppliers to procure premium-quality fabrics, threads, hardware, and trims. Our longstanding relationships with these suppliers afford us preferential treatment, resulting in streamlined processes and enhanced brand offerings for our clients. <br/><br/><b>We look forward to the opportunity to collaborate with you and address your full package swimwear private label manufacturing needs.</b>
                 </p>
                 <div className='Section3AboutContact'>
-                  <button className='Section3AboutcontactBtn'>CONTACT US</button>
+                  <button className='Section3AboutcontactBtn' onClick={() => {window.location.href = 'mailto:hello@laislabrand.com'}}>CONTACT US</button>
                 </div>
             </div>
             <div className='Section3AboutImageRegion'>

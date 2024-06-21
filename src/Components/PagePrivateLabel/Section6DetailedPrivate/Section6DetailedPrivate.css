@@ -9,11 +9,17 @@
     }
     .Section6DetailedPrivate h2{
         margin-bottom: 16px;
-        text-align: center;
+        text-align: start;
         color: #000;
         font-weight: 700;
         font-size: 70px;
     
+    }
+
+    .Section6DetailedPrivate hr{
+        border: 2px solid #000;
+        width: 10.5%;
+        margin-bottom: 50px;
     }
     .Section6DetailedPrivate p{
         color: #666666;
@@ -27,6 +33,25 @@
         
     
     
+    }
+
+    .Section6DetailedPrivateCheckText, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText {
+        display: flex;
+        align-items: start;
+        margin-bottom: 20px;
+    }
+    .Section6DetailedPrivateCheckText img, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText img {
+        width: 45px;
+    }
+    .Section6DetailedPrivateCheckText div,
+    .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText div {
+        margin-right: 10px;
+    }
+    .Section6DetailedPrivateCheckText p,
+    .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText p{
+        width: 100%;
+        font-size: 27px;
+        font-weight: 400;
     }
     
     .Section6DetailedPrivateRow{
@@ -58,12 +83,19 @@
     }
     .Section6DetailedPrivate h2{
         margin-bottom: 16px;
-        text-align: center;
+        text-align: start;
         color: #000;
         font-weight: 700;
         font-size: 36px;
     
     }
+
+    .Section6DetailedPrivate hr{
+        border: 2px solid #000;
+        width: 8%;
+        margin-bottom: 50px;
+    }
+
     .Section6DetailedPrivate p{
         color: #666666;
         font-weight: 400;
@@ -77,6 +109,27 @@
     
     
     }
+
+    .Section6DetailedPrivateCheckText, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText {
+        display: flex;
+        align-items: start;
+        margin-bottom: 20px;
+    }
+    .Section6DetailedPrivateCheckText img, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText img {
+        width: 25px;
+    }
+    .Section6DetailedPrivateCheckText div,
+    .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText div {
+        margin-right: 10px;
+    }
+    .Section6DetailedPrivateCheckText p,
+    .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText p{
+        width: 100%;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    
     
     .Section6DetailedPrivateRow{
         margin-bottom: 40px;
@@ -84,7 +137,7 @@
         align-items: center;
     
     }
-    .Section6DetailedPrivateRow img{
+    .Section6DetailedPrivateRowimg{
         width: 40%;
         margin-right: 16px;
     
@@ -111,12 +164,19 @@
     }
     .Section6DetailedPrivate h2{
         margin-bottom: 16px;
-        text-align: center;
+        text-align: start;
         color: #000;
         font-weight: 700;
         font-size: 28px;
     
     }
+
+    .Section6DetailedPrivate hr{
+        border: 1.4px solid #000;
+        width: 10%;
+        margin-bottom: 30px;
+    }
+
     .Section6DetailedPrivate p{
         color: #666666;
         font-weight: 400;
@@ -130,6 +190,27 @@
     
     
     }
+
+
+    .Section6DetailedPrivateCheckText, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText {
+        display: flex;
+        align-items: start;
+        margin-bottom: 12px;
+    }
+    .Section6DetailedPrivateCheckText img, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText img {
+        width: 20px;
+    }
+    .Section6DetailedPrivateCheckText div,
+    .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText div {
+        margin-right: 8px;
+    }
+    .Section6DetailedPrivateCheckText p,
+    .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText p{
+        width: 100%;
+        font-size: 9px;
+        font-weight: 400;
+    }
+
     
     .Section6DetailedPrivateRow{
         margin-bottom: 20px;
@@ -137,7 +218,7 @@
         align-items: center;
     
     }
-    .Section6DetailedPrivateRow img{
+    .Section6DetailedPrivateRowimg{
         width: 40%;
         margin-right: 16px;
     
@@ -161,11 +242,17 @@
     }
     .Section6DetailedPrivate h2{
         margin-bottom: 16px;
-        text-align: center;
+        text-align: start;
         color: #000;
         font-weight: 700;
         font-size: 28px;
     
+    }
+
+    .Section6DetailedPrivate hr{
+        border: 1.45px solid #000;
+        width: 28%;
+        margin-bottom: 50px;
     }
     .Section6DetailedPrivate p{
         color: #666666;
@@ -180,6 +267,25 @@
     
     
     }
+
+    .Section6DetailedPrivateCheckText, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText {
+        display: flex;
+        align-items: start;
+        margin-bottom: 17px;
+    }
+    .Section6DetailedPrivateCheckText img, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText img {
+        width: 23px;
+    }
+    .Section6DetailedPrivateCheckText div,
+    .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText div {
+        margin-right: 8px;
+    }
+    .Section6DetailedPrivateCheckText p,
+    .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText p{
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+    }
     
     .Section6DetailedPrivateRow{
         margin-bottom: 40px;
@@ -188,7 +294,7 @@
         align-items: start;
     
     }
-    .Section6DetailedPrivateRow img{
+    .Section6DetailedPrivateRowimg{
         width: 100%;
         margin-bottom: 39px;
     

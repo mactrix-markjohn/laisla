@@ -16,17 +16,25 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 52px;
+        margin-left: 40px;
         margin-bottom: 80px;
     
     }
     .Section4OptionPrivateTop h2{
-        width: 92%;
+        width: 52%;
         font-weight: 700;
         font-size: 75px;
         line-height: 80px;
-        text-align: center;
-        margin-right: 0px;
+        text-align: start;
+        margin-right: 10px;
+    }
+
+    .Section4OptionPrivateTop p{
+        width: 40.9%;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: start;
     }
     
     .Section4OptionPrivateMiddle{
@@ -96,17 +104,24 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 0px;
+        margin-left: 100px;
         margin-bottom: 80px;
     
     }
     .Section4OptionPrivateTop h2{
-        width: 92%;
+        width: 42%;
         font-weight: 700;
         font-size: 36px;
         line-height: 45px;
-        text-align: center;
+        text-align: start;
         margin-right: 0px;
+    }
+    .Section4OptionPrivateTop p{
+        width: 39.3%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: start;
     }
     
     
@@ -119,7 +134,8 @@
         display: flex;
         align-items: start;
         justify-content: space-between;
-        width: 85%;
+        width: 80%;
+        margin-left: 120px;
         margin-bottom: 85px;
     }
     .Section4OptionPrivateItems{
@@ -189,14 +205,21 @@
     
     }
     .Section4OptionPrivateTop h2{
-        width: 97%;
+        width: 47%;
         font-weight: 700;
         font-size: 23px;
         line-height: 30px;
-        text-align: center;
-        margin-right: 0px;
+        text-align: start;
+        margin-right: 10px;
     }
     
+    .Section4OptionPrivateTop p{
+        width: 40.3%;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        text-align: start;
+    }
     
     
     
@@ -206,6 +229,7 @@
         border-radius: 24px;
         display: flex;
         align-items: start;
+        margin-left: 0px;
         justify-content: space-between;
         width: 90%;
         margin-bottom: 85px;
@@ -279,10 +303,16 @@
         font-size: 24px;
         line-height: 32px;
         margin-bottom: 32px;
-        text-align: center;
+        text-align: start;
     }
    
-    
+    .Section4OptionPrivateTop p{
+        width: 90%;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: start;
+    }
     
     
     .Section4OptionPrivateMiddle{

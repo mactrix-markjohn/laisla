@@ -7,7 +7,7 @@ const Section1About = () => {
   return (
     <div className='Section1About'>
         <div className='Section1AboutTitle'>
-            <h1>La Isla Fashion Group, LLC, headquartered in Portland, Oregon, operates manufacturing offices in Medellin, Colombia.</h1>
+            <h1>La Isla Fashion Group, LLC, headquartered in Oregon, operates manufacturing offices in Medellin, Colombia.</h1>
         </div>
         <div className='Section1Aboutimages'>
           <img src={modelorange} alt=''/>

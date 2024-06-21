@@ -5,6 +5,7 @@ const Section4OptionPrivate = () => {
     <div className='Section4OptionPrivate'>
       <div className='Section4OptionPrivateTop'>
         <h2>Private Label Swimwear Manufacturing Options</h2>
+        <p>Lorem ipsum dolor sit amet consectetur. Sem sodales vulputate non porta ante mauris fringilla non at. Ipsum id proin lectus eget venenatis facilisis adipiscing consectetur. Velit feugiat sit a egestas. Nunc parturient id pharetra porttitor aenean leo sit praesent.</p>
       </div>
 
       <div className='Section4OptionPrivateMiddle'>
