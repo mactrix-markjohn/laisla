@@ -25,7 +25,7 @@ const SectionFive = () => {
           <p className='fiveboldtext'>Reach out to us so we can help you embark on a journey of creativity, innovation, and sustainability!</p>
         </div>
         <div className='fiveContact'>
-          <button className='contactBtn'>CONTACT US</button>
+          <button className='contactBtn' onClick={() => {window.location.href = 'mailto:hello@laislabrand.com'}}>CONTACT US</button>
         </div>
     </div>
   )

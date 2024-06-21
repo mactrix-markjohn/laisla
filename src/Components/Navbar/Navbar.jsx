@@ -24,7 +24,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className='container whitenav'>
+    <nav className='mycontainer whitenav'>
         <Link to={'/laisla/'}><img src={logo} alt='' className='logo' /></Link>
         <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
             <Link to={'/laisla/'}><li className={menu==="/laisla/" ? 'active' : ''} onClick={()=>setMenu("/laisla/")} >HOME</li></Link>

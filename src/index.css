@@ -17,7 +17,7 @@ a{
   line-height: 1;
   cursor: pointer;
 }
-.container{
+.mycontainer{
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 15px;
@@ -30,7 +30,7 @@ a{
 /* -------- media query --------- */
 
 @media (max-width: 1200px){
-  .container{
+  .mycontainer{
     padding-left: 5%;
     padding-right: 5%;
   }

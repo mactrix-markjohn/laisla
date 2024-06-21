@@ -78,7 +78,7 @@
         margin-bottom: 179px;
     
     }
-    .Article3Interna h1{
+    .Article3Interna h2{
         margin-bottom: 16px;
         text-align: center;
         color: #4A4A4A;
@@ -124,7 +124,7 @@
         padding-right: 240px;
         background-color: #EEE2D5;
     }
-    .Article4Interna h1{
+    .Article4Interna h2{
         color: #977347;
         font-weight: 700;
         font-size: 75px;
@@ -271,7 +271,7 @@
         margin-bottom: 139px;
     
     }
-    .Article3Interna h1{
+    .Article3Interna h2{
         margin-bottom: 16px;
         text-align: center;
         color: #4A4A4A;
@@ -316,7 +316,7 @@
         padding-right: 200px;
         background-color: #EEE2D5;
     }
-    .Article4Interna h1{
+    .Article4Interna h2{
         color: #977347;
         font-weight: 700;
         font-size: 36px;
@@ -330,7 +330,7 @@
         margin-bottom: 32px;
     }
     .Article4InternaHR hr{
-        border: 1.5px solid #977347;
+        border: 2px solid #977347;
         width: 95px;
     }
     .Article4InternaContainer{
@@ -349,6 +349,7 @@
     .interna-format img{
         width: 50%;
         margin-right: 24px;
+        border-radius: 12px;
     
     
     }
@@ -358,16 +359,17 @@
     }
     .Article4InternaTitle{
         color: #000000;
-        font-weight: 700;
+        font-weight: 600;
         font-size: 14px;
         text-align: start;
-        margin-bottom: 12px;
+        margin-bottom: 20px;
+        line-height: 20px;
     
     }
     .interna-format hr{
-        border: 0.5px solid #977347;
+        border: 1px solid #977347;
         width: 40%;
-        margin-bottom: 12px;
+        margin-bottom: 20px;
     }
     .Article4InternaDate{
         color: #666666;
@@ -459,7 +461,7 @@
         margin-bottom: 109px;
     
     }
-    .Article3Interna h1{
+    .Article3Interna h2{
         margin-bottom: 16px;
         text-align: center;
         color: #4A4A4A;
@@ -504,7 +506,7 @@
         padding-right: 75px;
         background-color: #EEE2D5;
     }
-    .Article4Interna h1{
+    .Article4Interna h2{
         color: #977347;
         font-weight: 700;
         font-size: 23px;
@@ -646,7 +648,7 @@
         margin-bottom: 139px;
     
     }
-    .Article3Interna h1{
+    .Article3Interna h2{
         margin-bottom: 16px;
         text-align: center;
         color: #4A4A4A;
@@ -694,7 +696,7 @@
         padding-right: 16px;
         background-color: #EEE2D5;
     }
-    .Article4Interna h1{
+    .Article4Interna h2{
         color: #977347;
         font-weight: 700;
         font-size: 24px;

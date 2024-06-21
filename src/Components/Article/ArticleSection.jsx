@@ -2,7 +2,7 @@ import './ArticleSection.css'
 import hero from '../../assets/internatitle.png'
 import heromobile from '../../assets/internatitlemobile.png'
 
-import yellowquote from '../../assets/yellowquote.svg'
+//import yellowquote from '../../assets/yellowquote.svg'
 
 //import model from '../../assets/internasecond.png'
 import { useState } from 'react'
@@ -30,7 +30,7 @@ const ArticleSection = () => {
           j_body1: article1Body1,
           j_body2:article1Body2,
           j_body3:article1Body3,
-          j_date:"NOVEMBER 2, 2023"
+          j_date:"JUNE 30, 2024"
         },
         {
             j_no:"White-Label-Swimwear-Vs-Private-Label-Swimwear",
@@ -40,7 +40,7 @@ const ArticleSection = () => {
             j_body1: article2Body1,
             j_body2:article2Body2,
             j_body3:article2Body3,
-            j_date:"NOVEMBER 1, 2023"
+            j_date:"JUNE 29, 2024"
         },
         {
             j_no:"How-to-Find-the-Best-Swimwear-Factory-for-Your-Business-A-Guide-by-La-Isla",
@@ -50,7 +50,7 @@ const ArticleSection = () => {
             j_body1: article4Body1,
             j_body2:article4Body2,
             j_body3:article4Body3,
-            j_date:"FEBRUARY 21, 2023"
+            j_date:"JUNE 28, 2024"
         },
         {
             j_no:"How-To-Start-Your-Own-Swimwear-Company",
@@ -60,7 +60,7 @@ const ArticleSection = () => {
             j_body1: article3Body1,
             j_body2:article3Body2,
             j_body3:article3Body3,
-            j_date:"OCTOBER 14, 2020"
+            j_date:"JUNE 27, 2024"
         }
       ])
 
@@ -75,7 +75,7 @@ const ArticleSection = () => {
           j_body1:"BY LAISLABRAND THIS ARTICLE HAS BEEN UPDATED FOR 2023 I’m so thankful you have arrived here. I wrote this article to help you with valuable information on how to start your own swimwear company. As I reflect upon my journey spanning over two decades in the swimwear industry, I’m struck by how the landscape has evolved. This […]",
           j_body2:"",
           j_body3:"",
-          j_date:"NOVEMBER 2, 2023"
+          j_date:"JUNE 30, 2024"
         },
         {
             j_no:"How-To-Start-Your-Own-Swimwear-Company",
@@ -85,7 +85,7 @@ const ArticleSection = () => {
             j_body1:"BY LAISLABRAND By: Enrique Sánchez-Rivera, CEO LA ISLA Today marks my 20th year in the swimwear business. Over the past two decades, I have had my fair share of successes and failures, but the most important takeaway has been a crash course in persistence. Unlike many apparel companies, I started LA ISLA with no investors and bootstrapped […]",
             j_body2:"",
             j_body3:"",
-            j_date:"OCTOBER 14, 2020"
+            j_date:"JUNE 27, 2024"
         }
       ])
 
@@ -113,13 +113,13 @@ const ArticleSection = () => {
             <p className='Article2InternaDate'>{selectedArticle.j_date}</p>
             <p className='Article2InternaP'></p>
             <div className='Article2InternaGrayBox'>
-                <img src={yellowquote} alt=''/>
+                {/* <img src={yellowquote} alt=''/> */}
                 <p>{selectedArticle.j_subtitle}</p>
             </div>
         </div>
 
         <div className='Article3Interna'>
-            <h1></h1>
+            <h2></h2>
             <p className='Article3InternaFirstP' dangerouslySetInnerHTML={{ __html: selectedArticle.j_body1 }}></p>
             <div className='Article3InternaRow'>
                 <img src={selectedArticle.j_img} alt=''/>
@@ -130,7 +130,7 @@ const ArticleSection = () => {
 
 
         <div className='Article4Interna'>
-            <h1>Most read</h1>
+            <h2>Most read</h2>
             <div className='Article4InternaHR'>
                 <hr/>
             </div>

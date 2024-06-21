@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='contacts'>
                 <img src={laislaLogo} alt=''/>
                 <p className='contactText'>CONTACT US</p>
-                <hr/>
+                <hr className='contactshr'/>
                 <div className='phoneEmail'>
                     <p onClick={() => {window.location.href = 'mailto:hello@laislabrand.com'}}>hello@laislabrand.com</p>
                     <div/>
