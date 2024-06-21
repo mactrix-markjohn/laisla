@@ -53,25 +53,25 @@ const SectionTestimonialPrivate = () => {
       quote: "As a designer I am a perfectionist. Having said that, the amazing staff at LA ISLA, in particular Enrique Sanchez-Rivera have not only met my high expectations, but have exceeded them. The manufacturing has been impeccable, as has been the company’s treatment towards me. They have been there every step of the way, answering every question, helping in every aspect and generally providing a great sense of support as manufacturing partners. The result has been a beautiful production of swimsuits that I could not be happier with! I have come to consider LA ISLA as an essential part of my brand and cannot wait to pursue my next collection with them."
     },
     {
-      id: 7,
+      id: 6,
       name: "BROCK STRASBOURGER",
       company: "HEAD OF BUSINESS - FANCY.COM",
       quote: "I have had the pleasure of working with LA ISLA and their CEO, Enrique Sanchez-Rivera, for nearly two years, and each conversation is as much of a delight as the last. Their products, aesthetic and style is amazing and something that we consistently look forward to featuring. With each season we eagerly await their next line and are never disappointed. Enrique and his team are extremely professional, kind and handle all of their dealings with the utmost integrity. Thank you for making my job easier."
     },
     {
-      id: 8,
+      id: 7,
       name: "SHANNON CAMPBELL",
       company: "FASHION AND SWIMWEAR STYLIST - WWW.SHANNONCAMPBELLSTYLIST.COM",
       quote: "I have had the opportunity to work with La Isla and Enrique Sánchez-Rivera on many occasions. As a stylist, I have worked with hundreds of clients through out the years in TV and fashion. I can truly say that LA ISLA stands out not only because of their professionalism but also because of their attention to detail and the importance they always give to my work. The trust they give me and my vision and their ability to communicate and to always be available during a project is outstanding! LA ISLA and Enrique Sánchez-Rivera have always been first class all the way!"
     },
     {
-      id: 9,
+      id: 8,
       name: "GREG AMMON",
       company: "CEO - BIG FLOWER - WWW.BIGFLOWER.COM",
       quote: "Working with LA ISLA has been an absolute pleasure. Our first order with them was a rush order for one of our events and we were very pleased to see it delivered three weeks early. Everything from sample development, to print development and production was outstanding. We look forward to working with LA ISLA for many years to come."
     },
     {
-      id: 10,
+      id: 9,
       name: "THE EQUILIBRIUM VITAE TEAM",
       company: "WWW.EQUILIBRIUM-VITAE.COM",
       quote: "We feel very grateful that we had the opportunity to work with LA ISLA, especially with Enrique Sánchez-Rivera, its CEO. The experience has been extremely good and we are so happy to see our yoga wear collection finalized with such great quality and detailed work. LA ISLA has many qualities and one of them is that they are always there for their customers to answer any question and support them through out their journey. We are more than happy to work with them and LA ISLA has become an essential part of Equilibrium Vitae."
@@ -123,7 +123,7 @@ const SectionTestimonialPrivate = () => {
             <div className='SectionTestimonialPrivateTextContent'>
                 <h2>Testimonials</h2>
                 <Swiper
-                loop={true}
+                  loop={true}
                  navigation={{
                   nextEl: '.swiper-button-next',
                   prevEl: '.swiper-button-prev',
