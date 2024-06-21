@@ -43,24 +43,24 @@ const ArticleSection = () => {
             j_date:"NOVEMBER 1, 2023"
         },
         {
-            j_no:"How-To-Start-Your-Own-Swimwear-Company",
-            j_img:article3,
-            j_title:"How To Start Your Own Swimwear Company",
-            j_subtitle:"",
-            j_body1: article3Body1,
-            j_body2:article3Body2,
-            j_body3:article3Body3,
-            j_date:"OCTOBER 14, 2020"
-        },
-        {
             j_no:"How-to-Find-the-Best-Swimwear-Factory-for-Your-Business-A-Guide-by-La-Isla",
             j_img:article4,
             j_title:"How to Find the Best Swimwear Factory for Your Business: A Guide by La Isla",
-            j_subtitle:"",
+            j_subtitle:"BY LAISLA BRAND",
             j_body1: article4Body1,
             j_body2:article4Body2,
             j_body3:article4Body3,
             j_date:"FEBRUARY 21, 2023"
+        },
+        {
+            j_no:"How-To-Start-Your-Own-Swimwear-Company",
+            j_img:article3,
+            j_title:"How To Start Your Own Swimwear Company",
+            j_subtitle:"By: Enrique Sánchez-Rivera, CEO LA ISLA",
+            j_body1: article3Body1,
+            j_body2:article3Body2,
+            j_body3:article3Body3,
+            j_date:"OCTOBER 14, 2020"
         }
       ])
 

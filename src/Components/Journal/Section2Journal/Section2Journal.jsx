@@ -27,18 +27,18 @@ const Section2Journal = () => {
         j_date:"NOVEMBER 1, 2023"
     },
     {
-        j_no:"How-To-Start-Your-Own-Swimwear-Company",
-        j_img:article3,
-        j_title:"How To Start Your Own Swimwear Company",
-        j_body:"BY LAISLABRAND By: Enrique Sánchez-Rivera, CEO LA ISLA Today marks my 20th year in the swimwear business. Over the past two decades, I have had my fair share of successes and failures, but the most important takeaway has been a crash course in persistence. Unlike many apparel companies, I started LA ISLA with no investors and bootstrapped […]",
-        j_date:"OCTOBER 14, 2020"
-    },
-    {
         j_no:"How-to-Find-the-Best-Swimwear-Factory-for-Your-Business-A-Guide-by-La-Isla",
         j_img:article4,
         j_title:"How to Find the Best Swimwear Factory for Your Business: A Guide by La Isla",
         j_body:"BY LAISLABRAND Are you a business looking to manufacture swimwear, but unsure of where to start? With so many swimwear factories out there, it can be overwhelming to know which one to choose. In this guide, we’ll help you navigate the process and provide insights on what to look for when choosing a swimwear manufacturing partner. Customer […]",
         j_date:"FEBRUARY 21, 2023"
+    },
+    {
+        j_no:"How-To-Start-Your-Own-Swimwear-Company",
+        j_img:article3,
+        j_title:"How To Start Your Own Swimwear Company",
+        j_body:"BY LAISLABRAND By: Enrique Sánchez-Rivera, CEO LA ISLA Today marks my 20th year in the swimwear business. Over the past two decades, I have had my fair share of successes and failures, but the most important takeaway has been a crash course in persistence. Unlike many apparel companies, I started LA ISLA with no investors and bootstrapped […]",
+        j_date:"OCTOBER 14, 2020"
     }
   ])
 
