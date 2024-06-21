@@ -76,8 +76,47 @@
         margin-top: 60px;
         position: relative;
     }
+
+    .FullHero{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .swiper {
+        width: 100% !important;
+        z-index: -10 !important;
+        display: none !important;
+      }
+      
+      .swiper-slide {
+        width: 100% !important;
+        height: 100% !important;
+        box-sizing: border-box;
+        background-color: #723939 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative !important;
+      }
+
+      .swiper-slide img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover !important; 
+      }
+      /* .Swiperimg{
+        width: 100%;
+        height: 100%;
+        display: block;
+        box-sizing: border-box;
+        object-fit: cover !important;
+      } */
+
     .heroimg{
-        width: 100%; 
+        width: 100%;
+        display: block; 
     }
     
     .heroimgmobile{

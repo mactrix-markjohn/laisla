@@ -136,7 +136,7 @@ const ArticleSection = () => {
             </div>
             <div className='Article4InternaContainer'>
                 {Journal_Data.map((journal,index)=>{
-                    return <Link to={''} key={index} ><div className='interna-format'>
+                    return <Link to={`/laisla/Journal/Article/${journal.j_no}`} key={index} ><div className='interna-format'>
                         <img src={journal.j_img} alt=''/>
                         <div>
                             <p className='Article4InternaTitle'><b>{journal.j_title}</b></p>
