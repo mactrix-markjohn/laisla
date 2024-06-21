@@ -5,7 +5,7 @@ const Section1Journal = () => {
     <div className='Section1Journal'>
         <div className='Section1JournalContent'>
             <h2>Journal</h2>
-            <hr/>
+            <div className='Section1JournalContenthr'/>
         </div>
     </div>
   )

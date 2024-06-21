@@ -6,7 +6,7 @@ const Section7FAQPrivateLabel = () => {
     <div className='Section7FAQPrivateLabel'>
         <h2>Frequently Asked Questions (FAQs) About Our Private Label Bathing Suits
         </h2>
-        <hr/>
+        <div className='Section7FAQPrivateLabelhr'/>
         <div className='Section3Grid'>
             <div>
 

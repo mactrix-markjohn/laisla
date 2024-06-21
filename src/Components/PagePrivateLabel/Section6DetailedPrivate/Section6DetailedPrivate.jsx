@@ -7,7 +7,7 @@ const Section6DetailedPrivate = () => {
     <div className='Section6DetailedPrivate'>
         <h2>Our Private Label Swimwear Process Is Streamlined, Allowing You To Focus On Your Business
         </h2>
-        <hr/>
+        <div className='Section6DetailedPrivatehr'/>
 
         <p className='Section6DetailedPrivateFirstP'><h3>So how does our process work?</h3></p>
         

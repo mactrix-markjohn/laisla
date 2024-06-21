@@ -144,7 +144,7 @@ const SectionTestimonialPrivate = () => {
                             <div className='SectionTestimonialPrivateslide'>
                               <p className='SectionTestimonialPrivateNormText'>{testimonial.quote}</p>
                               <h3>{testimonial.name}</h3>
-                              <hr/>
+                              <div className='SectionTestimonialPrivateTextContenthr'/>
                               <p className='SectionTestimonialPrivateBrownText'>{testimonial.company}</p>
                             </div>
 
