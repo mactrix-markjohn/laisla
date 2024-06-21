@@ -21,6 +21,7 @@
         box-sizing: border-box;
         width: 100%;
         margin-bottom: 24px;
+        border-radius: 12px;
     }
     .Section2JournalTitle{
         margin-bottom: 12px;
@@ -48,13 +49,13 @@
     
     /* Next and Prev*/
     .Section2JournalNextPrevHolder{
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
         margin-bottom: 50px;
     }
     .Section2JournalNextPrev{
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
         width: 100%;
@@ -114,6 +115,7 @@
         box-sizing: border-box;
         width: 100%;
         margin-bottom: 24px;
+        border-radius: 12px;
     }
     .Section2JournalTitle{
         margin-bottom: 12px;
@@ -139,12 +141,12 @@
     
     /* Next and Prev*/
     .Section2JournalNextPrevHolder{
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
     }
     .Section2JournalNextPrev{
-        display: flex;
+        display: none;
         align-items: center;
         width: 15%;
     }
@@ -203,6 +205,7 @@
         box-sizing: border-box;
         width: 100%;
         margin-bottom: 24px;
+        border-radius: 12px;
     }
     .Section2JournalTitle{
         margin-bottom: 12px;
@@ -296,6 +299,7 @@
         box-sizing: border-box;
         width: 100%;
         margin-bottom: 24px;
+        border-radius: 12px;
     }
     .Section2JournalTitle{
         margin-bottom: 12px;

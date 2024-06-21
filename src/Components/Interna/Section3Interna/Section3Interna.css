@@ -31,7 +31,7 @@
     .Section3InternaRow{
         margin-bottom: 60px;
         display: flex;
-        align-items: center;
+        align-items: start;
     
     }
     .Section3InternaRow img{
@@ -79,7 +79,7 @@
     .Section3InternaRow{
         margin-bottom: 40px;
         display: flex;
-        align-items: center;
+        align-items: start;
     
     }
     .Section3InternaRow img{
@@ -131,7 +131,7 @@
     .Section3InternaRow{
         margin-bottom: 20px;
         display: flex;
-        align-items: center;
+        align-items: start;
     
     }
     .Section3InternaRow img{

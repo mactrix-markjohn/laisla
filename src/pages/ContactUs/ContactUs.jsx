@@ -1,4 +1,3 @@
-import React from 'react'
 import './ContactUs.css'
 import Section1Contact from '../../Components/ContactUs/Section1Contact/Section1Contact'
 

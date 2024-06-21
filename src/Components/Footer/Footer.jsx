@@ -8,6 +8,7 @@ const Footer = () => {
   return (
     <div className='Footer'>
         <div className='contactsindustries'>
+
             <div className='contacts'>
                 <img src={laislaLogo} alt=''/>
                 <p className='contactText'>CONTACT US</p>
@@ -18,34 +19,38 @@ const Footer = () => {
                     <p>sales@laislabrand.com</p>
                 </div>
             </div>
+
             <div className='industries'>
-                <p className='industrytext'>SOME INDUSTRIES</p>
+                <p className='industrytext'>PRIVATE LABEL SWIMWEAR</p>
                 <hr/>
                 <div className='grid'>
                     <div>
                         <div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>How to start your own swimwear company</p>
                         </div>
                         <div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>White Label Swimwear Vs. Private Label Swimwear</p>
                         </div>
                         <div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>How To Start Your Own Swimwear Company</p>
                         </div>
                         <div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>How to Find the Best Swimwear Factory for Your Business: A Guide by La Isla
+                            </p>
                         </div>
                     </div>
+                    
                     <div/>
-                    <div>
+
+                    {/* <div>
                         <div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
@@ -66,10 +71,12 @@ const Footer = () => {
                             <div/>
                             <p>Lorem ipsum dolor sit amet</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
+
         </div>
+
         <div className='socialmedia'>
             <img src={facebook} alt=''/>
             <div/>

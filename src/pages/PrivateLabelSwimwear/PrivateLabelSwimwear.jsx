@@ -16,7 +16,7 @@ const PrivateLabelSwimwear = () => {
       <Helmet>
         <title>Trusted Private Label Swimwear Manufacturer Factory: Ethically Made </title>
         <meta name="description" content="We are a full service factory providing private label bathing suits, bikinis, and other types of swimwear. If you’re looking for ethically made white label swimwear, click here."/>
-        <meta name="keywords" content="private label, swimwear, white, bathing suits"/>
+        <meta name="keywords" content="private label swimwear, private label bathing suits, swimwear, white label swimwear, bathing suits"/>
       </Helmet>
       <Section1AbovePrivate/>
       <SectionTestimonialPrivate/>
