@@ -58,6 +58,7 @@
         color: white;
         font-weight: 700;
         font-size: 28px;
+        cursor: pointer;
     }
     .phoneEmail div{
         margin-left: 8px;
@@ -164,6 +165,7 @@
         color: white;
         font-weight: 700;
         font-size: 16px;
+        cursor: pointer;
     }
     .phoneEmail div{
         margin-left: 6px;
@@ -273,6 +275,7 @@
         color: white;
         font-weight: 700;
         font-size: 10px;
+        cursor: pointer;
     }
     .phoneEmail div{
         margin-left: 6px;
@@ -386,6 +389,7 @@
         color: white;
         font-weight: 700;
         font-size: 16px;
+        cursor: pointer;
     }
     .phoneEmail div{
         margin-left: 6px;
@@ -422,6 +426,9 @@
         align-items: start;
         justify-content: left;
         margin-bottom: 10px;
+    }
+    .gridcontent img{
+        width: 5%;
     }
     .gridcontent p{
         color: white;

@@ -3,6 +3,7 @@ import facebook from '../../assets/Facebook.svg'
 import instagram from '../../assets/Instagram.svg'
 import laislaLogo from '../../assets/laislasvg.svg'
 import circlearrow from '../../assets/criclearrow.svg'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -14,9 +15,9 @@ const Footer = () => {
                 <p className='contactText'>CONTACT US</p>
                 <hr/>
                 <div className='phoneEmail'>
-                    <p>+1234556667777</p>
+                    <p onClick={() => {window.location.href = 'mailto:hello@laislabrand.com'}}>hello@laislabrand.com</p>
                     <div/>
-                    <p>sales@laislabrand.com</p>
+                    <p></p>
                 </div>
             </div>
 
@@ -25,27 +26,28 @@ const Footer = () => {
                 <hr/>
                 <div className='grid'>
                     <div>
-                        <div className='gridcontent'>
+                        <Link to={`/laisla/Journal/Article/How-to-start-your-own-swimwear-company`}><div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
                             <p>How to start your own swimwear company</p>
-                        </div>
-                        <div className='gridcontent'>
+                        </div></Link>
+                        <Link to={`/laisla/Journal/Article/White-Label-Swimwear-Vs-Private-Label-Swimwear`}><div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
                             <p>White Label Swimwear Vs. Private Label Swimwear</p>
-                        </div>
-                        <div className='gridcontent'>
-                            <img src={circlearrow} alt=''/>
-                            <div/>
-                            <p>How To Start Your Own Swimwear Company</p>
-                        </div>
-                        <div className='gridcontent'>
+                        </div></Link>
+                        <Link to={`/laisla/Journal/Article/How-to-Find-the-Best-Swimwear-Factory-for-Your-Business-A-Guide-by-La-Isla`}><div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
                             <p>How to Find the Best Swimwear Factory for Your Business: A Guide by La Isla
                             </p>
-                        </div>
+                        </div></Link>
+                        <Link to={`/laisla/Journal/Article/How-To-Start-Your-Own-Swimwear-Company`}><div className='gridcontent'>
+                            <img src={circlearrow} alt=''/>
+                            <div/>
+                            <p>How To Start Your Own Swimwear Company</p>
+                        </div></Link>
+                        
                     </div>
                     
                     <div/>

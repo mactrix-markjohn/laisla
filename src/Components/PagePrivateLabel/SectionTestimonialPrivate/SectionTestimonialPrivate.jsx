@@ -53,12 +53,6 @@ const SectionTestimonialPrivate = () => {
       quote: "As a designer I am a perfectionist. Having said that, the amazing staff at LA ISLA, in particular Enrique Sanchez-Rivera have not only met my high expectations, but have exceeded them. The manufacturing has been impeccable, as has been the company’s treatment towards me. They have been there every step of the way, answering every question, helping in every aspect and generally providing a great sense of support as manufacturing partners. The result has been a beautiful production of swimsuits that I could not be happier with! I have come to consider LA ISLA as an essential part of my brand and cannot wait to pursue my next collection with them."
     },
     {
-      id: 6,
-      name: "STEVIE & VICTORIA DECHIARO",
-      company: "CHIARA LEAH SWIMWEAR",
-      quote: "There are truly no words to describe seeing our first swimwear line come to life and seeing how beautiful everything turned out was like magic. All thanks to LA ISLA, who took our vision & made it better! It can be extremely challenging to find someone who can do everything and anything you wish, but LA ISLA has done just that & more. We were amazed at the quality and detail that was put into every aspect of our designs. LA ISLA has made this process a fairytale journey. We were confident and comfortable working with a brand that knew what we wanted and how to deliver. LA ISLA is our fairy-bikini-godmother!"
-    },
-    {
       id: 7,
       name: "BROCK STRASBOURGER",
       company: "HEAD OF BUSINESS - FANCY.COM",
@@ -81,12 +75,6 @@ const SectionTestimonialPrivate = () => {
       name: "THE EQUILIBRIUM VITAE TEAM",
       company: "WWW.EQUILIBRIUM-VITAE.COM",
       quote: "We feel very grateful that we had the opportunity to work with LA ISLA, especially with Enrique Sánchez-Rivera, its CEO. The experience has been extremely good and we are so happy to see our yoga wear collection finalized with such great quality and detailed work. LA ISLA has many qualities and one of them is that they are always there for their customers to answer any question and support them through out their journey. We are more than happy to work with them and LA ISLA has become an essential part of Equilibrium Vitae."
-    },
-    {
-      id: 11,
-      name: "GABRIELA FIGUEROA",
-      company: "CEO - ANALÁ SWIMWEAR",
-      quote: "It has been a pleasure working with LA ISLA and it’s CEO, Enrique Sánchez-Rivera. I met LA ISLA while looking for manufacturers for our swimwear line, Analá Swimwear. Enrique always has been incredibly attentive to every question we have had during the manufacturing process. His trustworthiness has always been present and we recognized it early on in the relationship. LA ISLA’s service and quality has been outstanding. They have always been there for us and his production timing schedule was on point. We also were very thankful to be assisted by LA ISLA’s design team. I would give LA ISLA a 10 out of 10. We cannot wait to pursue our next production with them."
     }
 ];
 
@@ -134,7 +122,8 @@ const SectionTestimonialPrivate = () => {
             {/* {<img className='SectionTestimonialPrivateQuoteLeft' src={quote}/>} */}
             <div className='SectionTestimonialPrivateTextContent'>
                 <h2>Testimonials</h2>
-                <Swiper 
+                <Swiper
+                loop={true}
                  navigation={{
                   nextEl: '.swiper-button-next',
                   prevEl: '.swiper-button-prev',
