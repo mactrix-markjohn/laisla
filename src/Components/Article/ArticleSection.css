@@ -137,7 +137,7 @@
         justify-content: center;
         margin-bottom: 52px;
     }
-    .Article4InternaHR hr{
+    .Article4InternaHRhr{
         border: 1.5px solid #977347;
         width: 185px;
     }
@@ -329,7 +329,7 @@
         justify-content: center;
         margin-bottom: 32px;
     }
-    .Article4InternaHR hr{
+    .Article4InternaHRhr{
         border: 2px solid #977347;
         width: 95px;
     }
@@ -367,7 +367,7 @@
     
     }
     .interna-format hr{
-        border: 1px solid #977347;
+        border: 1.5px solid #977347;
         width: 40%;
         margin-bottom: 20px;
     }
@@ -519,7 +519,7 @@
         justify-content: center;
         margin-bottom: 22px;
     }
-    .Article4InternaHR hr{
+    .Article4InternaHRhr{
         border: 1.4px solid #977347;
         width: 65px;
     }
@@ -709,7 +709,7 @@
         justify-content: center;
         margin-bottom: 32px;
     }
-    .Article4InternaHR hr{
+    .Article4InternaHRhr{
         border: 1.4px solid #977347;
         width: 97px;
     }

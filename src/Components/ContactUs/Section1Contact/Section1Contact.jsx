@@ -6,7 +6,7 @@ const Section1Contact = () => {
     <div className='Section1Contact'>
         <div className='Section1ContactForm'>
             <h2>Contact</h2>
-            <hr/>
+            <div className='Section1ContactFormhr'/>
             <form>
                 <label>Your name (required)</label>
                 <input type="text" name='name' placeholder='' required/>

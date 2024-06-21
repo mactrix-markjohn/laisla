@@ -49,7 +49,7 @@ const Section2Journal = () => {
                 return <Link to={`/laisla/Journal/Article/${journal.j_no}`} key={index} className='journal-format'><div >
                     <img src={journal.j_img} alt=''/>
                     <p className='Section2JournalTitle'><b>{journal.j_title}</b></p>
-                    <hr/>
+                    <div className='journal-formathr'/>
                     <p className='Section2JournalBody'>{journal.j_body}</p>
                     <p className='Section2Date'>{journal.j_date}</p>
                 </div></Link>
