@@ -2,7 +2,7 @@
 @media (min-width: 1901px){
     .Section4OptionPrivate{
         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-bottom: 20px;
         padding-left: 280px;
         padding-right: 100px;
         background-color: #ffffff;
@@ -42,8 +42,6 @@
         padding: 70px 120px;
         border-radius: 24px;
         display: flex;
-        align-items: start;
-        justify-content: space-between;
         width: 94%;
         margin-bottom: 120px;
     }
@@ -90,7 +88,7 @@
 @media (max-width: 1900px){
     .Section4OptionPrivate{
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 10px;
         padding-left: 60px;
         padding-right: 60px;
         background-color: #ffffff;
@@ -132,8 +130,6 @@
         padding: 32px 88px;
         border-radius: 24px;
         display: flex;
-        align-items: start;
-        justify-content: space-between;
         width: 80%;
         margin-left: 120px;
         margin-bottom: 85px;
@@ -143,6 +139,7 @@
         flex-direction: column;
         align-items: start;
         justify-content: start;
+        width: 100%;
     }
 
     .Section4OptionPrivateItems h2{
@@ -185,7 +182,7 @@
 @media (max-width: 1200px){
     .Section4OptionPrivate{
         padding-top: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 0px;
         padding-left: 75px;
         padding-right: 75px;
         background-color: #ffffff;
@@ -228,9 +225,7 @@
         padding: 28px 60px;
         border-radius: 24px;
         display: flex;
-        align-items: start;
         margin-left: 0px;
-        justify-content: space-between;
         width: 90%;
         margin-bottom: 85px;
     }
@@ -239,6 +234,7 @@
         flex-direction: column;
         align-items: start;
         justify-content: start;
+        width: 100%;
     }
     .Section4OptionPrivateItems h2{
         margin-bottom: 12px;
@@ -278,7 +274,7 @@
     
     .Section4OptionPrivate{
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 0px;
         padding-left: 16px;
         padding-right: 16px;
         background-color: #ffffff;

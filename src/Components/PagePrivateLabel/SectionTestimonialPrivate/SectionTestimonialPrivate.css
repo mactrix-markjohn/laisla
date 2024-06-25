@@ -6,6 +6,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: -10px;
     }
     /* The Prev and Next Buttons*/
     .SectionTestimonialPrivateBtnPrev{
@@ -221,6 +222,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: -10px;
     }
     /* The Prev and Next Buttons*/
     .SectionTestimonialPrivateBtnPrev{
@@ -435,6 +437,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: -10px;
     }
     /* The Prev and Next Buttons*/
     .SectionTestimonialPrivateBtnPrev{
@@ -647,6 +650,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: -8px;
     }
     /* The Prev and Next Buttons*/
     .SectionTestimonialPrivateBtnPrev{

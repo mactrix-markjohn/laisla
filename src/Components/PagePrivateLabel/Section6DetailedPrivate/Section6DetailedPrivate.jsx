@@ -36,7 +36,7 @@ const Section6DetailedPrivate = () => {
               <div className='Section6DetailedPrivateCheckText'>
                 <img src={heart} alt=''/>
                 <div/>
-                <p><b>4. Since we offer full package manufacturing, we will NOT charge you for pattern or sample making.</b> We make one sample per style, usually in size small (or any size you decide you want to do fittings with), and send them to you for approval. If you have observations and the samples need to be corrected, we will correct them and send them to you for review. We do NOT charge for grading. Please note that pattern release (if you need the actual pattern files) has a cost of $500 per pattern, as we need to spend time preparing the files for you. Most clients do not request this as we always have them on file for future orders or reorders. But, the option to have your patterns is there if you need them.</p>
+                <p>4. Since we offer full package manufacturing, we will NOT charge you for pattern or sample making.<br/><br/> We make one sample per style, usually in size small (or any size you decide you want to do fittings with), and send them to you for approval. If you have observations and the samples need to be corrected, we will correct them and send them to you for review. We do NOT charge for grading. Please note that pattern release (if you need the actual pattern files) has a cost of $500 per pattern, as we need to spend time preparing the files for you. Most clients do not request this as we always have them on file for future orders or reorders. But, the option to have your patterns is there if you need them.</p>
               </div>
 
               <div className='Section6DetailedPrivateCheckText'>

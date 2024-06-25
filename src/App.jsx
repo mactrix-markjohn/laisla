@@ -4,7 +4,7 @@ import Footer from './Components/Footer/Footer'
 
 import Home from './pages/Home/Home'
 import PrivateLabelSwimwear from './pages/PrivateLabelSwimwear/PrivateLabelSwimwear'
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import AboutUs from './pages/AboutUs/AboutUs'
 import ContactUs from './pages/ContactUs/ContactUs'
 import Journal from './pages/Journal/Journal'
@@ -33,8 +33,9 @@ function App() {
         <Route path='/laisla/ContactUs' element={<ContactUs/>} />
         <Route path='/laisla/Journal/SEO' element={<SEO/>} />
         <Route path='/laisla/Journal/Interna' element={<Interna/>} />
-
         <Route path='/laisla/Journal/Article/:articleId' element={<Article/>} />
+        <Route path='/laisla/lookbook' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
+        <Route path='/laisla/lookbooks/womens-swimwear/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
       </Routes>
       <Footer/>
     </div>

@@ -24,7 +24,7 @@
     .Section6DetailedPrivate p{
         color: #666666;
         font-weight: 400;
-        font-size: 28px;
+        font-size: 27px;
         line-height: 40px;
     
     }
@@ -55,7 +55,7 @@
     }
     
     .Section6DetailedPrivateRow{
-        margin-bottom: 60px;
+        margin-bottom: 5px;
         display: flex;
         align-items: center;
     
@@ -99,7 +99,7 @@
     .Section6DetailedPrivate p{
         color: #666666;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 23px;
     
     }
@@ -113,7 +113,7 @@
     .Section6DetailedPrivateCheckText, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText {
         display: flex;
         align-items: start;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .Section6DetailedPrivateCheckText img, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText img {
         width: 25px;
@@ -132,7 +132,7 @@
     
     
     .Section6DetailedPrivateRow{
-        margin-bottom: 40px;
+        margin-bottom: 10px;
         display: flex;
         align-items: center;
     
@@ -146,6 +146,7 @@
         width: 100%;
     
     }
+
 }
 
 
@@ -180,7 +181,7 @@
     .Section6DetailedPrivate p{
         color: #666666;
         font-weight: 400;
-        font-size: 10px;
+        font-size: 9px;
         line-height: 15px;
     
     }
@@ -195,7 +196,7 @@
     .Section6DetailedPrivateCheckText, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText {
         display: flex;
         align-items: start;
-        margin-bottom: 12px;
+        margin-bottom: 5px;
     }
     .Section6DetailedPrivateCheckText img, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText img {
         width: 20px;
@@ -213,7 +214,7 @@
 
     
     .Section6DetailedPrivateRow{
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         display: flex;
         align-items: center;
     
@@ -288,7 +289,7 @@
     }
     
     .Section6DetailedPrivateRow{
-        margin-bottom: 40px;
+        margin-bottom: 0px;
         display: flex;
         flex-direction: column;
         align-items: start;
