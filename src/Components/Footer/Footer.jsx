@@ -26,23 +26,23 @@ const Footer = () => {
                 <div className='industrieshr'/>
                 <div className='grid'>
                     <div>
-                        <Link to={`/laisla/Journal/Article/How-to-start-your-own-swimwear-company`}><div className='gridcontent'>
+                        <Link to={`/laisla/journal/article/how-to-start-your-own-swimwear-company`}><div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
                             <p>How to start your own swimwear company</p>
                         </div></Link>
-                        <Link to={`/laisla/Journal/Article/White-Label-Swimwear-Vs-Private-Label-Swimwear`}><div className='gridcontent'>
+                        <Link to={`/laisla/journal/article/white-label-swimwear-vs-private-label-swimwear`}><div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
                             <p>White Label Swimwear Vs. Private Label Swimwear</p>
                         </div></Link>
-                        <Link to={`/laisla/Journal/Article/How-to-Find-the-Best-Swimwear-Factory-for-Your-Business-A-Guide-by-La-Isla`}><div className='gridcontent'>
+                        <Link to={`/laisla/journal/article/how-to-find-the-best-swimwear-factory-for-your-business-a-guide-by-la-isla`}><div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
                             <p>How to Find the Best Swimwear Factory for Your Business: A Guide by La Isla
                             </p>
                         </div></Link>
-                        <Link to={`/laisla/Journal/Article/How-To-Start-Your-Own-Swimwear-Company`}><div className='gridcontent'>
+                        <Link to={`/laisla/journal/article/how-to-start-your-own-swimwear-company-2`}><div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
                             <p>How To Start Your Own Swimwear Company</p>

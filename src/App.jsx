@@ -28,12 +28,12 @@ function App() {
         <Route path='/laisla' element={<Home/>} />
         <Route path='/laisla/private-label-swimwear' element={<PrivateLabelSwimwear/>} />
         {/*<Route path='/laisla/PrivateLabel' element={<PrivateLabelSwimwear/>} />*/}
-        <Route path='/laisla/AboutUs' element={<AboutUs/>} />
-        <Route path='/laisla/Journal' element={<Journal/>} />
-        <Route path='/laisla/ContactUs' element={<ContactUs/>} />
-        <Route path='/laisla/Journal/SEO' element={<SEO/>} />
-        <Route path='/laisla/Journal/Interna' element={<Interna/>} />
-        <Route path='/laisla/Journal/Article/:articleId' element={<Article/>} />
+        <Route path='/laisla/about-us' element={<AboutUs/>} />
+        <Route path='/laisla/journal' element={<Journal/>} />
+        <Route path='/laisla/contact-us' element={<ContactUs/>} />
+        <Route path='/laisla/journal/SEO' element={<SEO/>} />
+        <Route path='/laisla/journal/Interna' element={<Interna/>} />
+        <Route path='/laisla/journal/article/:articleId' element={<Article/>} />
         <Route path='/laisla/lookbook' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
         <Route path='/laisla/lookbooks/womens-swimwear/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
       </Routes>

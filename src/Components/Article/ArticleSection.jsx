@@ -23,7 +23,7 @@ const ArticleSection = () => {
 
     const [Journal_Article] = useState([
         {
-          j_no:"How-to-start-your-own-swimwear-company",
+          j_no:"how-to-start-your-own-swimwear-company",
           j_img:article1,
           j_title:"How to start your own swimwear company",
           j_subtitle:"BY LAISLA BRAND: THIS ARTICLE HAS BEEN UPDATED FOR 2023",
@@ -33,7 +33,7 @@ const ArticleSection = () => {
           j_date:"JUNE 30, 2024"
         },
         {
-            j_no:"White-Label-Swimwear-Vs-Private-Label-Swimwear",
+            j_no:"white-label-swimwear-vs-private-label-swimwear",
             j_img:article2,
             j_title:"White Label Swimwear Vs. Private Label Swimwear",
             j_subtitle:"And Why Private Label is Your Best Choice.",
@@ -43,7 +43,7 @@ const ArticleSection = () => {
             j_date:"JUNE 29, 2024"
         },
         {
-            j_no:"How-to-Find-the-Best-Swimwear-Factory-for-Your-Business-A-Guide-by-La-Isla",
+            j_no:"how-to-find-the-best-swimwear-factory-for-your-business-a-guide-by-la-isla",
             j_img:article4,
             j_title:"How to Find the Best Swimwear Factory for Your Business: A Guide by La Isla",
             j_subtitle:"BY LAISLA BRAND",
@@ -53,7 +53,7 @@ const ArticleSection = () => {
             j_date:"JUNE 28, 2024"
         },
         {
-            j_no:"How-To-Start-Your-Own-Swimwear-Company",
+            j_no:"how-to-start-your-own-swimwear-company-2",
             j_img:article3,
             j_title:"How To Start Your Own Swimwear Company",
             j_subtitle:"By: Enrique Sánchez-Rivera, CEO LA ISLA",
@@ -68,7 +68,7 @@ const ArticleSection = () => {
 
     const [Journal_Data] = useState([
         {
-          j_no:"How-to-start-your-own-swimwear-company",
+          j_no:"how-to-start-your-own-swimwear-company",
           j_img:article1,
           j_title:"How to start your own swimwear company",
           j_subtitle:"",
@@ -78,7 +78,7 @@ const ArticleSection = () => {
           j_date:"JUNE 30, 2024"
         },
         {
-            j_no:"How-To-Start-Your-Own-Swimwear-Company",
+            j_no:"how-to-start-your-own-swimwear-company-2",
             j_img:article3,
             j_title:"How To Start Your Own Swimwear Company",
             j_subtitle:"",
@@ -136,7 +136,7 @@ const ArticleSection = () => {
             </div>
             <div className='Article4InternaContainer'>
                 {Journal_Data.map((journal,index)=>{
-                    return <Link to={`/laisla/Journal/Article/${journal.j_no}`} key={index} ><div className='interna-format'>
+                    return <Link to={`/laisla/journal/article/${journal.j_no}`} key={index} ><div className='interna-format'>
                         <img src={journal.j_img} alt=''/>
                         <div className='internaformatdiv'>
                             <p className='Article4InternaTitle'><b>{journal.j_title}</b></p>
