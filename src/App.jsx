@@ -37,7 +37,7 @@ function App() {
         
         {/*Redirect URLs*/}
         
-        <Route path='/laisla/lookbook' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
+        <Route path='/laisla/lookbooks' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
         <Route path='/laisla/lookbooks/womens-swimwear/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
         <Route path='/laisla/private-label/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
         <Route path='/laisla/private-label/factory/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
