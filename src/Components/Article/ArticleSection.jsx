@@ -17,6 +17,7 @@ import {body1 as article1Body1, body2 as article1Body2, body3 as article1Body3 }
 import {body1 as article2Body1, body2 as article2Body2, body3 as article2Body3 } from '../../Components/Article/ArticleContent/article2Content';
 import {body1 as article3Body1, body2 as article3Body2, body3 as article3Body3 } from '../../Components/Article/ArticleContent/article3Content';
 import {body1 as article4Body1, body2 as article4Body2, body3 as article4Body3 } from '../../Components/Article/ArticleContent/article4Content';
+import { Helmet } from 'react-helmet'
 
 
 const ArticleSection = () => {
@@ -102,6 +103,11 @@ const ArticleSection = () => {
 
   return (
     <div>
+        <Helmet>
+            <title>{selectedArticle.j_title} | La Isla</title>
+            <meta name="description" content={selectedArticle.j_subtitle}/>
+            <meta name="keywords" content="La Isla, private label swimwear, swimwear"/>
+        </Helmet>
 
         <div className='Article1Interna'>
             <img className='Article1Internaimg' src={hero} alt=''/>

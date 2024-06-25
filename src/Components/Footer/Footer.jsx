@@ -6,6 +6,7 @@ import circlearrow from '../../assets/criclearrow.svg'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
+
   return (
     <div className='Footer'>
         <div className='contactsindustries'>
@@ -80,9 +81,9 @@ const Footer = () => {
         </div>
 
         <div className='socialmedia'>
-            <img src={facebook} alt=''/>
+            <img onClick={() => window.open('https://www.facebook.com/laislabrand/', '_blank')} src={facebook} alt=''/>
             <div/>
-            <img src={instagram} alt=''/>
+            <img onClick={() => {window.open('https://www.instagram.com/laislabrand/', '_blank')}} src={instagram} alt=''/>
         </div>
     </div>
   )

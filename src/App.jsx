@@ -34,8 +34,22 @@ function App() {
         <Route path='/laisla/journal/SEO' element={<SEO/>} />
         <Route path='/laisla/journal/Interna' element={<Interna/>} />
         <Route path='/laisla/journal/article/:articleId' element={<Article/>} />
+        
+        {/*Redirect URLs*/}
+        
         <Route path='/laisla/lookbook' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
         <Route path='/laisla/lookbooks/womens-swimwear/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
+        <Route path='/laisla/private-label/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
+        <Route path='/laisla/private-label/factory/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
+        <Route path='/laisla/private-label/testimonials/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
+        <Route path='/laisla/lookbooks/mens-swimwear/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
+
+        <Route path='/laisla/how-to-start-your-own-swimwear-company/' element={<Navigate to='/laisla/journal/article/how-to-start-your-own-swimwear-company'/>}/>
+        <Route path='/laisla/white-label-swimwear-vs-private-label-swimwear/' element={<Navigate to='/laisla/journal/article/white-label-swimwear-vs-private-label-swimwear'/>}/>
+        <Route path='/laisla/how-to-find-the-best-swimwear-factory-for-your-business-a-guide-by-la-isla/' element={<Navigate to='/laisla/journal/article/how-to-find-the-best-swimwear-factory-for-your-business-a-guide-by-la-isla'/>}/>
+        <Route path='/laisla/how-to-start-your-own-swimwear-company-2/' element={<Navigate to='/laisla/journal/article/how-to-start-your-own-swimwear-company-2'/>}/>
+
+
       </Routes>
       <Footer/>
     </div>
