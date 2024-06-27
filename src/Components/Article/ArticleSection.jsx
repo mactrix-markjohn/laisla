@@ -36,7 +36,7 @@ const ArticleSection = () => {
         {
             j_no:"white-label-swimwear-vs-private-label-swimwear",
             j_img:article2,
-            j_title:"White Label Swimwear Vs. Private Label Swimwear",
+            j_title:"White label swimwear Vs. Private label swimwear",
             j_subtitle:"And Why Private Label is Your Best Choice.",
             j_body1: article2Body1,
             j_body2:article2Body2,
@@ -46,7 +46,7 @@ const ArticleSection = () => {
         {
             j_no:"how-to-find-the-best-swimwear-factory-for-your-business-a-guide-by-la-isla",
             j_img:article4,
-            j_title:"How to Find the Best Swimwear Factory for Your Business: A Guide by La Isla",
+            j_title:"How to find the best swimwear factory for your business: A guide by La Isla",
             j_subtitle:"BY LAISLA BRAND",
             j_body1: article4Body1,
             j_body2:article4Body2,
@@ -56,7 +56,7 @@ const ArticleSection = () => {
         {
             j_no:"how-to-start-your-own-swimwear-company-2",
             j_img:article3,
-            j_title:"How To Start Your Own Swimwear Company",
+            j_title:"How to start your own swimwear company",
             j_subtitle:"By: Enrique Sánchez-Rivera, CEO LA ISLA",
             j_body1: article3Body1,
             j_body2:article3Body2,
@@ -81,7 +81,7 @@ const ArticleSection = () => {
         {
             j_no:"how-to-start-your-own-swimwear-company-2",
             j_img:article3,
-            j_title:"How To Start Your Own Swimwear Company",
+            j_title:"How to start your own swimwear company",
             j_subtitle:"",
             j_body1:"BY LAISLABRAND By: Enrique Sánchez-Rivera, CEO LA ISLA Today marks my 20th year in the swimwear business. Over the past two decades, I have had my fair share of successes and failures, but the most important takeaway has been a crash course in persistence. Unlike many apparel companies, I started LA ISLA with no investors and bootstrapped […]",
             j_body2:"",
@@ -142,10 +142,10 @@ const ArticleSection = () => {
             </div>
             <div className='Article4InternaContainer'>
                 {Journal_Data.map((journal,index)=>{
-                    return <Link to={`/laisla/journal/article/${journal.j_no}`} key={index} ><div className='interna-format'>
+                    return <Link to={`/journal/article/${journal.j_no}`} key={index} ><div className='interna-format'>
                         <img src={journal.j_img} alt=''/>
                         <div className='internaformatdiv'>
-                            <p className='Article4InternaTitle'><b>{journal.j_title}</b></p>
+                            <p className='Article4InternaTitle'>{journal.j_title}</p>
                             <hr className='internaformathr'/>
                             <p className='Article4InternaDate'>{journal.j_date}</p>
                         </div>

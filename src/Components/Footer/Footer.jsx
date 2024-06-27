@@ -27,26 +27,26 @@ const Footer = () => {
                 <div className='industrieshr'/>
                 <div className='grid'>
                     <div>
-                        <Link to={`/laisla/journal/article/how-to-start-your-own-swimwear-company`}><div className='gridcontent'>
+                        <Link to={`/journal/article/how-to-start-your-own-swimwear-company`}><div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
                             <p>How to start your own swimwear company</p>
                         </div></Link>
-                        <Link to={`/laisla/journal/article/white-label-swimwear-vs-private-label-swimwear`}><div className='gridcontent'>
+                        <Link to={`/journal/article/white-label-swimwear-vs-private-label-swimwear`}><div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
-                            <p>White Label Swimwear Vs. Private Label Swimwear</p>
+                            <p>White label swimwear vs. Private label swimwear</p>
                         </div></Link>
-                        <Link to={`/laisla/journal/article/how-to-find-the-best-swimwear-factory-for-your-business-a-guide-by-la-isla`}><div className='gridcontent'>
+                        <Link to={`/journal/article/how-to-find-the-best-swimwear-factory-for-your-business-a-guide-by-la-isla`}><div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
-                            <p>How to Find the Best Swimwear Factory for Your Business: A Guide by La Isla
+                            <p>How to find the best swimwear factory for your business: A guide by La Isla
                             </p>
                         </div></Link>
-                        <Link to={`/laisla/journal/article/how-to-start-your-own-swimwear-company-2`}><div className='gridcontent'>
+                        <Link to={`/journal/article/how-to-start-your-own-swimwear-company-2`}><div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
-                            <p>How To Start Your Own Swimwear Company</p>
+                            <p>How to start your own swimwear company</p>
                         </div></Link>
                         
                     </div>

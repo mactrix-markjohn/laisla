@@ -11,7 +11,7 @@ const Section1PrivateLabel = () => {
                 <h2>Our Private Label Swimwear Factory In Colombia Is Ethically Operated & Free Trade Ready</h2>
                 <div className='Section1PrivateTextRegionhr'/>
                 <p>
-                La Isla strategically maintains offices in the United States (Portland, Oregon), positioning ourselves as a bridge between our clients and our bustling manufacturing hub in Medellín, Colombia. This dual presence not only ensures clear and efficient communication but also provides our clients with the peace of mind that comes with having a local point of contact. With our US offices, we offer a responsive and accessible support system, addressing any concerns or queries promptly and effectively. <b>Several of our existing clients have encountered challenges with overseas dealings and communications, prompting them to choose our services instead.</b>
+                La Isla strategically maintains offices in the United States (Oregon), positioning ourselves as a bridge between our clients and our bustling manufacturing hub in Medellín, Colombia. This dual presence not only ensures clear and efficient communication but also provides our clients with the peace of mind that comes with having a local point of contact. With our US offices, we offer a responsive and accessible support system, addressing any concerns or queries promptly and effectively. Several of our existing clients have encountered challenges with overseas dealings and communications, prompting them to choose our services instead.
                 </p>
             </div>
             <div className='Section1PrivateImageRegion'>

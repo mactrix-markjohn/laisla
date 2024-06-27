@@ -25,13 +25,13 @@ const Navbar = () => {
 
   return (
     <nav className='mycontainer whitenav'>
-        <Link to={'/laisla/'}><img src={logo} alt='' className='logo' /></Link>
+        <Link to={'/'}><img src={logo} alt='' className='logo' onClick={()=>setMenu("/")} /></Link>
         <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
-            <Link to={'/laisla/'}><li className={menu==="/laisla/" ? 'active' : ''} onClick={()=>setMenu("/laisla/")} >HOME</li></Link>
-            <Link to={'/laisla/private-label-swimwear'}><li className={menu==="/laisla/private-label-swimwear" ? 'active' : ''} onClick={()=>setMenu("/laisla/private-label-swimwear")}>PRIVATE LABEL SWIMWEAR</li></Link>
-            <Link to={'/laisla/about-us'}><li className={menu==="/laisla/about-us" ? 'active' : ''} onClick={()=>setMenu("/laisla/about-us")}>ABOUT US</li></Link>
-            <Link to={'/laisla/journal'}><li className={menu==="/laisla/journal" ? 'active' : ''} onClick={()=>setMenu("/laisla/journal")}>JOURNAL</li></Link>
-            <Link to={'/laisla/contact-us'}><li className={menu==="/laisla/contact-us" ? 'active' : ''} onClick={()=>setMenu("/laisla/contact-us")}>CONTACT US</li></Link>
+            <Link to={'/'}><li className={menu==="/" ? 'active' : ''} onClick={()=>setMenu("/")} >HOME</li></Link>
+            <Link to={'/private-label-swimwear'}><li className={menu==="/private-label-swimwear" ? 'active' : ''} onClick={()=>setMenu("/private-label-swimwear")}>PRIVATE LABEL SWIMWEAR</li></Link>
+            <Link to={'/about-us'}><li className={menu==="/about-us" ? 'active' : ''} onClick={()=>setMenu("/about-us")}>ABOUT US</li></Link>
+            <Link to={'/journal'}><li className={menu==="/journal" ? 'active' : ''} onClick={()=>setMenu("/journal")}>JOURNAL</li></Link>
+            <Link to={'/contact-us'}><li className={menu==="/contact-us" ? 'active' : ''} onClick={()=>setMenu("/contact-us")}>CONTACT US</li></Link>
         </ul>
         <img src={navmenu} alt='' className='menu-icon' onClick={toggleMenu}/>
     </nav>
@@ -40,10 +40,10 @@ const Navbar = () => {
         <Link to={'/laisla'}><img src={logo} alt='' className='logo' /></Link>
         <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
             <Link to={'/laisla'}><li className={menu==="home" ? 'active' : ''} onClick={()=>setMenu("home")} >HOME</li></Link>
-            <Link to={'/laisla/private-label-swimwear'}><li className={menu==="privatelabel" ? 'active' : ''} onClick={()=>setMenu("privatelabel")}>PRIVATE LABEL SWIMWEAR</li></Link>
-            <Link to={'/laisla/about-us'}><li className={menu==="about-us" ? 'active' : ''} onClick={()=>setMenu("about-us")}>ABOUT US</li></Link>
-            <Link to={'/laisla/Journal'}><li className={menu==="journal" ? 'active' : ''} onClick={()=>setMenu("journal")}>JOURNAL</li></Link>
-            <Link to={'/laisla/contact-us'}><li className={menu==="contact-us" ? 'active' : ''} onClick={()=>setMenu("contact-us")}>CONTACT US</li></Link>
+            <Link to={'/private-label-swimwear'}><li className={menu==="privatelabel" ? 'active' : ''} onClick={()=>setMenu("privatelabel")}>PRIVATE LABEL SWIMWEAR</li></Link>
+            <Link to={'/about-us'}><li className={menu==="about-us" ? 'active' : ''} onClick={()=>setMenu("about-us")}>ABOUT US</li></Link>
+            <Link to={'/Journal'}><li className={menu==="journal" ? 'active' : ''} onClick={()=>setMenu("journal")}>JOURNAL</li></Link>
+            <Link to={'/contact-us'}><li className={menu==="contact-us" ? 'active' : ''} onClick={()=>setMenu("contact-us")}>CONTACT US</li></Link>
         </ul>
         <img src={navmenu} alt='' className='menu-icon' onClick={toggleMenu}/>
     </nav>*/

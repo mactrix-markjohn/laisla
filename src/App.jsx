@@ -25,29 +25,29 @@ function App() {
       </Helmet>
       <Navbar/>
       <Routes>
-        <Route path='/laisla' element={<Home/>} />
-        <Route path='/laisla/private-label-swimwear' element={<PrivateLabelSwimwear/>} />
-        {/*<Route path='/laisla/PrivateLabel' element={<PrivateLabelSwimwear/>} />*/}
-        <Route path='/laisla/about-us' element={<AboutUs/>} />
-        <Route path='/laisla/journal' element={<Journal/>} />
-        <Route path='/laisla/contact-us' element={<ContactUs/>} />
-        <Route path='/laisla/journal/SEO' element={<SEO/>} />
-        <Route path='/laisla/journal/Interna' element={<Interna/>} />
-        <Route path='/laisla/journal/article/:articleId' element={<Article/>} />
+        <Route path='/' element={<Home/>} />
+        <Route path='/private-label-swimwear' element={<PrivateLabelSwimwear/>} />
+        {/*<Route path='/PrivateLabel' element={<PrivateLabelSwimwear/>} />*/}
+        <Route path='/about-us' element={<AboutUs/>} />
+        <Route path='/journal' element={<Journal/>} />
+        <Route path='/contact-us' element={<ContactUs/>} />
+        <Route path='/journal/SEO' element={<SEO/>} />
+        <Route path='/journal/Interna' element={<Interna/>} />
+        <Route path='/journal/article/:articleId' element={<Article/>} />
         
         {/*Redirect URLs*/}
         
-        <Route path='/laisla/lookbooks' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
-        <Route path='/laisla/lookbooks/womens-swimwear/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
-        <Route path='/laisla/private-label/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
-        <Route path='/laisla/private-label/factory/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
-        <Route path='/laisla/private-label/testimonials/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
-        <Route path='/laisla/lookbooks/mens-swimwear/' element={<Navigate to='/laisla/private-label-swimwear'/>}/>
+        <Route path='/lookbooks' element={<Navigate to='/private-label-swimwear'/>}/>
+        <Route path='/lookbooks/womens-swimwear/' element={<Navigate to='/private-label-swimwear'/>}/>
+        <Route path='/private-label/' element={<Navigate to='/private-label-swimwear'/>}/>
+        <Route path='/private-label/factory/' element={<Navigate to='/private-label-swimwear'/>}/>
+        <Route path='/private-label/testimonials/' element={<Navigate to='/private-label-swimwear'/>}/>
+        <Route path='/lookbooks/mens-swimwear/' element={<Navigate to='/private-label-swimwear'/>}/>
 
-        <Route path='/laisla/how-to-start-your-own-swimwear-company/' element={<Navigate to='/laisla/journal/article/how-to-start-your-own-swimwear-company'/>}/>
-        <Route path='/laisla/white-label-swimwear-vs-private-label-swimwear/' element={<Navigate to='/laisla/journal/article/white-label-swimwear-vs-private-label-swimwear'/>}/>
-        <Route path='/laisla/how-to-find-the-best-swimwear-factory-for-your-business-a-guide-by-la-isla/' element={<Navigate to='/laisla/journal/article/how-to-find-the-best-swimwear-factory-for-your-business-a-guide-by-la-isla'/>}/>
-        <Route path='/laisla/how-to-start-your-own-swimwear-company-2/' element={<Navigate to='/laisla/journal/article/how-to-start-your-own-swimwear-company-2'/>}/>
+        <Route path='/how-to-start-your-own-swimwear-company/' element={<Navigate to='/journal/article/how-to-start-your-own-swimwear-company'/>}/>
+        <Route path='/white-label-swimwear-vs-private-label-swimwear/' element={<Navigate to='/journal/article/white-label-swimwear-vs-private-label-swimwear'/>}/>
+        <Route path='/how-to-find-the-best-swimwear-factory-for-your-business-a-guide-by-la-isla/' element={<Navigate to='/journal/article/how-to-find-the-best-swimwear-factory-for-your-business-a-guide-by-la-isla'/>}/>
+        <Route path='/how-to-start-your-own-swimwear-company-2/' element={<Navigate to='/journal/article/how-to-start-your-own-swimwear-company-2'/>}/>
 
 
       </Routes>

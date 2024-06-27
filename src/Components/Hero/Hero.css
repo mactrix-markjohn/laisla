@@ -204,7 +204,7 @@
 /* ---------- media query --------- */
 
 /* Tablets Screen - Important */
-@media (max-width: 1200px){
+@media (max-width: 1250px){
     .hero{
         margin-top: 60px;
         display: inline-flex;

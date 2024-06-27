@@ -22,21 +22,21 @@ const Section2Journal = () => {
     {
         j_no:"white-label-swimwear-vs-private-label-swimwear",
         j_img:article2,
-        j_title:"White Label Swimwear Vs. Private Label Swimwear",
+        j_title:"White label swimwear vs. Private label swimwear",
         j_body:"BY LAISLABRAND And Why Private Label is Your Best Choice. In the dynamic world of swimwear fashion, creating a distinctive, memorable brand is essential. With many options available for swimwear manufacturing, the choice between white label and private label can significantly impact your brand’s originality and uniqueness. At La Isla, we believe that private label manufacturing is […]",
         j_date:"JUNE 29, 2024"
     },
     {
         j_no:"how-to-find-the-best-swimwear-factory-for-your-business-a-guide-by-la-isla",
         j_img:article4,
-        j_title:"How to Find the Best Swimwear Factory for Your Business: A Guide by La Isla",
+        j_title:"How to find the best swimwear factory for your business: A guide by La Isla",
         j_body:"BY LAISLABRAND Are you a business looking to manufacture swimwear, but unsure of where to start? With so many swimwear factories out there, it can be overwhelming to know which one to choose. In this guide, we’ll help you navigate the process and provide insights on what to look for when choosing a swimwear manufacturing partner. Customer […]",
         j_date:"JUNE 28, 2024"
     },
     {
         j_no:"how-to-start-your-own-swimwear-company-2",
         j_img:article3,
-        j_title:"How To Start Your Own Swimwear Company",
+        j_title:"How to start your own swimwear company",
         j_body:"BY LAISLABRAND By: Enrique Sánchez-Rivera, CEO LA ISLA Today marks my 20th year in the swimwear business. Over the past two decades, I have had my fair share of successes and failures, but the most important takeaway has been a crash course in persistence. Unlike many apparel companies, I started LA ISLA with no investors and bootstrapped […]",
         j_date:"JUNE 27, 2024"
     }
@@ -46,7 +46,7 @@ const Section2Journal = () => {
     <div className='Section2Journal'>
         <div className='Section2JournalContainer'>
             {Journal_Data.map((journal,index)=>{
-                return <Link to={`/laisla/journal/article/${journal.j_no}`} key={index} className='journal-format'><div >
+                return <Link to={`/journal/article/${journal.j_no}`} key={index} className='journal-format'><div >
                     <img src={journal.j_img} alt=''/>
                     <p className='Section2JournalTitle'><b>{journal.j_title}</b></p>
                     <div className='journal-formathr'/>

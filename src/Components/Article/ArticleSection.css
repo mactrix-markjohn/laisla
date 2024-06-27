@@ -101,7 +101,7 @@
     }
     
     .Article3InternaRow{
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         display: flex;
         align-items: start;
     
@@ -294,7 +294,7 @@
     }
     
     .Article3InternaRow{
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         display: flex;
         align-items: start;
     
@@ -359,7 +359,7 @@
     }
     .Article4InternaTitle{
         color: #000000;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 14px;
         text-align: start;
         margin-bottom: 20px;
@@ -671,7 +671,7 @@
     }
     
     .Article3InternaRow{
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         display: flex;
         flex-direction: column;
         align-items: start;
