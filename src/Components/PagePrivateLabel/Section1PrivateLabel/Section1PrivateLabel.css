@@ -87,6 +87,11 @@
         width: 40%;
     
     }
+    .Section1PrivateTextRegion2 h2{
+        font-size: 66px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
     .Section1PrivateTextRegion2 p{
         font-weight: 400;
         font-size: 28px;
@@ -184,6 +189,11 @@
     .Section1PrivateTextRegion2{
         width: 40%;
     
+    }
+    .Section1PrivateTextRegion2 h2{
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 20px;
     }
     .Section1PrivateTextRegion2 p{
         font-weight: 400;
@@ -285,6 +295,11 @@
         width: 40%;
         justify-content: start;
     
+    }
+    .Section1PrivateTextRegion2 h2{
+        font-size: 23px;
+        font-weight: 700;
+        margin-bottom: 10px;
     }
     .Section1PrivateTextRegion2 p{
         font-weight: 400;
@@ -389,6 +404,11 @@
         justify-content: center;
         order: 2;
     
+    }
+    .Section1PrivateTextRegion2 h2{
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
     }
     .Section1PrivateImageRegion2 img{
         width: 50%;

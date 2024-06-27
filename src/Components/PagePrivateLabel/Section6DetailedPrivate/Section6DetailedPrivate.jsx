@@ -62,25 +62,85 @@ const Section6DetailedPrivate = () => {
         </div>
         
         <p className='Section6DetailedPrivateSecondP'>
-          
-          <h3>Our full package prices include the following:</h3><br/> 
-- Pattern making (release of patterns has a $500 cost)<br/>
-- Sample making + samples (one sample for each style) - if you we need to make revisions on any of the styles, we will make counter samples as well<br/>
-- All fabrics<br/>
-- Elastics<br/>
-- Labels (printed or woven)<br/>
-- Pads<br/>
-- Hygienic liners for bottoms (branded if order is above 3,000 units)<br/>
-- Individual poly bag for each piece<br/>
-- Cut & Sew<br/>
-- Cartons (for shipping)<br/>
-- Tagging and folding<br/>
-<br/>
-Last but not least, please know we are always a phone call or a video call away. We pride ourselves in having outstanding customer service, and we stand by our clients through every step of the process. With over twenty years of manufacturing and branded swim experience, we strongly believe we are the best choice for private label swimwear manufacturing for small and medium sized brands.
+          <h3>Our full package prices include the following:</h3>
+        </p>
+
+        <div className='Section6DetailedPrivateCheckText'>
+          <img src={heart} alt=''/>
+          <div/>
+          <p>Pattern making (release of patterns has a $500 cost)</p>
+        </div>
+
+        <div className='Section6DetailedPrivateCheckText'>
+          <img src={heart} alt=''/>
+          <div/>
+          <p>Sample making + samples (one sample for each style) - if you we need to make revisions on any of the styles, we will make counter samples as well</p>
+        </div>
+
+        <div className='Section6DetailedPrivateCheckText'>
+          <img src={heart} alt=''/>
+          <div/>
+          <p>All fabrics</p>
+        </div>
+
+        <div className='Section6DetailedPrivateCheckText'>
+          <img src={heart} alt=''/>
+          <div/>
+          <p>Elastics</p>
+        </div>
+
+        <div className='Section6DetailedPrivateCheckText'>
+          <img src={heart} alt=''/>
+          <div/>
+          <p>Labels (printed or woven)</p>
+        </div>
+
+        <div className='Section6DetailedPrivateCheckText'>
+          <img src={heart} alt=''/>
+          <div/>
+          <p>Pads</p>
+        </div>
+
+        <div className='Section6DetailedPrivateCheckText'>
+          <img src={heart} alt=''/>
+          <div/>
+          <p>Hygienic liners for bottoms (branded if order is above 3,000 units)</p>
+        </div>
+
+        <div className='Section6DetailedPrivateCheckText'>
+          <img src={heart} alt=''/>
+          <div/>
+          <p>Individual poly bag for each piece</p>
+        </div>
+
+        <div className='Section6DetailedPrivateCheckText'>
+          <img src={heart} alt=''/>
+          <div/>
+          <p>Cut & Sew</p>
+        </div>
+
+        <div className='Section6DetailedPrivateCheckText'>
+          <img src={heart} alt=''/>
+          <div/>
+          <p>Cartons (for shipping)</p>
+        </div>
+
+        <div className='Section6DetailedPrivateCheckText'>
+          <img src={heart} alt=''/>
+          <div/>
+          <p>Tagging and folding</p>
+        </div>
+
+        <p className='Section6DetailedPrivateSecondP'>
+        Last but not least, please know we are always a phone call or a video call away. We pride ourselves in having outstanding customer service, and we stand by our clients through every step of the process. With over twenty years of manufacturing and branded swim experience, we strongly believe we are the best choice for private label swimwear manufacturing for small and medium sized brands.
+         </p>
 
 
-</p>
-    </div>
+  </div>
+
+        
+
+        
   )
 }
 

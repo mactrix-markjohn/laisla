@@ -10,7 +10,7 @@ const SectionTwo = () => {
         <div className='SectionTwoMobileDivide'/>
         <div className='twocontent'>
             <h3>Our US offices</h3>
-            <p>Are in Oregon and our manufacturing facilities are in Medellin, Colombia. </p>
+            <p>are in Oregon and our manufacturing facilities are in Medellin, Colombia. </p>
         </div>
     </div>
   )

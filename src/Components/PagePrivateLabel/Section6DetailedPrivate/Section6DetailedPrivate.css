@@ -272,7 +272,7 @@
     .Section6DetailedPrivateCheckText, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText {
         display: flex;
         align-items: start;
-        margin-bottom: 17px;
+        margin-bottom: 5px;
     }
     .Section6DetailedPrivateCheckText img, .Section6DetailedPrivateRow .Section6DetailedPrivateCheckText img {
         width: 23px;

@@ -119,7 +119,7 @@ const Section7FAQPrivateLabel = () => {
                     <img src={check} alt=''/>
                     <div/>
                     <p><b>14. How do I get started with La Isla?</b><br/><br/>
-                    To get started, contact us through our website or email us at laisla@laislabrand.com. We look forward to collaborating with you on your swimwear private label manufacturing needs.</p>
+                    To get started, contact us through our website or email us at <b><a href='mailto:hello@laislabrand.com' target='_blank'>hello@laislabrand.com</a></b>. We look forward to collaborating with you on your swimwear private label manufacturing needs.</p>
                 </div>
 
             </div>

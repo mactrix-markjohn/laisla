@@ -92,9 +92,12 @@
     }
     .gridcontent{
         display: flex;
-        align-items: center;
+        align-items: start;
         justify-content: left;
         margin-bottom: 15px;
+    }
+    .gridcontent img{
+        width: 2.5%;
     }
     .gridcontent p{
         color: white;
@@ -315,6 +318,7 @@
         justify-content: left;
         margin-bottom: 5px;
     }
+    
     .gridcontent p{
         color: white;
         font-size: 8px;
@@ -322,7 +326,7 @@
         width: 100%;
     }
     .gridcontent img{
-        width: 10%;
+        width: 5%;
     }
     .gridcontent div{
         margin-left: 5px;

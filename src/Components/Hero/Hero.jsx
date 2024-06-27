@@ -41,14 +41,14 @@ const Hero = () => {
           indicators={false}
         >
           <Carousel.Item>
-            <img className='Swiperimg' src={modelwater1} alt="" />          
+            <img className='Swiperimg' src={modelwater1} alt="" loading="eager" />          
           </Carousel.Item>
 
           <Carousel.Item>
-            <img className='Swiperimg' src={modelwater2} alt="" />      
+            <img className='Swiperimg' src={modelwater2} alt="" loading="eager" />      
           </Carousel.Item>
           <Carousel.Item>
-            <img className='Swiperimg' src={modelwater3} alt="" />  
+            <img className='Swiperimg' src={modelwater3} alt="" loading="eager" />  
           </Carousel.Item>
 
         </Carousel>
@@ -70,14 +70,14 @@ const Hero = () => {
           indicators={false}
         >
           <Carousel.Item>
-            <img className='Swiperimg' src={modelwater1mobile} alt="" />          
+            <img className='Swiperimg' src={modelwater1mobile} alt="" loading="eager" />          
           </Carousel.Item>
 
           <Carousel.Item>
-            <img className='Swiperimg' src={modelwater2mobile} alt="" />      
+            <img className='Swiperimg' src={modelwater2mobile} alt="" loading="eager" />      
           </Carousel.Item>
           <Carousel.Item>
-            <img className='Swiperimg' src={modelwater3mobile} alt="" />  
+            <img className='Swiperimg' src={modelwater3mobile} alt="" loading="eager" />  
           </Carousel.Item>
 
         </Carousel>
