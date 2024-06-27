@@ -14,7 +14,7 @@ const SectionThree = () => {
         <div className='threeImageRegion'>
             <img src={modelwhite} alt=''/>
             <div/>
-            <img src={modelpink} alt=''/>
+            <img src={modelpink} alt='' loading="lazy" fetchPriority="high"/>
         </div>
 
     </div>

@@ -10,9 +10,9 @@ const Section1About = () => {
             <h1>La Isla Fashion Group, LLC, headquartered in Oregon, operates manufacturing offices in Medellin, Colombia.</h1>
         </div>
         <div className='Section1Aboutimages'>
-          <img src={modelorange} alt=''/>
+          <img src={modelorange} alt='' loading="lazy" fetchPriority="high"/>
           <img className='Section1AboutCenterImage' src={modelblue} alt=''/>
-          <img src={modelpink} alt=''/>
+          <img src={modelpink} alt='' loading="lazy" fetchPriority="high"/>
         </div>
         <div className='Section1AboutText'>
           <p>With over two decades of experience in the swimwear manufacturing industry, our company specializes in full package manufacturing of women’s swimwear. Over the years, we have had the privilege of working with some of the world’s global brands and celebrities, as well as startups and medium-sized companies.</p>

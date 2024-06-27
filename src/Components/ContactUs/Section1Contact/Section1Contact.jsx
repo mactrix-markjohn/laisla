@@ -18,7 +18,7 @@ const Section1Contact = () => {
             </form>
         </div>
         <div className='Section1ContactImage'>
-            <img src={model} alt=''/>
+            <img src={model} alt='' loading="lazy" fetchPriority="high"/>
         </div>
     </div>
   )

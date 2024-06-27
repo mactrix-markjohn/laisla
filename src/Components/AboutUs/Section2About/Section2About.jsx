@@ -5,7 +5,7 @@ const Section2About = () => {
   return (
     <div className='Section2About'>
         <div className='Section2ImageRegion'>
-            <img src={model} alt=''/>
+            <img src={model} alt='' loading="lazy" fetchPriority="high"/>
         </div>
         <div className='Section2TextRegion'>
             <h2>Ancillary services</h2>

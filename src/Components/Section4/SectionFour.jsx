@@ -1,4 +1,3 @@
-import React from 'react'
 import './SectionFour.css'
 import model from '../../assets/thirdmodelwhite.png'
 
@@ -6,7 +5,7 @@ const SectionFour = () => {
   return (
     <div className='SectionFour'>
         <div className='fourImageRegion'>
-            <img src={model} alt=''/>
+            <img src={model} alt='' loading="lazy" fetchPriority="high"/>
         </div>
         <div className='fourTextRegion'>
             <h2>Quality</h2>

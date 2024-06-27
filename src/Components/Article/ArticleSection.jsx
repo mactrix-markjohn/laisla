@@ -110,8 +110,8 @@ const ArticleSection = () => {
         </Helmet>
 
         <div className='Article1Interna'>
-            <img className='Article1Internaimg' src={hero} alt=''/>
-            <img className='Article1Internaimgmobile' src={heromobile} alt=''/>
+            <img className='Article1Internaimg' src={hero} alt='' loading="lazy" fetchPriority="high"/>
+            <img className='Article1Internaimgmobile' src={heromobile} alt='' loading="lazy" fetchPriority="high"/>
         </div>
 
         <div className='Article2Interna'>
@@ -128,7 +128,7 @@ const ArticleSection = () => {
             <h2></h2>
             <p className='Article3InternaFirstP' dangerouslySetInnerHTML={{ __html: selectedArticle.j_body1 }}></p>
             <div className='Article3InternaRow'>
-                <img src={selectedArticle.j_img} alt=''/>
+                <img src={selectedArticle.j_img} alt='' loading="lazy" fetchPriority="high"/>
                 <p dangerouslySetInnerHTML={{ __html: selectedArticle.j_body2 }}></p>
             </div>
             <p className='Article3InternaSecondP' dangerouslySetInnerHTML={{ __html: selectedArticle.j_body3 }}></p>
@@ -143,7 +143,7 @@ const ArticleSection = () => {
             <div className='Article4InternaContainer'>
                 {Journal_Data.map((journal,index)=>{
                     return <Link to={`/journal/article/${journal.j_no}`} key={index} ><div className='interna-format'>
-                        <img src={journal.j_img} alt=''/>
+                        <img src={journal.j_img} alt='' loading="lazy" fetchPriority="high"/>
                         <div className='internaformatdiv'>
                             <p className='Article4InternaTitle'>{journal.j_title}</p>
                             <hr className='internaformathr'/>

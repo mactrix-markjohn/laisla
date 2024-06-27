@@ -14,7 +14,7 @@ const Section3About = () => {
                 </div>
             </div>
             <div className='Section3AboutImageRegion'>
-                <img src={model} alt=''/>
+                <img src={model} alt='' loading="lazy" fetchPriority="high"/>
             </div>
 
         </div>
