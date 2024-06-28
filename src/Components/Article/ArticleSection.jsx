@@ -18,9 +18,13 @@ import {body1 as article2Body1, body2 as article2Body2, body3 as article2Body3 }
 import {body1 as article3Body1, body2 as article3Body2, body3 as article3Body3 } from '../../Components/Article/ArticleContent/article3Content';
 import {body1 as article4Body1, body2 as article4Body2, body3 as article4Body3 } from '../../Components/Article/ArticleContent/article4Content';
 import { Helmet } from 'react-helmet'
+import ImageComponent from '../ImageComponent'
 
 
 const ArticleSection = () => {
+
+    const hash1 = 'L4A^az~900Ri?c-=%NMwD$t8^,WY'
+    const hash1mobile = 'LDD9;m%Ladxt~UtR%Mt7V;RjjuWX'
 
     const [Journal_Article] = useState([
         {
@@ -110,8 +114,14 @@ const ArticleSection = () => {
         </Helmet>
 
         <div className='Article1Interna'>
-            <img className='Article1Internaimg' src={hero} alt='' loading="lazy" fetchPriority="high"/>
-            <img className='Article1Internaimgmobile' src={heromobile} alt='' loading="lazy" fetchPriority="high"/>
+            <div className='Article1InternaBigScreen'>
+                {/* <img className='Article1Internaimg' src={hero} alt='' loading="lazy" fetchPriority="high"/> */}
+                <ImageComponent classnames='Article1Internaimg' src={hero} hash={hash1} heights='calc(60vw * 9/16)'/>
+            </div>
+            <div className='Article1InternaMobile'>
+                {/* <img className='Article1Internaimgmobile' src={heromobile} alt='' loading="lazy" fetchPriority="high"/> */}
+                <ImageComponent classnames='Article1Internaimgmobile' src={heromobile} hash={hash1mobile} heights='calc(160vw * 9/16)'/>
+            </div>
         </div>
 
         <div className='Article2Interna'>

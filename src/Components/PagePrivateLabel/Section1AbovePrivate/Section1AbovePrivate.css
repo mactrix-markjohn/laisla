@@ -10,6 +10,12 @@
     .Section1AbovePrivateimg{
         width: 100%;
     }
+    .Section1AbovePrivateBigScreen{
+        display: block;
+    }
+    .Section1AbovePrivateMobile{
+        display: none;
+    }
     .Section1AbovePrivateimgmobile{
         display: none;
     }
@@ -58,6 +64,12 @@
     }
     .Section1AbovePrivateimg{
         width: 100%;
+    }
+    .Section1AbovePrivateBigScreen{
+        display: block;
+    }
+    .Section1AbovePrivateMobile{
+        display: none;
     }
     .Section1AbovePrivateimgmobile{
         display: none;
@@ -109,6 +121,12 @@
     .Section1AbovePrivateimg{
         width: 100%;
     }
+    .Section1AbovePrivateBigScreen{
+        display: block;
+    }
+    .Section1AbovePrivateMobile{
+        display: none;
+    }
     .Section1AbovePrivateimgmobile{
         display: none;
     }
@@ -156,12 +174,19 @@
         justify-content: center;
         
     }
-    .Section1AbovePrivateimg{
-        width: 100%;
+    .Section1AbovePrivateBigScreen{
         display: none;
     }
-    .Section1AbovePrivateimgmobile{
+    .Section1AbovePrivateMobile{
         display: block;
+    }
+    .Section1AbovePrivateimg{
+        width: 100%;
+        
+    }
+    
+    .Section1AbovePrivateimgmobile{
+        
         width: 100%;
     }
     .Section1AbovePrivateContent{

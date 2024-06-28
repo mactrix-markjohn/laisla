@@ -10,6 +10,12 @@
     .Article1Internaimg{
         width: 100%;
     }
+    .Article1InternaBigScreen{
+        display: block;
+    }
+    .Article1InternaMobile{
+        display: none;
+    }
     .Article1Internaimgmobile {
         width: 100%;
         display: none;
@@ -204,6 +210,12 @@
     .Article1Internaimg{
         width: 100%;
     }
+    .Article1InternaBigScreen{
+        display: block;
+    }
+    .Article1InternaMobile{
+        display: none;
+    }
     .Article1Internaimgmobile {
         width: 100%;
         display: none;
@@ -393,6 +405,12 @@
     .Article1Internaimg{
         width: 100%;
     }
+    .Article1InternaBigScreen{
+        display: block;
+    }
+    .Article1InternaMobile{
+        display: none;
+    }
     .Article1Internaimgmobile {
         width: 100%;
         display: none;
@@ -581,6 +599,12 @@
     .Article1Internaimg{
         width: 100%;
         display: none;
+    }
+    .Article1InternaBigScreen{
+        display: none;
+    }
+    .Article1InternaMobile{
+        display: block;
     }
     .Article1Internaimgmobile {
         width: 100%;

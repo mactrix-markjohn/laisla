@@ -15,7 +15,7 @@ const SectionFive = () => {
             <h1>At La Isla, sustainability isn't just a buzzword – it's a way of life.</h1>
         </div>
         <div className='fiveimages'>
-          <img src={modelorange} alt=''/>
+          <img src={modelorange} alt='' loading="lazy" fetchPriority="high"/>
           <img className='fiveCenterImage' src={modelblue} alt=''/>
           <img src={modelpink} alt=''/>
         </div>
