@@ -34,9 +34,9 @@ const Section2Journal = () => {
         j_date:"JUNE 28, 2024"
     },
     {
-        j_no:"how-to-start-your-own-swimwear-company-2",
+        j_no:"how-to-launch-your-own-swimwear-company-2",
         j_img:article3,
-        j_title:"How to start your own swimwear company",
+        j_title:"How to launch your own swimwear company",
         j_body:"BY LA ISLA BRAND By: Enrique Sánchez-Rivera, CEO LA ISLA Today marks my 20th year in the swimwear business. Over the past two decades, I have had my fair share of successes and failures, but the most important takeaway has been a crash course in persistence. Unlike many apparel companies, I started LA ISLA with no investors and bootstrapped […]",
         j_date:"JUNE 27, 2024"
     }

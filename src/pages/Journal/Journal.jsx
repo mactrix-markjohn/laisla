@@ -10,6 +10,7 @@ const Journal = () => {
         <title>Journal</title>
         <meta name="description" content="Articles about how to start your own swimwear company are discussed here."/>
         <meta name="keywords" content="private label swimwear, private label bathing suits, swimwear, white label swimwear, bathing suits"/>
+        <link rel="canonical" href='https://laislabrand.com/journal' />
       </Helmet>
         <Section1Journal/>
         <Section2Journal/>

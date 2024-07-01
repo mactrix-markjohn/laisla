@@ -43,10 +43,10 @@ const Footer = () => {
                             <p>How to find the best swimwear factory for your business: A guide by La Isla
                             </p>
                         </div></Link>
-                        <Link to={`/journal/article/how-to-start-your-own-swimwear-company-2`}><div className='gridcontent'>
+                        <Link to={`/journal/article/how-to-launch-your-own-swimwear-company-2`}><div className='gridcontent'>
                             <img src={circlearrow} alt=''/>
                             <div/>
-                            <p>How to start your own swimwear company</p>
+                            <p>How to launch your own swimwear company</p>
                         </div></Link>
                         
                     </div>

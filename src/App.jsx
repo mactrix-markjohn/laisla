@@ -10,7 +10,6 @@ import ContactUs from './pages/ContactUs/ContactUs'
 import Journal from './pages/Journal/Journal'
 import SEO from './pages/SEO/SEO'
 import Interna from './pages/Interna/Interna'
-import { Helmet } from 'react-helmet'
 import Article from './pages/Article/Article'
 
 
@@ -18,11 +17,7 @@ function App() {
 
   return (
     <div>
-      <Helmet>
-        <title>Designer Bathing Suits, Vintage T Shirts & Headwear | La Isla</title>
-        <meta name="description" content="Ecologically Intelligent Swimwear A commitment to quality. From the inspiration of the design to the inception of the product, everything bearing the LA ISLA name is made with equal consciousness for the environment and for style."/>
-        <meta name="keywords" content="La Isla, private label swimwear"/>
-      </Helmet>
+      
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>} />
