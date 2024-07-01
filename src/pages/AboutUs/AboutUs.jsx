@@ -11,6 +11,7 @@ const AboutUs = () => {
         <title>About Us</title>
         <meta name="description" content="We are a full service factory providing private label bathing suits, bikinis, and other types of swimwear. If you’re looking for ethically made white label swimwear, click here."/>
         <meta name="keywords" content="private label swimwear, private label bathing suits, swimwear, white label swimwear, bathing suits"/>
+        <link rel="canonical" href='https://laislabrand.com/about-us' />
       </Helmet>
       <Section1About/>
       <Section2About/>

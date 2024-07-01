@@ -8,8 +8,8 @@ import { Navigate, Route, Routes } from 'react-router-dom'
 import AboutUs from './pages/AboutUs/AboutUs'
 import ContactUs from './pages/ContactUs/ContactUs'
 import Journal from './pages/Journal/Journal'
-import SEO from './pages/SEO/SEO'
-import Interna from './pages/Interna/Interna'
+// import SEO from './pages/SEO/SEO'
+// import Interna from './pages/Interna/Interna'
 import Article from './pages/Article/Article'
 
 
@@ -26,8 +26,8 @@ function App() {
         <Route path='/about-us' element={<AboutUs/>} />
         <Route path='/journal' element={<Journal/>} />
         <Route path='/contact-us' element={<ContactUs/>} />
-        <Route path='/journal/SEO' element={<SEO/>} />
-        <Route path='/journal/Interna' element={<Interna/>} />
+        {/* <Route path='/journal/SEO' element={<SEO/>} />
+        <Route path='/journal/Interna' element={<Interna/>} /> */}
         <Route path='/journal/article/:articleId' element={<Article/>} />
         
         {/*Redirect URLs*/}

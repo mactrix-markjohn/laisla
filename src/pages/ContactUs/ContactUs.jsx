@@ -9,6 +9,7 @@ const ContactUs = () => {
         <title>Contact Us </title>
         <meta name="description" content="Send us a message. We respond as fast as possible."/>
         <meta name="keywords" content="private label swimwear, private label bathing suits, swimwear, white label swimwear, bathing suits"/>
+        <link rel="canonical" href='https://laislabrand.com/contact-us' />
       </Helmet>
         <Section1Contact/>
     </div>
