@@ -31,6 +31,7 @@ const Navbar = () => {
             <Link to={'/private-label-swimwear'}><li className={menu==="/private-label-swimwear" ? 'active' : ''} onClick={()=>{setMenu("/private-label-swimwear"); toggleMenu();}}>PRIVATE LABEL SWIMWEAR</li></Link>
             <Link to={'/about-us'}><li className={menu==="/about-us" ? 'active' : ''} onClick={()=>{setMenu("/about-us"); toggleMenu();}}>ABOUT US</li></Link>
             <Link to={'/journal'}><li className={menu==="/journal" ? 'active' : ''} onClick={()=>{setMenu("/journal"); toggleMenu();}}>JOURNAL</li></Link>
+            <Link to={'/press'}><li className={menu==="/press" ? 'active' : ''} onClick={()=>{setMenu("/press"); toggleMenu();}}>PRESS</li></Link>
             <Link to={'/contact-us'}><li className={menu==="/contact-us" ? 'active' : ''} onClick={()=>{setMenu("/contact-us"); toggleMenu();}}>CONTACT US</li></Link>
         </ul>
         <img src={navmenu} alt='' className='menu-icon' onClick={toggleMenu}/>

@@ -1,0 +1,367 @@
+/* Ultra-Wide Screen - Important */
+@media (min-width: 1901px){
+    .Section2Press{
+        background-color: #fff;
+        padding: 100px 200px;
+    }
+    .Section2PressContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 120px;
+    }
+    .press-format{
+        width: 100%;
+        background: #fff;
+        border-radius: 30px;
+        padding: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+    }
+    .press-format img{
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 24px;
+        border-radius: 12px;
+    }
+    .Section2PressTitle{
+        margin-bottom: 12px;
+        font-size: 26px;
+    }
+    .press-formathr{
+        margin-bottom: 20px;
+        border: 1px solid #977347;
+        width: 37%;
+    
+    }
+    .Section2PressBody{
+        margin-bottom: 25px;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 40px;
+    
+    }
+    .Section2Date{
+        margin-bottom: 100px;
+        text-align: end;
+        color: #666666;
+        font-size: 26px;
+    }
+    
+    /* Next and Prev*/
+    .Section2PressNextPrevHolder{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .Section2PressNextPrev{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .Section2PresscontactBtn{
+        background: transparent;
+        border: 0px solid transparent;
+        width: 5%;
+    }
+    .Section2PresscontactBtn img{
+        width: 50%;
+    }
+    .Section2PressNumbers{
+        margin-left: 1px;
+        margin-right: 1px;
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .num{
+        font-size: 26px;
+        font-weight: 300;
+    }
+    .Section2PressNumbers button{
+        background: transparent;
+        border: 0px solid transparent;
+
+    }
+    .numbold{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    
+}
+
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .Section2Press{
+        background-color: #fff;
+        padding: 60px 120px;
+    }
+    .Section2PressContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 120px;
+    }
+    .press-format{
+        width: 100%;
+        background: #fff;
+        border-radius: 20px;
+        padding: 16px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+    }
+    .press-format img{
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 24px;
+        border-radius: 12px;
+    }
+    .Section2PressTitle{
+        margin-bottom: 12px;
+    }
+    .press-formathr{
+        margin-bottom: 12px;
+        border: 1px solid #977347;
+        width: 35%;
+    
+    }
+    .Section2PressBody{
+        margin-bottom: 12px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+    
+    }
+    .Section2Date{
+        margin-bottom: 50px;
+        text-align: end;
+        color: #666666;
+    }
+    
+    /* Next and Prev*/
+    .Section2PressNextPrevHolder{
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .Section2PressNextPrev{
+        display: none;
+        align-items: center;
+        width: 15%;
+    }
+    .Section2PresscontactBtn{
+        background: transparent;
+        border: 0px solid transparent;
+    }
+    .Section2PressNumbers{
+        margin-left: 12px;
+        margin-right: 12px;
+        width: 200%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .num{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .Section2PressNumbers button{
+        background: transparent;
+        border: 0px solid transparent;
+    }
+    .numbold{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+}
+
+
+
+
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+
+    .Section2Press{
+        background-color: #fff;
+        padding: 40px 75px;
+    }
+    .Section2PressContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        margin-bottom: 120px;
+        width: 100%;
+    }
+    .press-format{
+        width: 100%;
+        background: #fff;
+        border-radius: 20px;
+        padding: 10px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.07);
+    }
+    .press-format img{
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 24px;
+        border-radius: 12px;
+    }
+    .Section2PressTitle{
+        margin-bottom: 12px;
+        font-weight: 700;
+        font-size: 8px;
+        text-align: start;
+        width: 100%;
+    }
+    .press-formathr{
+        margin-bottom: 10px;
+        border: 0.5px solid #977347;
+        width: 35%;
+    
+    }
+    .Section2PressBody{
+        margin-bottom: 12px;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 13px;
+        width: 95%;
+    
+    }
+    .Section2Date{
+        margin-bottom: 25px;
+        text-align: end;
+        color: #666666;
+        font-size: 8px;
+    }
+    
+    /* Next and Prev*/
+    .Section2PressNextPrevHolder{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    .Section2PressNextPrev{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .Section2PresscontactBtn{
+        background: transparent;
+        border: 0px solid transparent;
+        width: 10%;
+    }
+    .Section2PressNumbers{
+        margin-left: 1px;
+        margin-right: 1px;
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .num{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .Section2PressNumbers button{
+        background: transparent;
+        border: 0px solid transparent;
+
+    }
+    .numbold{
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
+
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+    .Section2Press{
+        background-color: #fff;
+        padding: 60px 16px;
+    }
+    .Section2PressContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        margin-bottom: 120px;
+    }
+    .press-format{
+        width: 100%;
+        background: #fff;
+        border-radius: 20px;
+        padding: 16px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+    }
+    .press-format img{
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 24px;
+        border-radius: 12px;
+    }
+    .Section2PressTitle{
+        margin-bottom: 12px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .press-formathr{
+        margin-bottom: 12px;
+        border: 1px solid #977347;
+        width: 35%;
+    
+    }
+    .Section2PressBody{
+        margin-bottom: 12px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        width: 93%;
+    
+    }
+    .Section2Date{
+        margin-bottom: 50px;
+        text-align: end;
+        color: #666666;
+    }
+    
+    /* Next and Prev*/
+    .Section2PressNextPrevHolder{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    .Section2PressNextPrev{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    .Section2PresscontactBtn{
+        background: transparent;
+        border: 0px solid transparent;
+    }
+    .Section2PressNumbers{
+        margin-left: 12px;
+        margin-right: 12px;
+        width: 200%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .num{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .Section2PressNumbers button{
+        background: transparent;
+        border: 0px solid transparent;
+    }
+    .numbold{
+        font-size: 16px;
+        font-weight: 700;
+    }
+}

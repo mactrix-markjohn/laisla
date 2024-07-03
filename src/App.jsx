@@ -11,6 +11,8 @@ import Journal from './pages/Journal/Journal'
 // import SEO from './pages/SEO/SEO'
 // import Interna from './pages/Interna/Interna'
 import Article from './pages/Article/Article'
+import Press from './pages/Press/Press'
+import PressPage from './pages/PressPage/PressPage'
 
 
 function App() {
@@ -22,13 +24,15 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/private-label-swimwear' element={<PrivateLabelSwimwear/>} />
-        {/*<Route path='/PrivateLabel' element={<PrivateLabelSwimwear/>} />*/}
         <Route path='/about-us' element={<AboutUs/>} />
         <Route path='/journal' element={<Journal/>} />
         <Route path='/contact-us' element={<ContactUs/>} />
+        <Route path='/journal/article/:articleId' element={<Article/>} />
+        <Route path='/press' element={<Press/>} />
+        <Route path='/press/:pressId' element={<PressPage/>}/>
+        {/*<Route path='/PrivateLabel' element={<PrivateLabelSwimwear/>} />*/}
         {/* <Route path='/journal/SEO' element={<SEO/>} />
         <Route path='/journal/Interna' element={<Interna/>} /> */}
-        <Route path='/journal/article/:articleId' element={<Article/>} />
         
         {/*Redirect URLs*/}
         

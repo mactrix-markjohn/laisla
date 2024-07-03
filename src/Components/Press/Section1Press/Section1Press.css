@@ -1,0 +1,120 @@
+/* Ultra-Wide Screen - Important */
+@media (min-width: 1901px){
+    .Section1Press{
+        background-color: #EEE2D5;
+        padding-top: 200px;
+        padding-bottom: 100px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .Section1PressContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Section1PressContent h2{
+        color: #977347;
+        font-weight: 700;
+        font-size: 66px;
+        margin-bottom: 20px;
+    
+    }
+    .Section1PressContenthr{
+        border: 1.5px solid #977347;
+        width: 10%;
+    }
+    
+}
+
+/* Laptop Screen - Important */
+@media (max-width: 1900px){
+    .Section1Press{
+        background-color: #EEE2D5;
+        padding-top: 120px;
+        padding-bottom: 60px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    .Section1PressContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Section1PressContent h2{
+        color: #977347;
+        font-weight: 700;
+        font-size: 36px;
+        margin-bottom: 20px;
+    
+    }
+    .Section1PressContenthr{
+        border: 1.5px solid #977347;
+        width: 8%;
+    }
+    
+}
+
+
+
+
+
+
+/* Tablets Screen - Important */
+@media (max-width: 1200px){
+
+    .Section1Press{
+        background-color: #EEE2D5;
+        padding-top: 120px;
+        padding-bottom: 40px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    .Section1PressContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Section1PressContent h2{
+        color: #977347;
+        font-weight: 700;
+        font-size: 23px;
+        margin-bottom: 12px;
+    
+    }
+    .Section1PressContenthr{
+        border: 1.4px solid #977347;
+        width: 10%;
+    }
+}
+
+
+/* Mobile Screen - Important */
+@media (max-width: 650px){
+    .Section1Press{
+        background-color: #EEE2D5;
+        padding-top: 120px;
+        padding-bottom: 60px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    .Section1PressContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Section1PressContent h2{
+        color: #977347;
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 20px;
+    
+    }
+    .Section1PressContenthr{
+        border: 1.4px solid #977347;
+        width: 70%;
+    }
+}
