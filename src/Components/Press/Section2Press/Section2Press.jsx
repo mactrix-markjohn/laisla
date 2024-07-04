@@ -1,53 +1,13 @@
 import './Section2Press.css'
-import { useState } from 'react'
+
 //import model from '../../../assets/pressmodelblue.png'
 import prev from '../../../assets/Prev.svg'
 import next from '../../../assets/Next.svg'
-import press1 from '../../../assets/press1.jpg'
-import press2 from '../../../assets/press2.jpg'
-import press3 from '../../../assets/press3.jpg'
-import press4 from '../../../assets/press4.jpg'
-import press5 from '../../../assets/press5.jpg'
 import { Link } from 'react-router-dom'
+import Press_Data from '../PressData'
 
 const Section2Press = () => {
-    const [Press_Data] = useState([
-        {
-          j_no:"sports-illustrated",
-          j_img:press1,
-          j_title:"SPORTS ILLUSTRATED",
-          j_body:"",
-          j_date:""
-        },
-        {
-            j_no:"deep-impact-360fs",
-            j_img:press2,
-            j_title:"DEEP IMPACT 360FS",
-            j_body:"",
-            j_date:""
-        },
-        {
-            j_no:"raymarine",
-            j_img:press4,
-            j_title:"RAYMARINE",
-            j_body:"",
-            j_date:""
-        },
-        {
-            j_no:"icom-ic-m24-float-n-flash",
-            j_img:press3,
-            j_title:"ICOM IC-M24 FLOAT 'N FLASH",
-            j_body:"",
-            j_date:""
-        },
-        {
-            j_no:"tahoe-225",
-            j_img:press5,
-            j_title:"TAHOE 225",
-            j_body:"",
-            j_date:""
-        }
-      ])
+    
     
       return (
         <div className='Section2Press'>
