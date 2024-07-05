@@ -46,6 +46,49 @@ import SPIBehind3 from '../../assets/Sports Illustrated/Sports Illustrated Behin
 import SPIBehind4 from '../../assets/Sports Illustrated/Sports Illustrated Behind the Scenes/08_marisa-miller_body_behind_04.jpg'
 import SPIBehind5 from '../../assets/Sports Illustrated/Sports Illustrated Behind the Scenes/08_marisa-miller_body_behind_05.jpg'
 
+import DavidLetterman from '../../assets/David Letterman/Picture 3.png'
+import DavidLetterman1 from '../../assets/David Letterman/Picture 1m.png'
+import DavidLetterman2 from '../../assets/David Letterman/Picture 2.png'
+
+import EChannelTv from '../../assets/E Channel TV/Picture 6.png'
+import EChannelTv1 from '../../assets/E Channel TV/Picture 10.jpg'
+import EChannelTv2 from '../../assets/E Channel TV/Picture 11.png'
+import EChannelTv3 from '../../assets/E Channel TV/Picture 4.jpg'
+import EChannelTv4 from '../../assets/E Channel TV/Picture 7.jpg'
+import EChannelTv5 from '../../assets/E Channel TV/Picture 8.jpg'
+
+
+import SeventeenMagazine from '../../assets/Seventeen Magazine/Seventeen-Cover.jpg'
+import SeventeenMagazine1 from '../../assets/Seventeen Magazine/Seventeen-3.jpg'
+
+
+import SloLifeMagazine from '../../assets/SLO Life Magazine/SLO Life Magazine copy.jpg'
+import SloLifeMagazine1 from '../../assets/SLO Life Magazine/SLO Life Magazine-2 copy.jpg'
+import SloLifeMagazine2 from '../../assets/SLO Life Magazine/SLO Life Magazine-3.jpg'
+
+
+
+import SurfMagazine from '../../assets/Surfing Magazine/Swimsuit Issue - June 08.jpg'
+
+import SwimwearAssociation from '../../assets/Swimwear Association of Florida/Screen Shot 2014-12-08 at 11.02.48 AM.png'
+
+import VanMetre from '../../assets/Van Metre Polo Trophy - Salvatore Ferragamo, Juan Salinas, Carlitos Gracida, John Walsh, Nacho Figueras, Beau Van Metre, Ashley Van Metre/DSC_1939.jpg'
+
+import VogueMagazine from '../../assets/VOGUE Magazine/4-2012.jpg'
+import VogueMagazine1 from '../../assets/VOGUE Magazine/LA ISLA Vogue Magazine 1.png'
+import VogueMagazine2 from '../../assets/VOGUE Magazine/LA ISLA Vogue Magazine 2.png'
+
+import WestportMagazine from '../../assets/Westport Magazine/Westport.jpg'
+
+import ZinkMagazine from '../../assets/ZINK Magazine/Zink-1.jpg'
+import ZinkMagazine1 from '../../assets/ZINK Magazine/Zink-2.jpg'
+import ZinkMagazine2 from '../../assets/ZINK Magazine/Zink-3.jpg'
+
+import EllenDegeneres from '../../assets/Ellen Degeneres/Picture 5.png'
+import EllenDegeneres1 from '../../assets/Ellen Degeneres/Picture 3.png'
+import EllenDegeneres2 from '../../assets/Ellen Degeneres/Picture 4.png'
+
+
 
 const Press_Page = [
     {
@@ -93,6 +136,94 @@ const Press_Page = [
           j_img:SPIBehind,
           j_gallery: [SPIBehind,SPIBehind1, SPIBehind2, SPIBehind3,SPIBehind4,SPIBehind5],
           j_title:"Sports Illustrated Behind the Scenes",
+          j_body:"",
+          j_date:""
+      },
+      {
+          j_no:"seventeen-magazine",
+          j_img:SeventeenMagazine,
+          j_gallery: [SeventeenMagazine,SeventeenMagazine1],
+          j_title:"Seventeen Magazine",
+          j_body:"",
+          j_date:""
+      },
+      {
+          j_no:"slo-life-magazine",
+          j_img:SloLifeMagazine,
+          j_gallery: [SloLifeMagazine, SloLifeMagazine1, SloLifeMagazine2],
+          j_title:"SLO Life Magazine",
+          j_body:"",
+          j_date:""
+      },
+      {
+          j_no:"swimwear-association-of-florida",
+          j_img:SwimwearAssociation,
+          j_gallery: [SwimwearAssociation],
+          j_title:"Swimwear Association of Florida",
+          j_body:"",
+          j_date:""
+      },
+      {
+          j_no:"zink-magazine",
+          j_img:ZinkMagazine,
+          j_gallery: [ZinkMagazine, ZinkMagazine1, ZinkMagazine2],
+          j_title:"ZINK Magazine",
+          j_body:"",
+          j_date:""
+      },
+      {
+          j_no:"vogue-magazine",
+          j_img:VogueMagazine,
+          j_gallery: [VogueMagazine, VogueMagazine1, VogueMagazine2],
+          j_title:"VOGUE Magazine",
+          j_body:"",
+          j_date:""
+      },
+      {
+          j_no:"westport-magazine",
+          j_img:WestportMagazine,
+          j_gallery: [WestportMagazine],
+          j_title:"Westport Magazine",
+          j_body:"",
+          j_date:""
+      },
+      {
+          j_no:"david-letterman",
+          j_img:DavidLetterman,
+          j_gallery: [DavidLetterman,DavidLetterman1,DavidLetterman2],
+          j_title:"David Letterman",
+          j_body:"",
+          j_date:""
+      },
+      {
+          j_no:"e-channel-tV",
+          j_img:EChannelTv,
+          j_gallery: [EChannelTv,EChannelTv1,EChannelTv2,EChannelTv3,EChannelTv4,EChannelTv5],
+          j_title:"E Channel TV",
+          j_body:"",
+          j_date:""
+      },
+      {
+          j_no:"ellen-degeneres",
+          j_img:EllenDegeneres,
+          j_gallery: [EllenDegeneres,EllenDegeneres1,EllenDegeneres2],
+          j_title:"Ellen Degeneres",
+          j_body:"",
+          j_date:""
+      },
+      {
+          j_no:"van-metre-polo-trophy",
+          j_img:VanMetre,
+          j_gallery: [VanMetre],
+          j_title:"Van Metre Polo Trophy",
+          j_body:"",
+          j_date:""
+      }, 
+      {
+          j_no:"surfing-magazine",
+          j_img:SurfMagazine,
+          j_gallery: [SurfMagazine],
+          j_title:"Surfing Magazine",
           j_body:"",
           j_date:""
       }
