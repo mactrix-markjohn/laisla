@@ -88,6 +88,10 @@ import EllenDegeneres from '../../assets/Ellen Degeneres/Picture 5.png'
 import EllenDegeneres1 from '../../assets/Ellen Degeneres/Picture 3.png'
 import EllenDegeneres2 from '../../assets/Ellen Degeneres/Picture 4.png'
 
+// video file
+import LaislaCorteCover from '../../assets/LA ISLA 201& Campaign Video/LaislCorteVideoCover.png'
+import LaislaCorteFinalVideo from '../../assets/LA ISLA 201& Campaign Video/LaIsla_Sky - Corte Final High.mp4'
+
 
 
 const Press_Page = [
@@ -224,6 +228,14 @@ const Press_Page = [
           j_img:SurfMagazine,
           j_gallery: [SurfMagazine],
           j_title:"Surfing Magazine",
+          j_body:"",
+          j_date:""
+      }, 
+      {
+          j_no:"lA-isla-2017-campaign-video",
+          j_img:LaislaCorteCover,
+          j_gallery: [LaislaCorteFinalVideo],
+          j_title:"LA ISLA 2017 Campaign Video",
           j_body:"",
           j_date:""
       }

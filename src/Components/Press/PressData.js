@@ -12,7 +12,7 @@ import SPIBehind from '../../assets/Sports Illustrated/Sports Illustrated Behind
 import DavidLetterman from '../../assets/David Letterman/Picture 3.png'
 import EChannelTv from "../../assets/E Channel TV/Picture 6.png"
 import SeventeenMagazine from '../../assets/Seventeen Magazine/Seventeen-Cover.jpg'
-import SloLifeMagazine from '../../assets/SLO Life Magazine/SLO Life Magazine copy.jpg'
+//import SloLifeMagazine from '../../assets/SLO Life Magazine/SLO Life Magazine copy.jpg'
 import SurfMagazine from '../../assets/Surfing Magazine/Swimsuit Issue - June 08.jpg'
 import SwimwearAssociation from '../../assets/Swimwear Association of Florida/Screen Shot 2014-12-08 at 11.02.48 AM.png'
 import VanMetre from '../../assets/Van Metre Polo Trophy - Salvatore Ferragamo, Juan Salinas, Carlitos Gracida, John Walsh, Nacho Figueras, Beau Van Metre, Ashley Van Metre/DSC_1939.jpg'
@@ -20,6 +20,7 @@ import VogueMagazine from '../../assets/VOGUE Magazine/4-2012.jpg'
 import WestportMagazine from '../../assets/Westport Magazine/Westport.jpg'
 import ZinkMagazine from '../../assets/ZINK Magazine/Zink-1.jpg'
 import EllenDegeneres from '../../assets/Ellen Degeneres/Picture 5.png'
+import LaislaCorteCover from '../../assets/LA ISLA 201& Campaign Video/LaislCorteVideoCover.png'
 
 const Press_Data = [
     {
@@ -71,13 +72,13 @@ const Press_Data = [
         j_body:"",
         j_date:""
     },
-    {
-        j_no:"slo-life-magazine",
-        j_img:SloLifeMagazine,
-        j_title:"SLO Life Magazine",
-        j_body:"",
-        j_date:""
-    },
+    // {
+    //     j_no:"slo-life-magazine",
+    //     j_img:SloLifeMagazine,
+    //     j_title:"SLO Life Magazine",
+    //     j_body:"",
+    //     j_date:""
+    // },
     {
         j_no:"swimwear-association-of-florida",
         j_img:SwimwearAssociation,
@@ -138,6 +139,13 @@ const Press_Data = [
         j_no:"surfing-magazine",
         j_img:SurfMagazine,
         j_title:"Surfing Magazine",
+        j_body:"",
+        j_date:""
+    }, 
+    {
+        j_no:"lA-isla-2017-campaign-video",
+        j_img:LaislaCorteCover,
+        j_title:"LA ISLA 2017 Campaign Video",
         j_body:"",
         j_date:""
     }

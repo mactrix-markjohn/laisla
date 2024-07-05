@@ -22,6 +22,12 @@ const PressPagePageSection = () => {
     // Extract the matching entry
     const selectedPress = Press_Page[index];
 
+    const davidLetterman = 'David Letterman';
+    const eChannelTV = 'E Channel TV';
+    const ellenDegeneres = 'Ellen Degeneres';
+
+
+
   return (
     <div>
         <Helmet>
@@ -40,9 +46,39 @@ const PressPagePageSection = () => {
         </div>
 
         <div className='PressPage1Interna'>
-            <div className='PressPage1InternaBigScreen'>
+            <div className={
+            [davidLetterman, eChannelTV, ellenDegeneres].includes(selectedPress.j_title)
+              ? 'PressPage1InternaBigScreenLowRes'
+              : 'PressPage1InternaBigScreen'
+          }>
+                
+                {selectedPress.j_gallery.map((img, index) => {
+                    if (img.endsWith('.mp4')) {
+                        return (
+                        <video
+                            key={index}
+                            src={img}
+                            controls
+                            style={{
+                            width: '100%'
+                            }}
+                        />
+                        );
+                    } else {
+                        return (
+                        <img
+                            key={index}
+                            src={img}
+                            alt={`Press Image ${index}`}
+                            style={{
+                            width: '100%'
+                            }}
+                        />
+                        );
+                    }
+                    })}
                 {/* <img className='PressPage1Internaimg' src={selectedPress.j_img} alt='' loading="lazy" fetchPriority="high"/> */}
-                {selectedPress.j_gallery.map((img, index) => (
+                {/* {selectedPress.j_gallery.map((img, index) => (
                     <img 
                         key={index} 
                         src={img} 
@@ -51,12 +87,38 @@ const PressPagePageSection = () => {
                             width: '100%'
                         }}
                      />
-                    ))} 
+                    ))} */}     
                 {/* <ImageComponent classnames='PressPage1Internaimg' src={hero} hash={hash1} heights='calc(60vw * 9/16)'/> */}
             </div>
             <div className='PressPage1InternaMobile'>
+                
+                {selectedPress.j_gallery.map((img, index) => {
+                    if (img.endsWith('.mp4')) {
+                        return (
+                        <video
+                            key={index}
+                            src={img}
+                            controls
+                            style={{
+                            width: '100%'
+                            }}
+                        />
+                        );
+                    } else {
+                        return (
+                        <img
+                            key={index}
+                            src={img}
+                            alt={`Press Image ${index}`}
+                            style={{
+                            width: '100%'
+                            }}
+                        />
+                        );
+                    }
+                    })} 
                 {/* <img className='PressPage1Internaimgmobile' src={selectedPress.j_img} alt='' loading="lazy" fetchPriority="high"/> */}
-                {selectedPress.j_gallery.map((img, index) => (
+                {/* {selectedPress.j_gallery.map((img, index) => (
                     <img 
                         key={index} 
                         src={img} 
@@ -65,7 +127,7 @@ const PressPagePageSection = () => {
                             width: '100%'
                         }}
                      />
-                    ))} 
+                    ))}  */}
                 {/* <ImageComponent classnames='PressPage1Internaimgmobile' src={heromobile} hash={hash1mobile} heights='calc(160vw * 9/16)'/> */}
             </div>
         </div>
