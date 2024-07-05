@@ -25,6 +25,7 @@ const PressPagePageSection = () => {
     const davidLetterman = 'David Letterman';
     const eChannelTV = 'E Channel TV';
     const ellenDegeneres = 'Ellen Degeneres';
+    const spiMarisa = 'Sports Illustrated - Marisa Miller';
 
 
 
@@ -47,7 +48,7 @@ const PressPagePageSection = () => {
 
         <div className='PressPage1Interna'>
             <div className={
-            [davidLetterman, eChannelTV, ellenDegeneres].includes(selectedPress.j_title)
+            [davidLetterman, eChannelTV, ellenDegeneres, spiMarisa].includes(selectedPress.j_title)
               ? 'PressPage1InternaBigScreenLowRes'
               : 'PressPage1InternaBigScreen'
           }>
