@@ -10,7 +10,7 @@ import SPILucia from '../../assets/Sports Illustrated/Sports Illustrated - Lucia
 import SPIWeb from '../../assets/Sports Illustrated/Sports Illustrated Web/08_marisa-miller_body_01.jpg'
 import SPIBehind from '../../assets/Sports Illustrated/Sports Illustrated Behind the Scenes/Picture 1 13-01-09.png'
 import DavidLetterman from '../../assets/David Letterman/Picture 3.png'
-import EChannelTv from "../../assets/E Channel TV/Picture 6.png"
+import EChannelTv from "../../assets/E Channel TV/Picture 7.jpg"
 import SeventeenMagazine from '../../assets/Seventeen Magazine/Seventeen-Cover.jpg'
 //import SloLifeMagazine from '../../assets/SLO Life Magazine/SLO Life Magazine copy.jpg'
 import SurfMagazine from '../../assets/Surfing Magazine/Swimsuit Issue - June 08.jpg'

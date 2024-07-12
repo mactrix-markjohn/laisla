@@ -202,7 +202,7 @@ const Press_Page = [
       {
           j_no:"e-channel-tV",
           j_img:EChannelTv,
-          j_gallery: [EChannelTv,EChannelTv1,EChannelTv2,EChannelTv3,EChannelTv4,EChannelTv5],
+          j_gallery: [EChannelTv1,EChannelTv2,EChannelTv3,EChannelTv4,EChannelTv5],
           j_title:"E Channel TV",
           j_body:"",
           j_date:""
